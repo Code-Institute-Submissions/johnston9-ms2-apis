@@ -1,0 +1,69 @@
+.logo p {
+    font-size: 20px;
+    color: blue;
+    /*justify-content: center;*/
+    align-items: center;
+    margin: 20px auto;
+}
+p {
+    color: blueviolet;
+}
+div #map1 {
+    /*height: 700px;*/
+    min-height: 360px;
+}
+/*-------------------------------------------embed-maps*/
+/*.embed-map {
+    width: 50%;
+    height: 300px; 
+    border: 0;
+    display: block;
+    margin: 50px auto;
+}*/
+
+.embed-btn {
+  
+    margin-top: 10px;
+}
+
+/*--------------------------------------------Contact form*/
+
+
+
+
+#header p {
+    
+    margin: 20px auto;
+}
+
+.logo{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    margin: auto;
+}
+.bg-color-contact {
+    background-color: #fff;
+}
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: blue;
+    
+}
+
+/* /*.center-form* */
+.form-group {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
