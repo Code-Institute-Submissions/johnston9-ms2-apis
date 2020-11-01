@@ -1,17 +1,17 @@
 /*preshow*/
 const frontImages = [
-  "assets/memgame/images/cw.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/cw2.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/hq1.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/hq2.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/sf1.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/wr1.png",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/bit1.jpg",
+  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/bit2.jpg",
+  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/bit3.jpg",
+  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/eth1.jpg",
+  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/lit1.jpg",
+  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/rip1.jpg",
+  "assets/memgame/images/block.jpg",
 ];
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -39,7 +39,7 @@ function countDown() {
   currentTime--;
   clocktime.textContent = currentTime;
 
-  if (currentTime === 0) { 
+  if (currentTime === 0 || winners.length === 12) { 
     alert("GAME OVER!");
     currentTime = 60;
     clearInterval(timerId2);
@@ -62,7 +62,7 @@ function shuffle() {
   
 
   faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+    face.setAttribute("src", "assets/memgame/images/block.jpg");
   });
 
   /*for(let i = 0; i < winners.length; i++) {
@@ -81,6 +81,7 @@ function shuffle() {
     let ramPos = Math.floor(Math.random() * 12);
     box.style.order = ramPos;
   });
-  reset(); 
+  
+  //reset(); 
 }
 
