@@ -1,17 +1,17 @@
 /*preshow*/
 const frontImages = [
   "assets/memgame/images/bit1.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/bit2.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/bit3.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/eth1.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/lit1.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/rip1.jpg",
-  "assets/memgame/images/block.jpg",
+  "assets/memgame/images/unicorn1.png",
 ];
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -62,7 +62,7 @@ function shuffle() {
   
 
   faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/block.jpg");
+    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
   });
 
   /*for(let i = 0; i < winners.length; i++) {
