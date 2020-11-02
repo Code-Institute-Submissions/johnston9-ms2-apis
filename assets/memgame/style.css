@@ -91,3 +91,13 @@ body {
   margin-top: 0px;
   color: black;
 }
+#resetClock {
+    float: right;
+  background-color: red;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 0px;
+  color: black;
+}

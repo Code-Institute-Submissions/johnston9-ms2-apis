@@ -1,17 +1,17 @@
 /*preshow*/
 const frontImages = [
   "assets/memgame/images/bit1.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
   "assets/memgame/images/bit2.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
   "assets/memgame/images/bit3.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
   "assets/memgame/images/eth1.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
   "assets/memgame/images/lit1.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
   "assets/memgame/images/rip1.jpg",
-  "assets/memgame/images/unicorn1.png",
+  "assets/memgame/images/back.jpg",
 ];
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -30,17 +30,29 @@ function moveCard() {
 moveCard();
 
 /*clock*/
+let timerId2 
 let clocktime = document.getElementById("clock");
 let currentTime = clocktime.textContent; 
 let timebut = document.getElementById("time");
 timebut.addEventListener("click", startClock);
+//let resetbut = document.getElementById("resetClock");
+//resetbut.addEventListener("click", resetTime);
+
+function startClock() {
+  clocktime.style.color = "black";
+  timerId2 = setInterval(countDown, 1000);
+}
 
 function countDown() {
   currentTime--;
   clocktime.textContent = currentTime;
 
-  if (currentTime === 0 || winners.length === 12) { 
+  if (currentTime === 0) { 
     alert("GAME OVER!");
+    currentTime = 60;
+    clearInterval(timerId2);
+  } else if (winners.length === 2) {
+       alert("Winner Claim your prize");
     currentTime = 60;
     clearInterval(timerId2);
   }
@@ -50,6 +62,11 @@ function startClock() {
   timerId2 = setInterval(countDown, 1000);
 }
 
+/*function resetTime() {
+currentTime = 61;
+clearInterval(timerId2);
+}*/
+
 /*play*/
 winners = []
 var play = document.querySelector("#play");
@@ -57,12 +74,14 @@ play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
-  clearTimeout(timerId);
+  //clearTimeout(timerId);
+  clearInterval(timerId); 
   clocktime.style.color = "red";
+  currentTime = 60;
+  clearInterval(timerId2);
   
-
   faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+    face.setAttribute("src", "assets/memgame/images/back.jpg");
   });
 
   /*for(let i = 0; i < winners.length; i++) {
@@ -82,6 +101,71 @@ function shuffle() {
     box.style.order = ramPos;
   });
   
-  //reset(); 
+  reset(); 
 }
+
+/*Flip*/
+
+var cards = document.querySelectorAll(".card");
+let flippedCard = false;
+let freezeGame = false;
+let cardOne, cardTwo;
+
+function flip() {
+  if (freezeGame) return;
+  if (this === cardOne) return;
+  this.classList.add("is-flipped");
+  if (!flippedCard) {
+    flippedCard = true;
+    cardOne = this;
+  } else {
+    flippedCard = false;
+    cardTwo = this;
+
+    checkForMatch();
+  }
+}
+
+function checkForMatch() {
+  if (cardOne.dataset.name === cardTwo.dataset.name) {
+    freezeCards();
+  } else {
+    unflipCards();
+  }
+}
+
+function freezeCards() {
+  cardOne.removeEventListener("click", flip);
+  winners.push(cardOne, cardTwo)
+  cardTwo.removeEventListener("click", flip);
+  if (winners.length === 12) {
+         alert("Winner. Claim your prize")
+    }
+  reset();
+} 
+
+/*function win() {
+     if (winners.length === 12) {
+         alert("Winner. Claim your prize")
+    }
+}*/
+
+function unflipCards() {
+  freezeGame = true;
+  setTimeout(() => {
+    cardOne.classList.remove("is-flipped");
+    cardTwo.classList.remove("is-flipped");
+    reset();
+  }, 1500);
+}
+
+function reset() {
+  flippedCard = false;
+  freezeGame = false;
+  cardOne = null;
+  cardTwo = null;
+}
+
+cards.forEach((card) => card.addEventListener("click", flip));
+
 
