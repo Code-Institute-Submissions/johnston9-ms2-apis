@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MS2</title>
-    <link
+    <!--<link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
-    />
+    />-->
     <!--<link
       rel="shortcut icon"
       href="assets/images/favicon.png"
@@ -21,29 +21,25 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />-->
-    <link
+    <!--<link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    />-->
+    <link rel="stylesheet" href="assets/memgame/style.css" type="text/css" />
   </head>
 
   <body>
-    <div class="container-fluid logo-container">
-    <div class="row">
-      <div class="col">
-      <div class="logo">
-        <p class="text-center"><em>MS2</em></p>
-          </div>
-        </div>
-    </div>
-    </div>
+  
+      <!--<div class="back">
+        <p class="text-center"><em>BACK</em></p>
+          </div>-->
+        
       <!--</div>-->
 
       <!--nav-->
-      <div class="container-fluid nav-container">
+      <!--<div class="container-fluid nav-container">
         <nav class="navbar navbar-light navbar-expand-sm navbar-custom">
           <a href="index.html" class="navbar-brand">MS2</a>
           <button
@@ -164,16 +160,159 @@
             </ul>
           </div>
         </nav>
-      </div>
+      </div>-->
     
      <!--/nav-->
     
-    <!--header-section-->
-    
-     <!--/nav-->
-    
-    <!--header-section-->
- <!--/footer-->
+    <!--game-->
+
+ <button id="play"><h2><strong>Play</strong></h2></button>
+  <div id="timer">
+  <h2 id="time"><strong>Timer</strong></h2>
+  <h2 id="clock">60</h2>
+  </div>
+  <!--<button id="resetClock">Reset</button>-->
+   <div id="board-container"></div>
+    <div class="board">
+
+    <div class="card-box">
+    <div class="card" data-name="cat1" data-id="1">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/cw.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="cat1" data-id="2">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/cw.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="cat2" data-id="3">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/cw2.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="cat2" data-id="4">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/cw2.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="har1" data-id="5">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/hq1.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="har1" data-id="6">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/hq1.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="har2" data-id="7">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/hq2.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="har2" data-id="8">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/hq2.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="si-fi" data-id="9">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/sf1.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="si-fi" data-id="10">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/sf1.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="war" data-id="11">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/wr1.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="card-box">
+    <div class="card" data-name="war" data-id="12">
+    <div class="card-front-face">
+       <img src="assets/memgame/images/unicorn1.png">
+    </div>
+    <div class="card-back-face">
+    <img src="assets/memgame/images/wr1.png">
+    </div>
+    </div>
+    </div>
+
+    </div>
+    <div id="botton">
+     <h2 id="back"><a href="index.html"><strong>Back</strong></a></h2>
+     <h2 id="hard"><a href="memgame.html"><strong>Hard</strong></a></h2>
+     </div>
+     <!--/footer-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -190,6 +329,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    
+    <script src="assets/memgame/apptwo.js" charset="UTF-8"></script>
 </body>
-</html>
+</html> 
