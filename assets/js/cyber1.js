@@ -5,11 +5,16 @@ let url = "https://api.coingecko.com/api/v3"
 let qstring = "/simple/price?ids=" + coin + "&vs_currencies=USD"
 fetch(url + qstring)
  .then(response => response.json())
- .then(function(resp) {dataDiv.innerHTML = resp.bitcoin.usd
+ .then(function(resp) {dataDiv.innerHTML = resp[coin].usd
   return resp})
- .then(function(resp) {console.log(resp.bitcoin.usd)})}
+ .then(function(resp) {console.log(resp[coin].usd)})
+
+}
  
  fetchdata("bitcoin")
+ 
+ 
+
 
  /*function coinbase() {
    let dataDiv = document.getElementById("data")
