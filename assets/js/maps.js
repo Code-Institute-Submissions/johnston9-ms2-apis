@@ -1,5 +1,5 @@
  
- function initMap() {
+  function initMap() {
         var map = new google.maps.Map(document.getElementById("map1"), {
           zoom: 3,
           center: {
@@ -24,7 +24,7 @@
             }];
 
         var markers = locations.map(function(location, i) {
-                return new google.maps.Marker({
+               return new google.maps.Marker({
                     position: location,
                   label: labels[i % labels.length]   });   });
     
@@ -34,7 +34,7 @@
             });
 
           /*..........map>*/
-      /*function initMap() {
+      function initMap() {
           const mapProp = {
              center: new google.maps.LatLng(41.084045, -73.874256),
              zoom: 5
@@ -64,9 +64,9 @@
         {position: new google.maps.latLng(myMarks[i].lat, myMarks[i].lng),
         map: map,
         title: myMarks[i].name})
-        marker.setMap(map)
-    }*
-
+        marker.setMap(map)}
     
+
+    //initMap()
 
   
