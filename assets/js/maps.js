@@ -5,69 +5,69 @@ function initMap() {
     /*center: {
       lat: 40.706005,
       lng: -74.008827,
-    },*/ 
+    },*/
   });
 
+  var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
-var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-var locations = [
-  {
-    lat: 40.735863,
-    lng: -73.991084,
-    name: "Union Square Apartments"
-  },
-  /*{
+  var locations = [
+    {
+      lat: 40.735863,
+      lng: -73.991084,
+      name: "Union Square Apartments",
+      sContent: "one"
+    },
+    /*{
     lat: 40.755678,
     lng: -73.984256,
     name: "Times Square Apartments"
   },*/
-  {
-    lat: 40.706005,
-    lng: -74.008827,
-    name: 'NY Stock Exchange'
-    
-  },
-];
-     
+    {
+      lat: 40.706005,
+      lng: -74.008827,
+      name: "NY Stock Exchange",
+      sContent: "two"
+    },
+  ];
 
-const markers = locations.map((location, i) => {
-  return new google.maps.Marker({
-    position: location,
-    //label: labels[i % labels.length] 
-    label: location.name
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      //label: labels[i % labels.length]
+      label: location.name,
+      info: location.sContent
     });
-});
-const marker1 = new google.maps.Marker({
-    position: new google.maps.LatLng(40.706000, -74.004800),
+  });
+  
+  const marker1 = new google.maps.Marker({
+    position: new google.maps.LatLng(40.706, -74.0048),
     map: map,
     title: "NYCC - CLICK HERE",
   });
 
-  /*.new...*/
-  /*.......*/
-const contentString =
+  const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">New York Crypro College</h1>' +
     '<div id="bodyContent">' +
     "<p> Five minutes from the NY Stock Exchange. In the heart of the Finincial District" +
-     "</div>" +
+    "</div>" +
     "</div>";
-const infowindow = new google.maps.InfoWindow({
+
+  const infowindow = new google.maps.InfoWindow({
     content: contentString,
   });
-  marker1.addListener("click", () => {
+ 
+  marker1.addListener("click", () => { 
     infowindow.open(map, marker1);
   });
-  /*....new...*/
 
-
-var markerCluster = new MarkerClusterer(map, markers, {
-  imagePath:
-    "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-});}
+  var markerCluster = new MarkerClusterer(map, markers, {
+    imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  });
+}
 
 /*..........new map fron stack tutioial...after writing this markers stoped working...the map still loads>*/
 
