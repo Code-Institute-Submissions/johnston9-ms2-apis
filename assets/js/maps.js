@@ -42,9 +42,10 @@ function initMap() {
   const marker1 = new google.maps.Marker({
     position: new google.maps.LatLng(40.706, -74.0048),
     map: map,
+   animation: google.maps.Animation.DROP,
     title: "NYCC - CLICK HERE",
   });
-
+ 
   const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -62,12 +63,15 @@ function initMap() {
   marker1.addListener("click", () => { 
     infowindow.open(map, marker1);
   });
+   
 
   var markerCluster = new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
+   
 }
+ marker1.addListener("click", toggleBounce);
 
 /*..........new map fron stack tutioial...after writing this markers stoped working...the map still loads>*/
 
