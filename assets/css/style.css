@@ -1,3 +1,58 @@
+/*----------------------Index----------------------*/
+
+
+/*--------------------Header section-------------*/
+.header-container {
+    /*height: 100vp;*/
+    /*background-image: */
+    width: 100%;
+    
+}
+
+/*--------------------Yellow section-------------*/
+.yellow-container {
+    /*height: 100vp;*/
+    /*background-image: */
+    width: 100%;
+    
+}
+
+
+.bg-color-yellow
+
+/*--------------------Future-money section-------------*/
+.future-money-container {
+    /*height: 100vp;*/
+    /*background-image: */
+    width: 100%;
+    
+}
+
+/*--------------------Courses section-------------*/
+.future-money-container {
+    /*height: 100vp;*/
+    /*background-image: */
+    width: 100%;
+    
+}
+
+
+/*--------------------coin-call section-------------*/
+.coin-call-container {
+    /*height: 100vp;*/
+    /*background-image: */
+    width: 100%;
+}
+#coin-data {
+    height: 30px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*-----------------------Footer--------------------*/
+
+/*--------------------------------------------trial*/
 .logo p {
     font-size: 20px;
     color: blue;
@@ -28,9 +83,6 @@ div #map1 {
 
 /*--------------------------------------------Contact form*/
 
-
-
-
 #header p {
     
     margin: 20px auto;
@@ -54,7 +106,7 @@ div #map1 {
     
 }
 
-/* /*.center-form* */
+/*center-form */
 .form-group {
     padding-top: 10px;
     margin: 0 auto;
