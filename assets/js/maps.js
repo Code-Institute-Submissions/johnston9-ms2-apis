@@ -38,11 +38,15 @@ function initMap() {
       info: location.sContent
     });
   });
+
+    const image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
   
   const marker1 = new google.maps.Marker({
     position: new google.maps.LatLng(40.706, -74.0048),
     map: map,
    animation: google.maps.Animation.DROP,
+   icon: image,
     title: "NYCC - CLICK HERE",
   });
  
