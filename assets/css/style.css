@@ -1,11 +1,120 @@
+/*----------------------General----------------------*/
+/*h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #999999;
+}*/
+
+/*p {
+	font-size: 16px;
+}*/
+
+
+
 /*----------------------Index----------------------*/
+
+
+
+/*----------------------Navlogo section----------------------*/
+
+.navlogo-container {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*.logo {
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}*/
+
+#title {
+margin: 20px 10px;
+font-size: 26px;
+}
+
+#signin {
+    height: 30px;
+    width: 100px;
+    background-color: gold;
+    color: black;
+    margin: 20px 10px;
+}
+
+/*.nav-container {}*/
+
+#navbarNavDropdown {
+	position: relative;
+	z-index: 5;
+	width: 50px;
+	background-color: #ffffff;
+    float: right;
+}
+
+#navbarNavDropdown ul li {
+	display: inline-block;
+}
+
+.navbar {
+    margin-top: 10px;
+	margin-bottom: 0;
+	border: 0;
+	border-bottom: 10px solid #eeeeee;
+	width: 100%;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+	font-size: 26px;
+	color: #000000;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+	color: #999999;
+	font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+	color: #999999;
+	font-weight: bold;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+	text-decoration: underline;
+	color: #999999;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+	color: #000000;
+}
+
+.navbar .navbar-nav .dropdown-item {
+	color: #999999;
+	font-weight: bold;
+}
+
+.navbar .navbar-nav .dropdown-item:hover {
+	text-decoration: underline;
+}
 
 
 /*--------------------Header section-------------*/
 .header-container {
-    /*height: 100vp;*/
+    height: 100vp;
     /*background-image: */
+    background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
     width: 100%;
+	margin-top: 150px;
+	/*max-height: 500px;*/
+	position: relative;
     
 }
 
@@ -42,6 +151,7 @@
     /*height: 100vp;*/
     /*background-image: */
     width: 100%;
+    position: relative;
 }
 .coin-form #coin-data {
     padding: 12px 20px;
@@ -71,19 +181,18 @@
 
 }
 
+.coin-form #coinfetch {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	background-color: red;
+}
+
 /*-----------------------Footer--------------------*/
 
 /*--------------------------------------------trial*/
-.logo p {
-    font-size: 20px;
-    color: blue;
-    /*justify-content: center;*/
-    align-items: center;
-    margin: 20px auto;
-}
-p {
-    color: blueviolet;
-}
+
+
 div #map1 {
     /*height: 700px;*/
     min-height: 360px;
@@ -104,17 +213,12 @@ div #map1 {
 
 /*--------------------------------------------Contact form*/
 
-#header p {
+/*#header p {
     
     margin: 20px auto;
-}
+}*/
 
-.logo{
-    height: 30px;
-    width: 100px;
-    background-color: red;
-    margin: auto;
-}
+
 .bg-color-contact {
     background-color: #fff;
 }

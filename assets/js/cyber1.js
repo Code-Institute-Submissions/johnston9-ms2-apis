@@ -1,9 +1,8 @@
-/*document.getElementById("coinfetch").addEventListener("click", fetchdata);
+document.getElementById("coinfetch").addEventListener("click", fetchdata);
 
 function fetchdata(coin) {
   var coin = $("#coin").val();
   let dataDiv = document.getElementById("coin-data");
-  //let dataCoin = document.getElementById("coin-data")
   let url = `https://api.coingecko.com/api/v3`;
   let qstring = `/simple/price?ids=${coin}&vs_currencies=USD`;
   fetch(url + qstring)
@@ -28,21 +27,27 @@ function fetchdata(coin) {
     .catch((error) => {
       console.log("Error:", error);
       dataDiv.innerHTML = "Network Error";
-    });*/
+    });
 }
 
+
+
+
+
+
+
 /*...........query....*/
-$(document).ready(function() { 
+/*$(document).ready(function() { 
      $("#coinfetch").click(function(coin){
      //function fetchdata(coin) {
-    $("#data").html("");
+    $("#coin-data").html("");
     var coin = $("#coin").val();
     $.when(
            $.getJSON(`https://api.coingecko.com/api/v3/simple/price?ids=${coin}&vs_currencies=USD`),
     ).then(
         function(response) {
-            var userData = response;
-            $("#data").html(userData);},  )}) })
+            console.log(response.bitcoin.usd)
+            $("#coin-data").html(response.bitcoin.usd);},  )}) })*/
 
 /*$("#gh-user-data").html(
         `<div id="loader">
