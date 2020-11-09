@@ -27,6 +27,7 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
 
@@ -218,11 +219,11 @@
         <div class="row">
           <div class="col md-6">
             <h3>Input coin to find it's current value</h3>
-            <button id="coinfetch" onclick="fetchdata(coin)">Submit</button>
+            <button id="coinfetch" onclick="fetchdata()">Submit</button>
           </div>
           <div class="col md-6">
             <input type="text" id="coin" name="coin" value="Bitcoin" />
-            <div id="coin-data" class="clearfix"></div>
+            <div id="data" class="clearfix"></div>
           </div>
         </div>
       </div>
@@ -258,5 +259,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/cyber1.js"></script>
   </body>
 </html>
