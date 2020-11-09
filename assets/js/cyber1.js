@@ -1,4 +1,4 @@
-document.getElementById("coinfetch").addEventListener("click", fetchdata);
+/*document.getElementById("coinfetch").addEventListener("click", fetchdata);
 
 function fetchdata(coin) {
   var coin = $("#coin").val();
@@ -28,17 +28,13 @@ function fetchdata(coin) {
     .catch((error) => {
       console.log("Error:", error);
       dataDiv.innerHTML = "Network Error";
-    });
+    });*/
 }
 
-//.then(function(resp) {console.log(resp.bitcoin.usd)});
-//  .then(function(resp) {console.log(resp[coin].usd)})
-
-//fetchdata("bitcoin")
-
 /*...........query....*/
-/*$(document).ready(function() { 
-     function fetchdata(event) {
+$(document).ready(function() { 
+     $("#coinfetch").click(function(coin){
+     //function fetchdata(coin) {
     $("#data").html("");
     var coin = $("#coin").val();
     $.when(
@@ -46,7 +42,7 @@ function fetchdata(coin) {
     ).then(
         function(response) {
             var userData = response;
-            $("#data").html(userData);},  )}  })*/
+            $("#data").html(userData);},  )}) })
 
 /*$("#gh-user-data").html(
         `<div id="loader">
