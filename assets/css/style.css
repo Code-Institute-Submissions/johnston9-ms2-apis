@@ -1,4 +1,20 @@
 /*----------------------General----------------------*/
+/*-----line breaks------*/
+
+hr.nav1 {
+  border-top: 1px solid gold;
+  margin-top: 10px;
+  margin-bottom: 0;
+    width: 50%;
+}
+
+hr.nav2 {
+  border-top: 2px solid gold;
+  margin-top: 5px;
+  margin-bottom: 0;
+  width: 70%;
+   
+}
 /*h3 {
 	font-size: 20px;
 	font-weight: bold;
@@ -34,16 +50,22 @@
 }
 
 #title {
-margin: 20px 10px;
+margin: 10px 20px;
 font-size: 26px;
+font-weight: bold;
+letter-spacing: 2px;
 }
 
 #signin {
-    height: 30px;
+    height: 40px;
     width: 100px;
-    background-color: gold;
+    background-color: rgba(209, 161, 16, 0.993);
     color: black;
-    margin: 20px 10px;
+    margin: 10px 20px;
+    border-color: white;
+    border-width: 0;
+
+
 }
 
 /*.nav-container {}*/
@@ -61,17 +83,19 @@ font-size: 26px;
 }
 
 .navbar {
-    margin-top: 10px;
-	margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 	border: 0;
-	border-bottom: 2px solid gold;
+	/*border-bottom: 2px solid rgba(209, 161, 16, 0.993);*/
 	width: 100%;
 }
 
 .navbar .navbar-brand {
 	font-weight: bold;
-	font-size: 26px;
-	color: #000000;
+	font-size: 24px;
+	color: #999999;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -100,6 +124,47 @@ font-size: 26px;
 
 .navbar .navbar-nav .dropdown-item:hover {
 	text-decoration: underline;
+}
+
+#bitMatch-alert {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+#bitMatch-alert p {
+    margin: 0px 40px;
+    padding-top: 10px;
+}
+
+#bitMatch-alert span {
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+#bitmatch {
+    height: 50px;
+    width: 150px;
+    background-image: url("/assets/images/silver1.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    border-color: #000000;
+    border-width: 0;
+    margin-right: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    float: right;
+
 }
 
 
