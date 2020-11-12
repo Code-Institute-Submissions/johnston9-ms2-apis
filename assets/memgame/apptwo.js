@@ -4,13 +4,13 @@ const frontImages = [
   "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/cw2.png",
   "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/hqi.png",
+  "assets/memgame/images/hq1.png",
   "assets/memgame/images/unicorn1.png",
   "assets/memgame/images/hq2.png",
   "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/sf1",
+  "assets/memgame/images/sf1.png",
   "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/wr1",
+  "assets/memgame/images/wr1.png",
   "assets/memgame/images/unicorn1.png",
 ];
 let faces = document.querySelectorAll(".card-front-face img");
@@ -35,8 +35,6 @@ let clocktime = document.getElementById("clock");
 let currentTime = clocktime.textContent; 
 let timebut = document.getElementById("time");
 timebut.addEventListener("click", startClock);
-//let resetbut = document.getElementById("resetClock");
-//resetbut.addEventListener("click", resetTime);
 
 function startClock() {
   clocktime.style.color = "black";
@@ -51,7 +49,7 @@ function countDown() {
     alert("GAME OVER!");
     currentTime = 60;
     clearInterval(timerId2);
-  } else if (winners.length === 2) {
+  } else if (winners.length === 12) {
        alert("Winner Claim your prize");
     currentTime = 60;
     clearInterval(timerId2);
@@ -62,19 +60,13 @@ function startClock() {
   timerId2 = setInterval(countDown, 1000);
 }
 
-/*function resetTime() {
-currentTime = 61;
-clearInterval(timerId2);
-}*/
-
-/*play*/
+/*play*/   
 winners = []
 var play = document.querySelector("#play");
 play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
-  //clearTimeout(timerId);
   clearInterval(timerId); 
   clocktime.style.color = "red";
   currentTime = 60;
@@ -139,16 +131,10 @@ function freezeCards() {
   winners.push(cardOne, cardTwo)
   cardTwo.removeEventListener("click", flip);
   if (winners.length === 12) {
-         alert("Winner. Claim your prize")
+         alert("Winner! Fastest time wins Bitcoin. Go to Contact Page to send in your details.")
     }
   reset();
 } 
-
-/*function win() {
-     if (winners.length === 12) {
-         alert("Winner. Claim your prize")
-    }
-}*/
 
 function unflipCards() {
   freezeGame = true;
