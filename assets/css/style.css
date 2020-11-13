@@ -34,7 +34,6 @@ hr.nav2 {
 /*----------------------Navlogo section----------------------*/
 
 .navlogo-container {
-	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -169,55 +168,61 @@ letter-spacing: 2px;
 
 
 /*--------------------Header section-------------*/
+.outer-header-container {
+    width: 100%;
+    margin-top: 5px;
+    height: 100px;
+
+}
 .header-container {
-    height: 100vp;
-    /*background-image: */
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: blue;
+    padding-right: 0;
+    padding-left: 0;
+    /*background-image: 
     background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
-	background-size: contain;
-    width: 100%;
-	margin-top: 150px;
-	/*max-height: 500px;*/
-	position: relative;
+	background-size: contain;*/
     
 }
 
 /*--------------------Yellow section-------------*/
 .yellow-container {
-    /*height: 100vp;*/
-    /*background-image: */
+     height: 100px;
     width: 100%;
+    margin-top: 5px;
+    background-color: yellow;
     
 }
 
 
-.bg-color-yellow
-
-/*--------------------Future-money section-------------*/
-.future-money-container {
-    /*height: 100vp;*/
-    /*background-image: */
-    width: 100%;
-    
-}
 
 /*--------------------Courses section-------------*/
-.future-money-container {
-    /*height: 100vp;*/
-    /*background-image: */
+.courses-container {
+     height: 100px;
     width: 100%;
+    margin-top: 5px;
+    background-color: red;
+   
     
 }
 
 
 /*--------------------coin-call section-------------*/
+
+    
+
 .coin-call-container {
-    /*height: 100vp;*/
-    /*background-image: */
+     height: 300px;
     width: 100%;
-    position: relative;
+    margin-top: 5px;
+    background-color: blue;
+   
+    
 }
 .coin-form #coin-data {
     padding: 12px 20px;
