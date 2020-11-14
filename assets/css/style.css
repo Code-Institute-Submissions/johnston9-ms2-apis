@@ -1,17 +1,27 @@
 /*----------------------General----------------------*/
+/*python3 -m http.server*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: Lato;
+  color: #777777;
+}
+
 /*-----line breaks------*/
 
 hr.nav1 {
   border-top: 2px solid gold;
-  margin-top: 10px;
-  margin-bottom: 0;
-    width: 50%;
+  margin: 10px auto 0px;
+  width: 50%;
 }
 
 hr.nav2 {
   border-top: 2px solid gold;
-  margin-top: 5px;
-  margin-bottom: 0;
+  margin: 5px auto 5px;
   width: 70%;
    
 }
@@ -63,7 +73,6 @@ letter-spacing: 2px;
     margin: 10px 20px;
     border-color: white;
     border-width: 0;
-
 
 }
 
@@ -170,25 +179,52 @@ letter-spacing: 2px;
 /*--------------------Header section-------------*/
 .outer-header-container {
     width: 100%;
-    margin-top: 5px;
-    height: 520px;
-    background-color: green;
-
+    height: 600px;
 }
 .header-container {
     height: 500px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin: 0;
     padding-right: 0;
     padding-left: 0;
-    background-image: url("/assets/images/sil1.jpg");
+    background-image: url("/assets/images/citydark.jpeg");
     background-repeat: no-repeat;
+    background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    overflow: hidden;
+    position: relative;
     
 }
+#city {
+        width: 100%;
+        height: 500px;
+        background-image: url("/assets/images/bitonl.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+        opacity: 0.8;
+        position: absolute;
+        animation-name: city-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+@keyframes city-zoom {
+    from {
+      transform: scale(1)
+    }
+    to {
+      transform: scale(1.1)
+    }
+    }
+
 
 /*--------------------Yellow section-------------*/
 .yellow-container {
