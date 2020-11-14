@@ -171,22 +171,22 @@ letter-spacing: 2px;
 .outer-header-container {
     width: 100%;
     margin-top: 5px;
-    height: 100px;
+    height: 520px;
+    background-color: green;
 
 }
 .header-container {
-    height: 50px;
+    height: 500px;
     width: 100%;
     margin-top: 5px;
-    background-color: blue;
     padding-right: 0;
     padding-left: 0;
-    /*background-image: 
+    background-image: url("/assets/images/sil1.jpg");
     background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     
 }
 
