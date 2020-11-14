@@ -69,10 +69,12 @@ letter-spacing: 2px;
     height: 40px;
     width: 100px;
     background-color: rgba(209, 161, 16, 0.993);
-    color: black;
+    color: #ffffff;
     margin: 10px 20px;
     border-color: white;
     border-width: 0;
+    font-size: 20px;
+    border-radius: 5px;
 
 }
 
@@ -96,14 +98,13 @@ letter-spacing: 2px;
     padding-top: 0;
     padding-bottom: 0;
 	border: 0;
-	/*border-bottom: 2px solid rgba(209, 161, 16, 0.993);*/
 	width: 100%;
 }
 
 .navbar .navbar-brand {
 	font-weight: bold;
 	font-size: 24px;
-	color: #999999;
+	color: #000000;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -147,7 +148,7 @@ letter-spacing: 2px;
 
 #bitMatch-alert p {
     margin: 0px 40px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #bitMatch-alert span {
@@ -172,6 +173,7 @@ letter-spacing: 2px;
     padding-top: 0;
     padding-bottom: 0;
     float: right;
+    border-radius: 5px;
 
 }
 
@@ -225,14 +227,95 @@ letter-spacing: 2px;
     }
     }
 
+#header-text {
+    color: #ffffff;
+    margin: 180px auto 0px;
+}
 
-/*--------------------Yellow section-------------*/
-.yellow-container {
-     height: 100px;
-    width: 100%;
-    margin-top: 5px;
-    background-color: yellow;
-    
+#head {
+    font-weight: bold;
+    background-color: #000000;
+    font-size: 36px;
+}
+
+#headsmall {
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+#book {
+    height: 40px;
+    width: 100px;
+    background-color: rgba(209, 161, 16, 0.993);
+    color: #ffffff;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    border-color: white;
+    border-width: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+/*--------------------goals section-------------*/
+.goals-container {
+     width: 100%;
+     margin-top: 20px;
+}
+
+.goals-block {
+  border-right: 2px solid #777777;  
+}
+
+.goals-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.goals-par {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.goals-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(209, 161, 16, 0.993);
+    margin-bottom: 10px;
+}
+
+.goals-icon {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+/*--------------------The College section-------------*/
+
+.college-container {
+     width: 100%;
+     margin-top: 20px;
+     background-color: #000000;
+}
+
+#college-title {
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+#college-par {
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -284,7 +367,6 @@ letter-spacing: 2px;
   background-color: #fff;
   color: #000000;
   font-weight: bold;
-  /*color: red;*/
 
 }
 
