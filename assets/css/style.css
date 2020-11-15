@@ -271,6 +271,7 @@ letter-spacing: 2px;
 
 .goals-block {
   border-right: 2px solid #777777;  
+  padding: 70px;
 }
 
 .goals-title {
@@ -305,6 +306,10 @@ letter-spacing: 2px;
      background-color: #000000;
 }
 
+.college {
+    padding: 70px;
+}
+
 #college-title {
     color: #ffffff;
     margin-top: 20px;
@@ -322,13 +327,50 @@ letter-spacing: 2px;
 
 /*--------------------Courses section-------------*/
 .courses-container {
-     height: 100px;
     width: 100%;
+    margin-top: 20px;
+}
+
+.courses-block {
     margin-top: 5px;
-    background-color: red;
-   
+}
+
+.course-img {
+    height: 150px;
+    width: 90% 
+}
+
+.course-title {
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
     
 }
+
+
+.course-par {
+    color: #999999;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.course-link {
+    color: #999999;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+
 
 
 /*--------------------coin-call section-------------*/
