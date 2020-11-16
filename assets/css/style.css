@@ -232,17 +232,45 @@ letter-spacing: 2px;
     margin: 180px auto 0px;
 }
 
-#head {
+/*#head {
     font-weight: bold;
     background-color: #000000;
     font-size: 36px;
+}*/
+
+#head {
+    font-weight: bold;
+    background-color: #000000;
+    animation-name: head-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes head-zoom {
+    from {
+      font-size: 6px;
+    }
+    to {
+      font-size: 36px;
+    }
+    }
 
 #headsmall {
     font-weight: bold;
     margin-top: 30px;
-
+      animation-name: small-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes small-zoom {
+    from {
+      font-size: 6px;
+    }
+    to {
+      font-size: 20px;
+    }
+    }
 
 #book {
     height: 40px;
@@ -405,29 +433,28 @@ letter-spacing: 2px;
     font-weight: bold;
     color: #ffffff;
     margin-top: 20px;
-    margin-bottom: 30px;
     
     }
 
 #coin-form {
-    height: 140px;
-    width: 380px;
+    height: 150px;
+    width: 150px;
     background-color: #ffffff;
-    margin: 50px auto 0px;
-    border: 3px solid rgba(209, 161, 16, 0.993)
+    margin: 30px auto 0px;
+    border: 5px solid rgba(209, 161, 16, 0.993);
+    
 }
 
 #imput-text {
     font-size: 20px; 
-    color: rgba(209, 161, 16, 0.993);
+    color: #ffffff;;
     margin-bottom: 5px;
-    margin-top: 10px;
+    font-weight: bold;
 }
 #coin-form #coin-data {
-    padding: 12px 20px;
-    margin-right: 20px;
-     margin-bottom: 5px;
-    margin-top: 10px;
+    padding: 2px 20px;
+    margin-top: 15px;
+    margin-left: 20px;
     height: 30px;
     width: 100px;
     background-color: #ffffff;
@@ -441,11 +468,9 @@ letter-spacing: 2px;
 }
 
 #coin-form input[type=text] {
-    padding: 12px 20px;
+    padding: 2px 20px;
+    margin-top: 15px;
     margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    height: 30px;
     width: 100px;
   border: 2px solid rgba(209, 161, 16, 0.993);
   border-radius: 4px;
@@ -456,14 +481,13 @@ letter-spacing: 2px;
 }
 
 #coin-form #coinfetch {
-	margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
 	color: #ffffff;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
-}
-
-#but {
-    text-align: center;
 }
 
 .but-which {
@@ -471,7 +495,6 @@ letter-spacing: 2px;
     margin-left: 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 30px;
 }
 
 .but-whichl {
@@ -489,7 +512,10 @@ letter-spacing: 2px;
 }
 
 /*-----------------------Footer--------------------*/
-
+.footer-container {
+    width: 100%;
+    margin-top: 20px;
+}
 /*--------------------------------------------trial*/
 
 
@@ -544,3 +570,28 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #e84610;
 }
+
+/*-----------------------media queries--------------------*/
+
+@media screen and (max-width: 584px) {
+  #coin-form {
+    margin: 60px auto 0px;
+    height: 250px;
+    width: 200px;
+    
+}
+  #coin-form #coinfetch {
+    margin-top: 25px;
+    margin-left: 45px;
+}
+#coin-form #coin-data {
+   margin-top: 25px;
+    margin-left: 45px;
+}
+
+#coin-form input[type=text] {
+    margin-top: 25px;
+    margin-left: 45px;
+
+}
+
