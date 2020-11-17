@@ -25,21 +25,6 @@ hr.nav2 {
   width: 70%;
    
 }
-/*h3 {
-	font-size: 20px;
-	font-weight: bold;
-	color: #999999;
-}*/
-
-/*p {
-	font-size: 16px;
-}*/
-
-
-
-/*----------------------Index----------------------*/
-
-
 
 /*----------------------Navlogo section----------------------*/
 
@@ -52,9 +37,6 @@ hr.nav2 {
 }
 
 .logo {
-    /*height: 50px;
-    margin-top: 10px;
-    font-size: 20px;*/
     border-bottom: 2px solid gold;
 }
 
@@ -77,8 +59,6 @@ letter-spacing: 2px;
     border-radius: 5px;
 
 }
-
-/*.nav-container {}*/
 
 #navbarNavDropdown {
 	position: relative;
@@ -177,6 +157,12 @@ letter-spacing: 2px;
 
 }
 
+#bitmatch a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+}
+
 
 /*--------------------Header section-------------*/
 .outer-header-container {
@@ -232,12 +218,6 @@ letter-spacing: 2px;
     margin: 180px auto 0px;
 }
 
-/*#head {
-    font-weight: bold;
-    background-color: #000000;
-    font-size: 36px;
-}*/
-
 #head {
     font-weight: bold;
     background-color: #000000;
@@ -258,7 +238,7 @@ letter-spacing: 2px;
 #headsmall {
     font-weight: bold;
     margin-top: 30px;
-      animation-name: small-zoom;
+    animation-name: small-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -289,9 +269,6 @@ letter-spacing: 2px;
     padding: 5px 10px;
 }
 
-
-
-
 /*--------------------goals section-------------*/
 .goals-container {
      width: 100%;
@@ -307,10 +284,6 @@ letter-spacing: 2px;
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    margin-bottom: 10px;
-}
-
-#goalsr, #goalsl {
     margin-bottom: 30px;
 }
 
@@ -326,6 +299,10 @@ letter-spacing: 2px;
     color: rgba(209, 161, 16, 0.993);
     margin-bottom: 10px;
     margin-top: 30px;
+}
+
+.goals-link:hover {
+  color: #000000;
 }
 
 .goals-icon {
@@ -364,8 +341,6 @@ letter-spacing: 2px;
     padding-right: 30px;
 }
 
-
-
 /*--------------------Courses section-------------*/
 .courses-container {
     width: 100%;
@@ -391,9 +366,7 @@ letter-spacing: 2px;
     
 }
 
-
 .course-par {
-    color: #999999;
     padding-right: 50px;
     padding-top: 10px;
     font-size: 16px;
@@ -409,6 +382,10 @@ letter-spacing: 2px;
     font-weight: bold;
     color: rgba(209, 161, 16, 0.993);
     
+}
+
+.course-link:hover {
+    color: #000000;
 }
 
 /*--------------------coin-call section-------------*/
@@ -438,7 +415,7 @@ letter-spacing: 2px;
     }
 
 #coin-form {
-    height: 150px;
+    height: 200px;
     width: 150px;
     background-color: #ffffff;
     margin: 30px auto 0px;
@@ -491,6 +468,16 @@ letter-spacing: 2px;
     border-radius: 5px;
 }
 
+#coin-form #clear {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+	color: #ffffff;
+	background-color: rgba(209, 161, 16, 0.993);
+    border-radius: 5px;
+}
+
 .but-which {
     color: #ffffff;
     margin-left: 30px;
@@ -507,6 +494,17 @@ letter-spacing: 2px;
     align-items: flex-end;
 }
 
+.but-whichl a {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold; 
+}
+
+.but-whichl a:hover {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold; 
+}
 .but-which1-icon {
     font-size: 26px;
     margin-left: 50px;
@@ -541,11 +539,12 @@ color: #ffffff;
 .footer-link {
     font-size: 20px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .footer-link:hover {
-    font-size: 25px;
     color: #000000;
+    font-weight: bold;
 }
 
 .social-links li a {
@@ -560,6 +559,12 @@ color: #ffffff;
 
 .social-links li a:hover {
   color: #000000;
+}
+
+/*----------------------Courses Page----------------*/
+.full-courses-container {
+    width: 100%;
+
 }
 
 /*--------------------------------------------trial*/
@@ -632,6 +637,11 @@ button[type="submit"] {
 }
 #coin-form #coin-data {
    margin-top: 25px;
+    margin-left: 45px;
+}
+
+ #coin-form #clear {
+    margin-top: 25px;
     margin-left: 45px;
 }
 

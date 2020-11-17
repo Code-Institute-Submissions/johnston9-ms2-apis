@@ -19,7 +19,7 @@ function fetchdata(coin) {
       } else if (coin === "Chainlink") {
         dataDiv.innerHTML = resp.chainlink.usd;
       } else {
-        dataDiv.innerHTML = "Try again";
+        dataDiv.innerHTML = "Error";
       }
       return resp;
     })
@@ -28,6 +28,19 @@ function fetchdata(coin) {
       console.log("Error:", error);
       dataDiv.innerHTML = "Network Error";
     });
+}
+
+document.getElementById("clear").addEventListener("click", cleardata);
+
+function cleardata() {
+    let coin1 = document.getElementById("coin");
+    let dataDiv = document.getElementById("coin-data");
+    coin1.value = ""; 
+    dataDiv.innerHTML = ""
+
+
+    
+
 }
 
 
