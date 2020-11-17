@@ -286,6 +286,7 @@ letter-spacing: 2px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
+    padding: 5px 10px;
 }
 
 
@@ -503,7 +504,7 @@ letter-spacing: 2px;
     font-weight: bold;
     margin-left: 50px;
     margin-top: 60px;
-    
+    align-items: flex-end;
 }
 
 .but-which1-icon {
@@ -515,7 +516,52 @@ letter-spacing: 2px;
 .footer-container {
     width: 100%;
     margin-top: 20px;
+    height: 200px;
+    background-image: url("/assets/images/entf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+.footer-block {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+
+}
+
+.footer-par {
+font-size: 14px;
+color: #ffffff;
+}
+
+.footer-link {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-link:hover {
+    font-size: 25px;
+    color: #000000;
+}
+
+.social-links li a {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 20px;
+  
+}
+
+.social-links li a:hover {
+  color: #000000;
+}
+
 /*--------------------------------------------trial*/
 
 
@@ -589,9 +635,27 @@ button[type="submit"] {
     margin-left: 45px;
 }
 
+
 #coin-form input[type=text] {
     margin-top: 25px;
     margin-left: 45px;
 
 }
+.footer-container {
+    height: 500px;
+    background-image: url("/assets/images/ents.jpg");
+    }
+.footer-block {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px 50px;
+
+}
+    }
+
+@media screen and (max-width: 350px)  {
+    .footer-block {
+    padding: 5px 5px;}
+    }
+
 
