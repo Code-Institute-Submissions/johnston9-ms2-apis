@@ -1,5 +1,5 @@
 /*----------------------General----------------------*/
-/*python3 -m http.server*/
+/*python3 -m http.serverfont-family: Lato;*/
 
 * {
   margin: 0;
@@ -7,8 +7,9 @@
   border: 0;
 }
 body {
-  font-family: Lato;
   color: #777777;
+  font-family: Lato;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 /*-----line breaks------*/
@@ -52,6 +53,7 @@ margin: 10px 20px;
 font-size: 26px;
 font-weight: bold;
 letter-spacing: 2px;
+font-family: 'Goldman', cursive;
 }
 
 #signin {
@@ -64,6 +66,7 @@ letter-spacing: 2px;
     border-width: 0;
     font-size: 20px;
     border-radius: 5px;
+    font-family: 'Goldman', cursive;
 
 }
 
@@ -92,6 +95,7 @@ letter-spacing: 2px;
 	font-weight: bold;
 	font-size: 24px;
 	color: #000000;
+    font-family: 'Goldman', cursive;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -130,6 +134,7 @@ letter-spacing: 2px;
     font-size: 18px;
     font-weight: bold;
     line-height: 20px;
+    font-family: 'Goldman', cursive;
     
 }
 
@@ -146,7 +151,7 @@ letter-spacing: 2px;
 
 #bitmatch {
     height: 50px;
-    width: 150px;
+    width: 160px;
     background-image: url("/assets/images/silver1.jpg");
     background-size: cover;
     color: #ffffff;
@@ -229,6 +234,7 @@ letter-spacing: 2px;
 #header-text {
     color: #ffffff;
     margin: 180px auto 0px;
+    font-family: 'Goldman', cursive;
 }
 
 #head {
@@ -258,20 +264,19 @@ letter-spacing: 2px;
 
 @keyframes small-zoom {
     from {
-      font-size: 6px;
+      font-size: 2px;
     }
     to {
       font-size: 20px;
     }
     }
 
-#book {
+/*#book {
     height: 40px;
     width: 100px;
     background-color: rgba(209, 161, 16, 0.993);
     color: #ffffff;
     margin-top: 100px;
-    margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 100px;
     border-color: white;
@@ -280,6 +285,22 @@ letter-spacing: 2px;
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 10px;
+    font-family: 'Goldman', cursive;
+}*/
+
+#book {
+    height: 40px;
+    width: 100px;
+    background-color: rgba(209, 161, 16, 0.993);
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    border-color: white;
+    border-width: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Goldman', cursive;
 }
 
 /*--------------------goals section-------------*/
@@ -298,6 +319,7 @@ letter-spacing: 2px;
     font-size: 20px;
     color: #000000;
     margin-bottom: 30px;
+    font-family: 'Goldman', cursive;
 }
 
 .goals-par {
@@ -345,6 +367,7 @@ letter-spacing: 2px;
     color: #ffffff;
     margin-top: 20px;
     padding-left: 30px;
+    font-family: 'Goldman', cursive;
 }
 
 .briefs-par {
@@ -376,6 +399,7 @@ letter-spacing: 2px;
     font-size: 20px;
     margin-left: 30px;
     margin-top: 30px;
+    font-family: 'Goldman', cursive;
     
 }
 
@@ -424,6 +448,7 @@ letter-spacing: 2px;
     font-weight: bold;
     color: #ffffff;
     margin-top: 20px;
+    font-family: 'Goldman', cursive;
     
     }
 
@@ -511,6 +536,7 @@ letter-spacing: 2px;
     color: #ffffff;
     font-size: 26px;
     font-weight: bold; 
+    font-family: 'Goldman', cursive;
 }
 
 .but-whichl a:hover {
@@ -547,12 +573,14 @@ letter-spacing: 2px;
 .footer-par {
 font-size: 14px;
 color: #ffffff;
+font-weight: bold;
 }
 
 .footer-link {
     font-size: 20px;
     color: #ffffff;
     font-weight: bold;
+    font-family: 'Goldman', cursive;
 }
 
 .footer-link:hover {
@@ -561,7 +589,7 @@ color: #ffffff;
 }
 
 .social-links li a {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
