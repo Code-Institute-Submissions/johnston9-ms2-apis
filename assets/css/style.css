@@ -8,8 +8,8 @@
 }
 body {
   color: #777777;
-  font-family: Lato;
-  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: Lato;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 /*-----line breaks------*/
@@ -50,10 +50,11 @@ hr.six {
 
 #title {
 margin: 10px 20px;
-font-size: 26px;
+font-size: 30px;
 font-weight: bold;
 letter-spacing: 2px;
 font-family: 'Goldman', cursive;
+color: #666666;
 }
 
 #signin {
@@ -64,9 +65,10 @@ font-family: 'Goldman', cursive;
     margin: 10px 20px;
     border-color: white;
     border-width: 0;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 5px;
-    font-family: 'Goldman', cursive;
+    font-weight: bold;
+
 
 }
 
@@ -94,7 +96,7 @@ font-family: 'Goldman', cursive;
 .navbar .navbar-brand {
 	font-weight: bold;
 	font-size: 24px;
-	color: #000000;
+	color: #999999;
     font-family: 'Goldman', cursive;
 }
 
@@ -134,7 +136,6 @@ font-family: 'Goldman', cursive;
     font-size: 18px;
     font-weight: bold;
     line-height: 20px;
-    font-family: 'Goldman', cursive;
     
 }
 
@@ -151,7 +152,7 @@ font-family: 'Goldman', cursive;
 
 #bitmatch {
     height: 50px;
-    width: 160px;
+    width: 150px;
     background-image: url("/assets/images/silver1.jpg");
     background-size: cover;
     color: #ffffff;
@@ -234,7 +235,6 @@ font-family: 'Goldman', cursive;
 #header-text {
     color: #ffffff;
     margin: 180px auto 0px;
-    font-family: 'Goldman', cursive;
 }
 
 #head {
@@ -298,9 +298,9 @@ font-family: 'Goldman', cursive;
     margin-left: 100px;
     border-color: white;
     border-width: 0;
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: bold;
     border-radius: 5px;
-    font-family: 'Goldman', cursive;
 }
 
 /*--------------------goals section-------------*/
@@ -319,7 +319,7 @@ font-family: 'Goldman', cursive;
     font-size: 20px;
     color: #000000;
     margin-bottom: 30px;
-    font-family: 'Goldman', cursive;
+
 }
 
 .goals-par {
@@ -399,7 +399,6 @@ font-family: 'Goldman', cursive;
     font-size: 20px;
     margin-left: 30px;
     margin-top: 30px;
-    font-family: 'Goldman', cursive;
     
 }
 
@@ -448,8 +447,7 @@ font-family: 'Goldman', cursive;
     font-weight: bold;
     color: #ffffff;
     margin-top: 20px;
-    font-family: 'Goldman', cursive;
-    
+    font-family: 'Goldman', cursive;    
     }
 
 #coin-form {
@@ -589,12 +587,12 @@ font-weight: bold;
 }
 
 .social-links li a {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
   color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -738,6 +736,18 @@ button[type="submit"] {
 
 /*-----------------------media queries--------------------*/
 
+@media screen and (max-width: 768px) {
+    .footer-container {
+    height: 500px;
+    background-image: url("/assets/images/ents.jpg");
+    }
+.footer-block {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px 50px;
+
+}
+}
 @media screen and (max-width: 584px) {
   #coin-form {
     margin: 60px auto 0px;
@@ -765,16 +775,7 @@ button[type="submit"] {
     margin-left: 45px;
 
 }
-.footer-container {
-    height: 500px;
-    background-image: url("/assets/images/ents.jpg");
-    }
-.footer-block {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding: 10px 50px;
 
-}
     }
 
 @media screen and (max-width: 350px)  {
