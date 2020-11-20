@@ -357,18 +357,29 @@
 
     <!--coin callb section-->
     <div class="container-fluid coin-call-container">
-      <div class="row align-items-center">
-        <div class="col">
-          <h2 class="coin-list text-center">
-            Bitcoin &nbsp; Ethereum &nbsp; Litecoin &nbsp; Ripple &nbsp;
-            Chainlink
-          </h2>
+      <div class="row">
+       <div class="exbox col-sm-6">
+        <button class="coinbutton">Bitcoin</button>
+        <button class="coinbutton">Ethereum</button>
+        <!--<button class="coinbutton">Litecoin</button>-->
+       </div>
+
+        <div class="exbox col-sm-6">
+        <button class="coinbutton">Ripple</button>
+        <button class="coinbutton">Chainlink</button>
+          </div>
+        </div>
+
+      <div class="row">
+      <div class="col">
           <p id="imput-text4" class="text-center">
             Click on coin to find it's current price in each of the different leading
             exchanges below.
           </p>
-        </div>
-      </div>
+          </div>
+          </div>
+     
+     
 
       <!--form------>
       <div class="row">
@@ -392,32 +403,34 @@
       <!--exchanges------>
       <div id="exchanges">
       <div class="row">
-      <div class="col-sm-6 d-flex justify-content-center">
+      <div class="exbox col-sm-6">
 
       <div class="exchange">
       <h2 class="extitle">Binance</h2>
-      <div class="coin-data4"></div>
+      <div class="coin-data4" id="binancebox"></div>
       </div>
 
       <div class="exchange">
       <h2 class="extitle">Kraken</h2>
-      <div class="coin-data4"></div>
+      <div class="coin-data4" id="krakenbox"></div>
       </div>
 
       </div>
 
-      <div class="col-sm-6 d-flex justify-content-center">
-
-      <div class="exchange">
-      <h2 class="extitle">Binance</h2>
-      <div class="coin-data4"></div>
-      </div>
+      <div class="col-sm-6">
+      <div class="exbox">
 
       <div class="exchange">
-      <h2 class="extitle">Binance</h2>
-      <div class="coin-data4"></div>
+      <h2 class="extitle">Gemini</h2>
+      <div class="coin-data4" id="geminibox"></div>    
       </div>
-      
+
+      <div class="exchange">
+      <h2 class="extitle">Bitfinex</h2>
+      <div class="coin-data4" id="bitfinexbox"></div>
+      </div>
+      </div>
+
       </div>
       </div>
       </div>
@@ -426,10 +439,6 @@
 
       <div class="row">
         <div class="col md-6 but-which">
-          <p>
-            Want to learn more...<br />
-            Explore our courses...<br />
-          </p>
           <h3>
             <a class="coincourse" href="courses.html"
               >Our Courses

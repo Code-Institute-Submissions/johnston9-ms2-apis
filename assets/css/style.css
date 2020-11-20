@@ -66,7 +66,6 @@ color: #666666;
     border-color: white;
     border-width: 0;
     font-size: 24px;
-    border-radius: 5px;
     font-weight: bold;
 
 
@@ -458,6 +457,28 @@ color: #666666;
     font-family: 'Goldman', cursive;    
     }
 
+#coinbuttons {
+    display: flex;
+  justify-content: space-around; 
+}
+
+.coinbutton {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Goldman', cursive; 
+    background-color: hsla(120, 100%, 50%, 0);
+    /*border: 2px solid rgba(209, 161, 16, 0.993);
+    border-radius: 10px;*/
+}
+
+.extitle {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 #coin-form {
     height: 200px;
     width: 150px;
@@ -500,6 +521,13 @@ color: #666666;
 }
 
 #imput-text3 {
+    font-size: 20px; 
+    color: #ffffff;;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#imput-text4 {
     font-size: 20px; 
     color: #ffffff;;
     margin-bottom: 5px;
@@ -551,6 +579,12 @@ color: #666666;
     font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993)
 }
+
+.exbox {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 #coin-form ::placeholder {
     color: rgba(209, 161, 16, 0.993);
@@ -666,8 +700,10 @@ color: #666666;
 .but-which {
     color: #ffffff;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
+    margin-top: 60px;
+    align-items: flex-end;
 }
 
 .but-whichl {
