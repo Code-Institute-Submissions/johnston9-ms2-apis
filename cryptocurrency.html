@@ -217,24 +217,38 @@
             Bitcoin &nbsp; Ethereum &nbsp; Litecoin &nbsp; Ripple &nbsp;
             Chainlink
           </h2>
-          <p id="imput-text2" class="text-center">
+          <p class="imput-text text-center">
             Input coin to find it's 24hr change
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div id="coin-form2">
-            <input
-              type="text"
-              id="coin2"
-              name="coin2"
-              value=""
-              placeholder="Bitcoin"
-            />
-            <div id="coin-data2"></div>
-            <button id="coinfetch2">Submit</button>
-            <button id="clear2">Clear</button>
+
+      <div class="exchanges mx-auto">
+        <div class="row">
+          <div class="exbox col-sm-6">
+            <div class="exchange" id="coin-form2">
+              <input
+                type="text"
+                id="coin2"
+                name="coin2"
+                value=""
+                placeholder="Bitcoin"
+              />
+            </div>
+
+            <div class="exchange" id="coin-data2"></div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="exbox">
+              <div class="exchange">
+                <button id="coinfetch2">Submit</button>
+              </div>
+
+              <div class="exchange">
+                <button id="clear2">Clear</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -289,146 +303,61 @@
         </div>
       </div>
     </div>
-    <!--/cryptoinfo2--->
-
-    <!--coin call section
-    <div class="container-fluid coin-call-container">
-      <div class="row align-items-center">
-        <div class="col">
-          <h2 class="coin-list text-center">
-            Bitfinex &nbsp; Gemini &nbsp; Binance &nbsp; Kraken &nbsp;
-            Bittrex 
-          </h2>
-          <p id="imput-text3" class="text-center">
-            Input exchange to find it's Bitcoin price 
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div id="coin-form3">
-            <input
-              type="text"
-              id="coin3"
-              name="coin3"
-              value=""
-              placeholder="Binance"
-            />
-            <div id="coin-data3"></div>
-            <button id="coinfetch3">Submit</button>
-            <button id="clear3">Clear</button>
-          </div>
-        </div>
-      </div>
-       <div class="row">
-        <div class="col md-6 but-which">
-          <p>
-            Want to learn more...<br />
-            Explore our courses...<br />
-            </p>
-            <h3>
-            <a class="coincourse" href="courses.html"
-              >Our Courses
-              <i id="coincourse-icon"
-                class=" fas fa-angle-double-right"
-                aria-hidden="true"
-              ></i
-            ></a>
-          </h3>
-        </div>
-        <div class="col md-6 but-whichl">
-          <h2 class="text-center">
-            <a href="contact.html"
-              >Sign Up
-              <i
-                class="but-which1-icon fas fa-angle-double-right"
-                aria-hidden="true"
-              ></i
-            ></a>
-          </h2>
-        </div>
-      </div>
-    </div>
-    /coin call section-->
+    <!---cryptiinfo2----->
 
     <!--coin callb section-->
     <div class="container-fluid coin-call-container">
       <div class="row">
-       <div class="exbox col-sm-6">
-        <button class="coinbutton" id="bitcoin-button">Bitcoin</button>
-        <button class="coinbutton" id="ethereum-button">Ethereum</button>
-        <!--<button class="coinbutton">Litecoin</button>-->
-       </div>
+        <div class="exbox col-sm-6">
+          <button class="coinbutton" id="bitcoin-button">Bitcoin</button>
+          <button class="coinbutton" id="ethereum-button">Ethereum</button>
+        </div>
 
         <div class="exbox col-sm-6">
-        <button class="coinbutton" id="ripple-button">Ripple</button>
-        <button class="coinbutton" id="chainlink-button">Chainlink</button>
-          </div>
+          <button class="coinbutton" id="ripple-button">Ripple</button>
+          <button class="coinbutton" id="chainlink-button">Chainlink</button>
         </div>
+      </div>
 
       <div class="row">
-      <div class="col">
-          <p id="imput-text4" class="text-center">
-            Click on coin to find it's current price in each of the different leading
-            exchanges below.
-          </p>
-          </div>
-          </div>
-     
-     
-
-      <!--form------>
-      <!--<div class="row">
         <div class="col">
-          <div id="coin-form4">
-            <input
-              type="text"
-              id="coin4"
-              name="coin4"
-              value=""
-              placeholder="Binance"
-            />
-            <div id="coin-data4"></div>
-            <button id="coinfetch4">Submit</button>
-            <button id="clear4">Clear</button>
-          </div>
+          <p id="imput-text4" class="text-center">
+            Click on coin to find it's current USD price in each of the different
+            leading exchanges below.
+          </p>
         </div>
-      </div>-->
-      <!--/form------>
+      </div>
 
       <!--exchanges------>
-      <div id="exchanges" class="mx-auto">
-      <div class="row">
-      <div class="exbox col-sm-6">
+      <div class="exchanges mx-auto">
+        <div class="row">
+          <div class="exbox col-sm-6">
+            <div class="exchange">
 
-      <div class="exchange">
-      <h2 class="extitle">Binance</h2>
-      <div class="coin-data4" id="binancebox"></div>
-      </div>
+              <h2 class="extitle text-center">Binance</h2>
+              <div class="coin-data4" id="binancebox"></div>
+            </div>
 
-      <div class="exchange">
-      <h2 class="extitle">Kraken</h2>
-      <div class="coin-data4" id="krakenbox"></div>
-      </div>
+            <div class="exchange">
+              <h2 class="extitle text-center">Kraken</h2>
+              <div class="coin-data4" id="krakenbox"></div>
+            </div>
+          </div>
 
-      </div>
+          <div class="col-sm-6">
+            <div class="exbox">
+              <div class="exchange">
+                <h2 class="extitle text-center">Gemini</h2>
+                <div class="coin-data4" id="geminibox"></div>
+              </div>
 
-      <div class="col-sm-6">
-      <div class="exbox">
-
-      <div class="exchange">
-      <h2 class="extitle">Gemini</h2>
-      <div class="coin-data4" id="geminibox"></div>    
-      </div>
-
-      <div class="exchange">
-      <h2 class="extitle">Bitfinex</h2>
-      <div class="coin-data4" id="bitfinexbox"></div>
-      </div>
-      </div>
-
-      </div>
-      </div>
+              <div class="exchange">
+                <h2 class="extitle text-center">Bitfinex</h2>
+                <div class="coin-data4" id="bitfinexbox"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!--/exchanges------>

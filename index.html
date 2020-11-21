@@ -355,27 +355,42 @@
             Bitcoin &nbsp; Ethereum &nbsp; Litecoin &nbsp; Ripple &nbsp;
             Chainlink
           </h2>
-          <p id="imput-text" class="text-center">
-            Input coin to find it's current value in USD 
+          <p id="imput1" class="imput-text text-center">
+            Input coin to find it's current value in USD
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div id="coin-form">
-            <input
-              type="text"
-              id="coin"
-              name="coin"
-              value=""
-              placeholder="Bitcoin"
-            />
-            <div id="coin-data"></div>
-            <button id="coinfetch">Submit</button>
-            <button id="clear">Clear</button>
+
+      <div class="exchanges mx-auto">
+        <div class="row">
+          <div class="exbox col-sm-6">
+            <div class="exchange" id="coin-form">
+              <input
+                type="text"
+                id="coin"
+                name="coin"
+                value=""
+                placeholder="Bitcoin"
+              />
+            </div>
+
+            <div class="exchange" id="coin-data"></div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="exbox">
+              <div class="exchange">
+                <button id="coinfetch">Submit</button>
+              </div>
+
+              <div class="exchange">
+                <button id="clear">Clear</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col md-6 but-which">
           <p>

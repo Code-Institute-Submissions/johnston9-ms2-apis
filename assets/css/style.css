@@ -446,7 +446,6 @@ color: #666666;
 	-o-background-size: cover;
 	background-size: cover;
    
-    
 }
 
 .coin-list {
@@ -458,7 +457,7 @@ color: #666666;
     }
 
 #coinbuttons {
-    display: flex;
+  display: flex;
   justify-content: space-around; 
 }
 
@@ -469,8 +468,6 @@ color: #666666;
     margin-top: 20px;
     font-family: 'Goldman', cursive; 
     background-color: hsla(120, 100%, 50%, 0);
-    /*border: 2px solid rgba(209, 161, 16, 0.993);
-    border-radius: 10px;*/
 }
 
 .extitle {
@@ -479,52 +476,23 @@ color: #666666;
     color: #ffffff;
 }
 
-#coin-form {
-    height: 200px;
-    width: 150px;
-    background-color: #ffffff;
-    margin: 30px auto 0px;
-    border: 5px solid rgba(209, 161, 16, 0.993);
-    
+.exchanges {
+    background-color: #000000;
+    width: 80%;
 }
 
-#coin-form2 {
-    height: 200px;
-    width: 150px;
-    background-color: #ffffff;
-    margin: 30px auto 0px;
-    border: 5px solid rgba(209, 161, 16, 0.993);
-    
-}
-
-#coin-form3 {
-    height: 200px;
-    width: 150px;
-    background-color: #ffffff;
-    margin: 30px auto 0px;
-    border: 5px solid rgba(209, 161, 16, 0.993);
-    
-}
-
-#imput-text {
+.imput-text {
     font-size: 20px; 
     color: #ffffff;;
     margin-bottom: 5px;
     font-weight: bold;
+    background-color: #000000;
 }
 
-#imput-text2 {
-    font-size: 20px; 
-    color: #ffffff;;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
+#imput1 {
+    margin-top: 35px;
+    margin-bottom: 15px;
 
-#imput-text3 {
-    font-size: 20px; 
-    color: #ffffff;;
-    margin-bottom: 5px;
-    font-weight: bold;
 }
 
 #imput-text4 {
@@ -533,42 +501,33 @@ color: #666666;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
+    background-color: #000000;
 }
 
-#coin-form #coin-data {
+.exchanges #coin-data {
     padding: 2px 20px;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993)
+    border: 2px solid rgba(209, 161, 16, 0.993);
+    border-radius: 5px;
 }
 
-#coin-form2 #coin-data2 {
+.exchanges #coin-data2 {
     padding: 2px 20px;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993)
-}
-
-#coin-form3 #coin-data3 {
-    padding: 2px 20px;
-    margin-top: 15px;
-    margin-left: 20px;
-    height: 30px;
-    width: 100px;
-    background-color: #ffffff;
-    color: #000000;
-    font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993)
+    border: 2px solid rgba(209, 161, 16, 0.993);
+    border-radius: 5px;
 }
 
 .coin-data4 {
@@ -580,7 +539,6 @@ color: #666666;
     font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993);
     margin-bottom: 20px;
-    
 }
 
 .exbox {
@@ -588,23 +546,14 @@ color: #666666;
     justify-content: space-around;
 }
 
-
-#coin-form ::placeholder {
+.exchanges ::placeholder {
     color: rgba(209, 161, 16, 0.993);
 }
 
-#coin-form2 ::placeholder {
-    color: rgba(209, 161, 16, 0.993);
-}
-
-#coin-form3 ::placeholder {
-    color: rgba(209, 161, 16, 0.993);
-}
-
-#coin-form input[type=text] {
+.exchanges input[type=text] {
     padding: 2px 18px;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100px;
   border: 2px solid rgba(209, 161, 16, 0.993);
   border-radius: 4px;
@@ -614,35 +563,9 @@ color: #666666;
 
 }
 
-#coin-form2 input[type=text] {
-    padding: 2px 18px;
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 100px;
-  border: 2px solid rgba(209, 161, 16, 0.993);
-  border-radius: 4px;
-  background-color: #fff;
-  color: #000000;
-  font-weight: bold;
-
-}
-
-#coin-form3 input[type=text] {
-    padding: 2px 18px;
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 100px;
-  border: 2px solid rgba(209, 161, 16, 0.993);
-  border-radius: 4px;
-  background-color: #fff;
-  color: #000000;
-  font-weight: bold;
-
-}
-
-#coin-form #coinfetch {
-    margin-top: 15px;
-    margin-left: 20px;
+.exchanges #coinfetch {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
 	color: #ffffff;
@@ -650,9 +573,9 @@ color: #666666;
     border-radius: 5px;
 }
 
-#coin-form2 #coinfetch2 {
-    margin-top: 15px;
-    margin-left: 20px;
+.exchanges #coinfetch2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
 	color: #ffffff;
@@ -660,9 +583,9 @@ color: #666666;
     border-radius: 5px;
 }
 
-#coin-form3 #coinfetch3 {
-    margin-top: 15px;
-    margin-left: 20px;
+.exchanges #clear {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
 	color: #ffffff;
@@ -670,45 +593,20 @@ color: #666666;
     border-radius: 5px;
 }
 
-#coin-form #clear {
-    margin-top: 15px;
-    margin-left: 20px;
+.exchanges #clear2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 30px;
     width: 100px;
 	color: #ffffff;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
 }
-
-#coin-form2 #clear2 {
-    margin-top: 15px;
-    margin-left: 20px;
-    height: 30px;
-    width: 100px;
-	color: #ffffff;
-	background-color: rgba(209, 161, 16, 0.993);
-    border-radius: 5px;
-}
-
-#coin-form3 #clear3 {
-    margin-top: 15px;
-    margin-left: 20px;
-    height: 30px;
-    width: 100px;
-	color: #ffffff;
-	background-color: rgba(209, 161, 16, 0.993);
-    border-radius: 5px;
-}
-
-/*#exchanges {
-    background-color: #000000;
-    width: 80%;
-}*/
 
 .but-which {
     color: #ffffff;
     margin-left: 30px;
-    font-size: 26px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 60px;
     align-items: flex-end;
@@ -737,7 +635,6 @@ color: #666666;
     color: #ffffff;
     font-size: 26px;
     font-weight: bold; 
-    font-family: 'Goldman', cursive;
 }
 
 .but-whichl a:hover {
@@ -952,34 +849,7 @@ button[type="submit"] {
 }
 }
 @media screen and (max-width: 584px) {
-  #coin-form {
-    margin: 60px auto 0px;
-    height: 250px;
-    width: 200px;
-    
-}
-  #coin-form #coinfetch {
-    margin-top: 25px;
-    margin-left: 45px;
-}
-#coin-form #coin-data {
-   margin-top: 25px;
-    margin-left: 45px;
-}
-
- #coin-form #clear {
-    margin-top: 25px;
-    margin-left: 45px;
-}
-
-
-#coin-form input[type=text] {
-    margin-top: 25px;
-    margin-left: 45px;
-
-}
-
-.but-whichl {
+ .but-whichl {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
