@@ -41,7 +41,7 @@ function cleardata2() {
 }
 
 /*------------------exchange fetch------------*/
-document.getElementById("coinfetch3").addEventListener("click", fetchdata3);
+/*document.getElementById("coinfetch3").addEventListener("click", fetchdata3);
 
 function fetchdata3(coin3) {
   var coin3 = $("#coin3").val();
@@ -80,4 +80,5 @@ function cleardata3() {
     let dataDiv3 = document.getElementById("coin-data3");
     coin3.value = ""; 
     dataDiv3.innerHTML = ""
-}
+}*/
+

@@ -530,7 +530,8 @@ color: #666666;
 #imput-text4 {
     font-size: 20px; 
     color: #ffffff;;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -577,7 +578,9 @@ color: #666666;
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993)
+    border: 2px solid rgba(209, 161, 16, 0.993);
+    margin-bottom: 20px;
+    
 }
 
 .exbox {
@@ -697,6 +700,11 @@ color: #666666;
     border-radius: 5px;
 }
 
+/*#exchanges {
+    background-color: #000000;
+    width: 80%;
+}*/
+
 .but-which {
     color: #ffffff;
     margin-left: 30px;
@@ -719,7 +727,7 @@ color: #666666;
  color: #ffffff;
     font-size: 26px;
     font-weight: bold;   
-}
+}  
 
 .coincourse-icon {
     margin-left: 50px;
