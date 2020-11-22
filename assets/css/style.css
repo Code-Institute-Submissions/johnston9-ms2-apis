@@ -8,6 +8,24 @@
 
 .about-row {
     margin-top: 70px;
+     background-color: #eeeeee;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+
+.ustop {
+    width: 100%;
+    height: 150px;
+    margin-top: 75px;
+    background-color: #333333;
+}
+
+.ustop-title {
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Goldman', cursive;
+color: #ffffff;
 }
 
 .about-title {
@@ -23,9 +41,37 @@
     width: 80%;
 }
 
+.describe-t {
+    font-size: 20px;
+    color: #333333;
+}
+
 .describe-p {
     font-size: 16px;
     color: #666666;
+}
+
+.usbutt {
+    height: 40px;
+    width: 100px;
+    background-color: #ffffff;
+    color: rgba(209, 161, 16, 0.993);
+    border-width: 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.usbutt a {
+    color: rgba(209, 161, 16, 0.993);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.usbutt a:hover {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /*---------gen------*/
@@ -48,6 +94,13 @@ body {
   margin-right: auto;
   width: 80%;
 }
+
+.center-vandh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*-----line breaks------*/
 
@@ -97,10 +150,12 @@ hr.usend {
 
 .logo {
     border-bottom: 2px solid gold;
+    width: 100%;
+    position: relative;
 }
 
 #title {
-margin: 10px 20px;
+/*margin: 10px 20px;*/
 font-size: 30px;
 font-weight: bold;
 letter-spacing: 2px;
@@ -181,23 +236,21 @@ color: #666666;
 
 #bitMatch-alert {
     width: 100%;
-    height: 50px;
     background-color: #000000;
     color: #ffffff;
-    font-size: 18px;
     font-weight: bold;
-    line-height: 20px;
+    position: relative;
     
 }
 
 #bitMatch-alert p {
     margin: 0px 40px;
-    padding-top: 15px;
+    font-size: 24px;
 }
 
 #bitMatch-alert span {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
 
 }
 
@@ -216,7 +269,6 @@ color: #666666;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
-    float: right;
     border-radius: 5px;
 
 }
@@ -229,7 +281,7 @@ color: #666666;
 
 .pagename {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 26px;   
 
 }
 
@@ -929,3 +981,21 @@ button[type="submit"] {
     }
 
 
+@media screen and (min-width: 768px) {
+    #title {
+        position: absolute;
+        left: 5%;
+}
+
+    .pagename {
+        position: absolute; 
+        left: 5%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    #bitmatch {
+        display: none;
+    }
+
+}
