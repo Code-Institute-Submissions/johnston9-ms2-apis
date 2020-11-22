@@ -1,6 +1,36 @@
 /*----------------------General----------------------*/
 /*python3 -m http.server*/
 
+/*-----------------------about page--------------------*/
+.about-container {
+    width: 100%;
+}
+
+.about-row {
+    margin-top: 70px;
+}
+
+.about-title {
+    margin-top: 70px;
+    color: #666666;
+    font-size: 30px;
+}
+
+.us-img {
+}
+
+.describe {
+    width: 80%;
+}
+
+.describe-p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/*---------gen------*/
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +40,13 @@ body {
   color: #777777;
   /*font-family: Lato;*/
   font-family: 'Roboto', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 /*-----line breaks------*/
@@ -31,6 +68,20 @@ hr.six {
   border-top: 2px solid gold;
   margin: 50px auto 0px;
   width: 60%;
+   
+}
+
+hr.us {
+  border-top: 2px solid #666666;
+  margin: 5px auto 0px;
+  width: 100%;
+   
+}
+
+hr.usend {
+  border-top: 2px solid #666666;
+  margin: 50px auto 50px;
+  width: 100%;
    
 }
 
@@ -67,6 +118,7 @@ color: #666666;
     border-width: 0;
     font-size: 24px;
     font-weight: bold;
+    border-radius: 5px;
 
 
 }
@@ -779,7 +831,13 @@ font-weight: bold;
     font-size: 16px;
 }
 
-/*--------------------------------------------trial*/
+/*-----------------------about page--------------------*/
+
+
+
+
+
+/*-----------------------map page--------------------*/
 
 
 div #map1 {
@@ -845,6 +903,11 @@ button[type="submit"] {
     margin-top: 20px;
     margin-bottom: 5px;
     padding: 10px 50px;
+
+}
+
+.describe {
+    margin-top: 50px;
 
 }
 }
