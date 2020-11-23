@@ -143,7 +143,7 @@
       <div id="bitMatch-alert" class="clearfix">
         <div class="row">
           <div class="col-md-10 center-vandh">
-            <p class="text-center pagename">ABOUT</p>
+            <p class="text-center pagename">NEW YORK PLACES</p>
           </div>
           <div class="col-md-2 center-vandh">
             <button id="bitmatch" class="text-center">
@@ -154,66 +154,81 @@
       </div>
       <hr class="nav2" />
     </div>
-
     <!--/nav-->
 
-    <!--header-section-->
-    <section>
-      <div id="newYorkcity">
-        <h3 class="heading">New York</h3>
-        <p class="main-text">Welcome to the big city.</p>
+    <!--topper-section-->
+    <div class="container-fluid topper-container">
+      <div class="row">
+        <div class="col">
+          <div class="ustop center-vandh">
+            <p class="ustop-title text-center">
+              EXPLORE <br />
+              NEW YORK CITY <br />
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <iframe
-          id="newYork"
-          class="map-embed embed"
-          title="Maps of New York"
-          width="600"
-          height="450"
-          frameborder="0"
-          style="border: 0"
-          src="https://www.google.com/maps/embed/v1/search?q=restaurants+near+Manhattan,+New+York,+NY,+USA&key=AIzaSyANvu2QE7pazETJVRzBRoUVgFm9hQJ3zYU"
-          allowfullscreen
-        ></iframe>
+    </div>
+
+    <!--topper-section-->
+
+    <!--places-section-->
+    <div class="container-fluid places-container">
+      <div class="row">
+        <div class="col-10 offset-1 text-center">
+          <p id="places-instruct">
+            Click on the buttons below the map to find places to stay,
+            resturants to dine in and places of interest to visit.
+          </p>
+
+          <div>
+            <iframe
+              id="newYork"
+              class="map-embed embed center"
+              title="Maps of New York"
+              height="400"
+              frameborder="0"
+              style="border: 0"
+              src="https://www.google.com/maps/embed/v1/search?q=restaurants+near+Manhattan,+New+York,+NY,+USA&key=AIzaSyANvu2QE7pazETJVRzBRoUVgFm9hQJ3zYU"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
 
-      <div class="container">
+      <div class="container embut-container">
         <div class="row">
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-4">
             <button
               type="button"
               id="nyfood"
-              class="btn btn-success btn-lg embed-btn"
+              class="btn btn-lg embed-btn center"
             >
               Eat
             </button>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-4">
             <button
               type="button"
               id="nydo"
-              class="btn btn-dark btn-lg embed-btn"
+              class="btn btn-lg embed-btn center"
             >
               D0
             </button>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-4">
             <button
               type="button"
               id="nystay"
-              class="btn btn-secondary btn-lg embed-btn"
+              class="btn btn-lg embed-btn center"
             >
               Sleep
             </button>
           </div>
         </div>
       </div>
-
-      <!--Code for "Return to top" button found via: https://www.computerhope.com/issues/ch001475.htm#:~:text=In%20your%20HTML%20code%2C%20find%20the%20opening%20%3Cbody%3E,you%20back%20to%20the%20top%20of%20the%20page."-->
-      <div>
-        <a class="top-return" href="#top">Return to top of page</a>
-      </div>
-    </section>
+    </div>
+    <!--places-section-->
     <!--footer-->
     <div class="container-fluid footer-container">
       <div class="row">

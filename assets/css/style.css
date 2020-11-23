@@ -881,12 +881,26 @@ color: #ffffff;
 
 /*-----------------------map page--------------------*/
 
-
+.map-container {
+    margin-top: 75px;
+}
 div #map1 {
     /*height: 700px;*/
     min-height: 360px;
 }
 /*---------------------embed page---------------------*/
+
+.places-container {
+    margin-top: 75px;
+}
+
+#places-instruct {
+    font-size: 20px;
+    background-color: rgba(209, 161, 16, 0.993);
+    color: #ffffff;
+    margin-bottom: 50px;
+
+}
 /*.embed-map {
     width: 50%;
     height: 300px; 
@@ -895,9 +909,18 @@ div #map1 {
     margin: 50px auto;
 }*/
 
+#newYork {
+
+}
+
+.embut-container {
+    margin-top: 50px;
+}
+
 .embed-btn {
-  
-    margin-top: 10px;
+    background-color: rgba(209, 161, 16, 0.993);
+    margin-bottom: 70px;
+    color: #ffffff;
 }
 
 /*------------------Contact form--------------------*/
