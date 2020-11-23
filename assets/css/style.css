@@ -1,79 +1,6 @@
 /*----------------------General----------------------*/
 /*python3 -m http.server*/
 
-/*-----------------------about page--------------------*/
-.about-container {
-    width: 100%;
-}
-
-.about-row {
-    margin-top: 70px;
-     background-color: #eeeeee;
-     margin-left: 50px;
-     margin-right: 50px;
-}
-
-.ustop {
-    width: 100%;
-    height: 150px;
-    margin-top: 75px;
-    background-color: #333333;
-}
-
-.ustop-title {
-font-size: 30px;
-font-weight: bold;
-letter-spacing: 2px;
-font-family: 'Goldman', cursive;
-color: #ffffff;
-}
-
-.about-title {
-    margin-top: 70px;
-    color: #666666;
-    font-size: 30px;
-}
-
-.us-img {
-}
-
-.describe {
-    width: 80%;
-}
-
-.describe-t {
-    font-size: 20px;
-    color: #333333;
-}
-
-.describe-p {
-    font-size: 16px;
-    color: #666666;
-}
-
-.usbutt {
-    height: 40px;
-    width: 100px;
-    background-color: #ffffff;
-    color: rgba(209, 161, 16, 0.993);
-    border-width: 0;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.usbutt a {
-    color: rgba(209, 161, 16, 0.993);
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.usbutt a:hover {
-    color: #000000;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 /*---------gen------*/
 
 
@@ -262,8 +189,6 @@ color: #666666;
     color: #ffffff;
     font-weight: bold;
     font-size: 26px;
-    border-color: #000000;
-    border-width: 0;
     margin-right: 40px;
     margin-top: 0;
     margin-bottom: 0;
@@ -883,11 +808,76 @@ font-weight: bold;
     font-size: 16px;
 }
 
-/*-----------------------about page--------------------*/
+/*-----------------------about/review pages--------------------*/
+.about-container {
+    width: 100%;
+}
 
+.about-row {
+    margin-top: 70px;
+     background-color: #eeeeee;
+     margin-left: 50px;
+     margin-right: 50px;
+}
 
+.ustop {
+    width: 100%;
+    height: 150px;
+    margin-top: 75px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
 
+.ustop-title {
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Goldman', cursive;
+color: #ffffff;
+}
 
+.about-title {
+    margin-top: 70px;
+    color: #666666;
+    font-size: 30px;
+}
+
+.describe {
+    width: 80%;
+}
+
+.describe-t {
+    font-size: 20px;
+    color: #333333;
+}
+
+.describe-p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.usbutt {
+    height: 40px;
+    width: 100px;
+    background-color: #ffffff;
+    color: rgba(209, 161, 16, 0.993);
+    border: 2px solid rgba(209, 161, 16, 0.993);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.usbutt a {
+    color: rgba(209, 161, 16, 0.993);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.usbutt a:hover {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /*-----------------------map page--------------------*/
 
@@ -896,7 +886,7 @@ div #map1 {
     /*height: 700px;*/
     min-height: 360px;
 }
-/*-------------------------------------------embed-maps*/
+/*---------------------embed page---------------------*/
 /*.embed-map {
     width: 50%;
     height: 300px; 
@@ -910,7 +900,7 @@ div #map1 {
     margin-top: 10px;
 }
 
-/*--------------------------------------------Contact form*/
+/*------------------Contact form--------------------*/
 
 /*#header p {
     
