@@ -334,7 +334,7 @@ color: #666666;
 /*--------------------goals section-------------*/
 .goals-container {
      width: 100%;
-     margin-top: 20px;
+     margin-top: 70px;
 }
 
 .goals-block {
@@ -377,13 +377,13 @@ color: #666666;
 
 .college-container {
      width: 100%;
-     margin-top: 20px;
+     margin-top: 70px;
      background-color: #000000;
 }
 
 .crypto-container {
      width: 100%;
-     margin-top: 20px;
+     margin-top: 70px;
      background-color: #000000;
 }
 
@@ -416,7 +416,7 @@ color: #666666;
 /*--------------------Courses section-------------*/
 .courses-container {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .courses-block {
@@ -464,7 +464,7 @@ color: #666666;
 
     .coin-call-container {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 70px;
     padding-right: 0;
     padding-left: 0;
     background-image: url("/assets/images/silver.jpg");
@@ -679,8 +679,7 @@ color: #666666;
 /*-----------------------Footer--------------------*/
 .footer-container {
     width: 100%;
-    margin-top: 20px;
-    height: 200px;
+    margin-top: 70px;
     background-image: url("/assets/images/entf.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -691,7 +690,7 @@ color: #666666;
 }
 
 .footer-block {
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 5px;
     padding: 10px 10px;
 
@@ -828,6 +827,21 @@ font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993);
 }
 
+.map-ustop {
+    width: 100%;;
+    margin-top: 5px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
+.ustop-nar {
+    width: 100%;
+    height: 60px;
+    margin-top: 75px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
 .ustop-title {
 font-size: 30px;
 font-weight: bold;
@@ -882,10 +896,9 @@ color: #ffffff;
 /*-----------------------map page--------------------*/
 
 .map-container {
-    margin-top: 75px;
+    margin-top: 5px;
 }
 div #map1 {
-    /*height: 700px;*/
     min-height: 360px;
 }
 /*---------------------embed page---------------------*/
@@ -899,17 +912,7 @@ div #map1 {
     background-color: rgba(209, 161, 16, 0.993);
     color: #ffffff;
     margin-bottom: 50px;
-
-}
-/*.embed-map {
-    width: 50%;
-    height: 300px; 
-    border: 0;
-    display: block;
-    margin: 50px auto;
-}*/
-
-#newYork {
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -919,7 +922,6 @@ div #map1 {
 
 .embed-btn {
     background-color: rgba(209, 161, 16, 0.993);
-    margin-bottom: 70px;
     color: #ffffff;
 }
 
@@ -961,7 +963,6 @@ button[type="submit"] {
 
 @media screen and (max-width: 768px) {
     .footer-container {
-    height: 500px;
     background-image: url("/assets/images/ents.jpg");
     }
 .footer-block {
@@ -977,13 +978,19 @@ button[type="submit"] {
 }
 }
 @media screen and (max-width: 584px) {
- .but-whichl {
+ .but-whichl, .but-which {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 0px;
     margin-top: 60px;
     align-items: flex-end;
+}
+
+    }
+
+@media screen and (max-width: 584px) {
+ .coincourse-icon, .but-which1-icon, .map-topper-container {
+    display: none;
 }
 
     }
