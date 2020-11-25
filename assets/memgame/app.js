@@ -26,6 +26,9 @@ function flashCard() {
 
 function moveCard() {
   timerId = setInterval(flashCard, 500);
+  setTimeout(() => { clearInterval(timerId); faces.forEach((face) => {
+    face.setAttribute("src", "assets/memgame/images/back.jpg");
+  }); }, 20000);
 }
 moveCard();
 
@@ -50,7 +53,7 @@ function countDown() {
     currentTime = 60;
     clearInterval(timerId2);
   } else if (winners.length === 12) {
-       alert("Winner Claim your prize");
+       alert("Winner");
     currentTime = 60;
     clearInterval(timerId2);
   }

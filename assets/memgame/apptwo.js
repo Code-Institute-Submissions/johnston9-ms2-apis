@@ -13,6 +13,13 @@ const frontImages = [
   "assets/memgame/images/wr1.png",
   "assets/memgame/images/unicorn1.png",
 ];
+
+    function playSound() {
+          var sound = document.getElementById("audio");
+          sound.play();
+      }
+ 
+
 let faces = document.querySelectorAll(".card-front-face img");
 
 function flashImage() {
@@ -26,6 +33,9 @@ function flashCard() {
 
 function moveCard() {
   timerId = setInterval(flashCard, 500);
+  setTimeout(() => { clearInterval(timerId); faces.forEach((face) => {
+    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+  }); }, 20000);
 }
 moveCard();
 
@@ -49,8 +59,9 @@ function countDown() {
     alert("GAME OVER!");
     currentTime = 60;
     clearInterval(timerId2);
-  } else if (winners.length === 12) {
-       alert("Winner Claim your prize");
+  } else if (winners.length === 2) {
+       alert("Winner");
+       console.log(currentTime)
     currentTime = 60;
     clearInterval(timerId2);
   }
@@ -153,3 +164,4 @@ function reset() {
 }
 
 cards.forEach((card) => card.addEventListener("click", flip));
+cards.forEach((card) => card.addEventListener("click", playSound));
