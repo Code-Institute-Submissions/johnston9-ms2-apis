@@ -13,6 +13,30 @@ const frontImages = [
   "assets/memgame/images/rip1.jpg",
   "assets/memgame/images/back.jpg",
 ];
+
+/*-------sounds-----------------*/
+
+function playSoundflip() {
+  var soundflip = document.getElementById("audio-flip");
+  soundflip.play();
+}
+
+function playSoundlose() {
+  var soundlose = document.getElementById("audio-lose");
+  soundlose.play();
+}
+
+function playSoundpair() {
+  var soundpair = document.getElementById("audio-pair");
+  soundpair.play();
+}
+
+function playSoundwin() {
+  var soundwin = document.getElementById("audio-win");
+  soundwin.play();
+}
+
+/*-------/sounds-----------------*/
 let faces = document.querySelectorAll(".card-front-face img");
 
 function flashImage() {
@@ -26,16 +50,20 @@ function flashCard() {
 
 function moveCard() {
   timerId = setInterval(flashCard, 500);
-  setTimeout(() => { clearInterval(timerId); faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/back.jpg");
-  }); }, 20000);
+  setTimeout(() => {
+    clearInterval(timerId);
+    faces.forEach((face) => {
+      face.setAttribute("src", "assets/memgame/images/back.jpg");
+    });
+  }, 20000);
 }
 moveCard();
 
 /*clock*/
-let timerId2 
+let playertime;
+let timerId2;
 let clocktime = document.getElementById("clock");
-let currentTime = clocktime.textContent; 
+let currentTime = clocktime.textContent;
 let timebut = document.getElementById("time");
 timebut.addEventListener("click", startClock);
 
@@ -48,12 +76,17 @@ function countDown() {
   currentTime--;
   clocktime.textContent = currentTime;
 
-  if (currentTime === 0) { 
-    alert("GAME OVER!");
+  if (currentTime === 0) {
+    playSoundlose();
+    setTimeout(() => {
+    alert("GAME OVER!"); }, 1000);
     currentTime = 60;
     clearInterval(timerId2);
-  } else if (winners.length === 12) {
-       alert("Winner");
+  } else if (winners.length === 4) {
+      playertime = currentTime;
+      console.log(playertime)
+    /*playSoundwin();
+    alert("Winner");*/
     currentTime = 60;
     clearInterval(timerId2);
   }
@@ -64,39 +97,36 @@ function startClock() {
 }
 
 /*play*/
-winners = []
+winners = [];
 var play = document.querySelector("#play");
 play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
-  clearInterval(timerId); 
+  clearInterval(timerId);
   clocktime.style.color = "red";
   currentTime = 60;
   clearInterval(timerId2);
-  
+
   faces.forEach((face) => {
     face.setAttribute("src", "assets/memgame/images/back.jpg");
   });
 
-  /*for(let i = 0; i < winners.length; i++) {
-       win.addEventListener("click", flip)}*/
-
   winners.forEach((win) => {
-      win.addEventListener("click", flip)
-  })
+    win.addEventListener("click", flip);
+  });
   winners.forEach((win) => {
-      win.classList.remove("is-flipped");
- }) 
+    win.classList.remove("is-flipped");
+  });
 
- winners = []
-  
+  winners = [];
+
   boxes.forEach((box) => {
     let ramPos = Math.floor(Math.random() * 12);
     box.style.order = ramPos;
   });
-  
-  reset(); 
+
+  reset();
 }
 
 /*Flip*/
@@ -109,6 +139,7 @@ let cardOne, cardTwo;
 function flip() {
   if (freezeGame) return;
   if (this === cardOne) return;
+  playSoundflip();
   this.classList.add("is-flipped");
   if (!flippedCard) {
     flippedCard = true;
@@ -124,20 +155,24 @@ function flip() {
 function checkForMatch() {
   if (cardOne.dataset.name === cardTwo.dataset.name) {
     freezeCards();
+    playSoundpair();
   } else {
     unflipCards();
   }
 }
 
 function freezeCards() {
+  console.log(winners);
   cardOne.removeEventListener("click", flip);
-  winners.push(cardOne, cardTwo)
+  winners.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  if (winners.length === 12) {
-         alert("Winner! Fastest time wins Bitcoin. Go to Contact Page to send in your details.")
-    }
+  if (winners.length === 4) {
+    playSoundwin();
+    setTimeout(() => {
+    alert("Winner!"); }, 1000);
+  }
   reset();
-} 
+}
 
 function unflipCards() {
   freezeGame = true;
@@ -156,5 +191,5 @@ function reset() {
 }
 
 cards.forEach((card) => card.addEventListener("click", flip));
-
+console.log(playertime)
 

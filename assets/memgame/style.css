@@ -8,6 +8,13 @@ body {
     clear: both;
   
 }
+
+#box1 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+}
 .board {
   height: 300px;
   width: 400px;

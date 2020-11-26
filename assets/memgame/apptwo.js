@@ -14,11 +14,29 @@ const frontImages = [
   "assets/memgame/images/unicorn1.png",
 ];
 
-    function playSound() {
-          var sound = document.getElementById("audio");
-          sound.play();
-      }
- 
+/*-------sounds-----------------*/
+
+function playSoundflip1() {
+  var soundflip1 = document.getElementById("audio-flip1");
+  soundflip1.play();
+}
+
+function playSoundlose1() {
+  var soundlose1 = document.getElementById("audio-lose1");
+  soundlose1.play();
+}
+
+function playSoundpair1() {
+  var soundpair1 = document.getElementById("audio-pair1");
+  soundpair1.play();
+}
+
+function playSoundwin1() {
+  var soundwin1 = document.getElementById("audio-win1");
+  soundwin1.play();
+}
+
+/*-------/sounds-----------------*/
 
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -33,18 +51,24 @@ function flashCard() {
 
 function moveCard() {
   timerId = setInterval(flashCard, 500);
-  setTimeout(() => { clearInterval(timerId); faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
-  }); }, 20000);
+  setTimeout(() => {
+    clearInterval(timerId);
+    faces.forEach((face) => {
+      face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+    });
+  }, 20000);
 }
 moveCard();
 
 /*clock*/
-let timerId2 
+let playertime1;
+let timerId2;
 let clocktime = document.getElementById("clock");
-let currentTime = clocktime.textContent; 
+let currentTime = clocktime.textContent;
 let timebut = document.getElementById("time");
 timebut.addEventListener("click", startClock);
+let box = document.getElementById("box1")
+
 
 function startClock() {
   clocktime.style.color = "black";
@@ -55,13 +79,19 @@ function countDown() {
   currentTime--;
   clocktime.textContent = currentTime;
 
-  if (currentTime === 0) { 
-    alert("GAME OVER!");
+  if (currentTime === 0) {
+    playSoundlose1();
+    setTimeout(() => {
+    alert("GAME OVER!"); }, 1000);
     currentTime = 60;
     clearInterval(timerId2);
   } else if (winners.length === 2) {
-       alert("Winner");
-       console.log(currentTime)
+      playertime1 = currentTime;
+    playSoundwin1();
+    box.innerHTML = `Winner..your time is ${playertime1}...you number is ${Math.random()}`;
+    /*setTimeout(() => {
+    alert(`Winner..your time is ${playertime1}...you number is ${Math.random()}`); }, 1000);*/
+    console.log(playertime1)
     currentTime = 60;
     clearInterval(timerId2);
   }
@@ -71,40 +101,37 @@ function startClock() {
   timerId2 = setInterval(countDown, 1000);
 }
 
-/*play*/   
-winners = []
+/*play*/
+winners = [];
 var play = document.querySelector("#play");
 play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
-  clearInterval(timerId); 
+  clearInterval(timerId);
   clocktime.style.color = "red";
   currentTime = 60;
   clearInterval(timerId2);
-  
+
   faces.forEach((face) => {
     face.setAttribute("src", "assets/memgame/images/unicorn1.png");
   });
 
-  /*for(let i = 0; i < winners.length; i++) {
-       win.addEventListener("click", flip)}*/
-
   winners.forEach((win) => {
-      win.addEventListener("click", flip)
-  })
+    win.addEventListener("click", flip);
+  });
   winners.forEach((win) => {
-      win.classList.remove("is-flipped");
- }) 
+    win.classList.remove("is-flipped");
+  });
 
- winners = []
-  
+  winners = [];
+
   boxes.forEach((box) => {
     let ramPos = Math.floor(Math.random() * 12);
     box.style.order = ramPos;
   });
-  
-  reset(); 
+
+  reset();
 }
 
 /*Flip*/
@@ -117,6 +144,7 @@ let cardOne, cardTwo;
 function flip() {
   if (freezeGame) return;
   if (this === cardOne) return;
+  playSoundflip1();
   this.classList.add("is-flipped");
   if (!flippedCard) {
     flippedCard = true;
@@ -132,6 +160,7 @@ function flip() {
 function checkForMatch() {
   if (cardOne.dataset.name === cardTwo.dataset.name) {
     freezeCards();
+    playSoundpair1();
   } else {
     unflipCards();
   }
@@ -139,13 +168,17 @@ function checkForMatch() {
 
 function freezeCards() {
   cardOne.removeEventListener("click", flip);
-  winners.push(cardOne, cardTwo)
+  winners.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  if (winners.length === 12) {
-         alert("Winner! Fastest time wins Bitcoin. Go to Contact Page to send in your details.")
-    }
+  /*if (winners.length === 2) {
+    playSoundwin1();
+    setTimeout(() => {
+    alert(`Winner`); }, 1000);
+    currentTime = 60;
+    clearInterval(timerId2);
+  }*/
   reset();
-} 
+}
 
 function unflipCards() {
   freezeGame = true;
@@ -164,4 +197,4 @@ function reset() {
 }
 
 cards.forEach((card) => card.addEventListener("click", flip));
-cards.forEach((card) => card.addEventListener("click", playSound));
+/*cards.forEach((card) => card.addEventListener("click", playSoundflip1));*/
