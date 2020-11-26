@@ -402,7 +402,6 @@ color: #666666;
     font-size: 20px;
     margin-left: 30px;
     margin-top: 30px;
-    
 }
 
 .course-par {
@@ -420,7 +419,6 @@ color: #666666;
     font-size: 18px;
     font-weight: bold;
     color: rgba(209, 161, 16, 0.993);
-    
 }
 
 .course-link:hover {
@@ -434,14 +432,13 @@ color: #666666;
     margin-top: 70px;
     padding-right: 0;
     padding-left: 0;
-    background-image: url("/assets/images/silver.jpg");
+    background-image: url("../images/silver.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-   
 }
 
 .coin-list {
@@ -450,7 +447,7 @@ color: #666666;
     color: #ffffff;
     margin-top: 20px;
     font-family: 'Goldman', cursive;    
-    }
+}
 
 #coinbuttons {
   display: flex;
@@ -488,7 +485,6 @@ color: #666666;
 #imput1 {
     margin-top: 35px;
     margin-bottom: 15px;
-
 }
 
 #imput-text4 {
@@ -647,7 +643,7 @@ color: #666666;
 .footer-container {
     width: 100%;
     margin-top: 70px;
-    background-image: url("/assets/images/entf.jpg");
+    background-image: url("../images/entf.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
@@ -660,7 +656,6 @@ color: #666666;
     margin-top: 70px;
     margin-bottom: 5px;
     padding: 10px 10px;
-
 }
 
 .footer-par {
@@ -706,7 +701,7 @@ font-weight: bold;
     margin-top: 100px;
     padding-right: 0;
     padding-left: 0;
-    background-image: url("/assets/images/bitonl.jpg");
+    background-image: url("../images/bitonl.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
@@ -721,7 +716,7 @@ font-weight: bold;
     margin-top: 100px;
     padding-right: 0;
     padding-left: 0;
-    background-image: url("/assets/images/bit1w.jpg");
+    background-image: url("../images/bit1w.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
@@ -736,7 +731,7 @@ font-weight: bold;
     margin-top: 100px;
     padding-right: 0;
     padding-left: 0;
-    background-image: url("/assets/images/bit4.jpg");
+    background-image: url("../images/bit4.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
@@ -755,7 +750,6 @@ font-weight: bold;
 .coursefull-title2 {
     color: #ffffff;
     font-size: 16px;
-    
 }
 
 .modules {
@@ -880,7 +874,6 @@ div #map1 {
     color: #ffffff;
     margin-bottom: 50px;
     font-family: 'Merriweather', serif;
-
 }
 
 .embut-container {
@@ -894,12 +887,6 @@ div #map1 {
 
 /*------------------Contact form--------------------*/
 
-/*#header p {
-    
-    margin: 20px auto;
-}*/
-
-
 .bg-color-contact {
     background-color: #fff;
 }
@@ -909,10 +896,9 @@ div #map1 {
     margin-top: 25px;
     margin-bottom: 20px;
     color: blue;
-    
-}
+    }
 
-/*center-form */
+/*--------form------*/
 .form-group {
     padding-top: 10px;
     margin: 0 auto;
@@ -944,6 +930,7 @@ button[type="submit"] {
 
 }
 }
+
 @media screen and (max-width: 584px) {
  .but-whichl, .but-which {
     color: #ffffff;
@@ -953,7 +940,7 @@ button[type="submit"] {
     align-items: flex-end;
 }
 
-    }
+}
 
 @media screen and (max-width: 584px) {
  .coincourse-icon, .but-which1-icon, .map-topper-container {
