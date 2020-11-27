@@ -13,3 +13,12 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+var num = 123;
+let boxbit = document.getElementById("bitnum")
+document.getElementById("conbitnum").addEventListener("click", fetchbitnum);
+
+function fetchbitnum() {
+    /*boxbit.innerHTML = num*/
+    document.getElementById("message").value = "123"
+
+}
