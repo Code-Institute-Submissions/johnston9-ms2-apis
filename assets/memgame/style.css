@@ -2,19 +2,18 @@ body {
   height: 100vh;
   background: #060ab2;
 }
+
 #board-container {
     margin-top: 20px;
     display: flex;
     clear: both;
-  
 }
 
-#box1 {
-    width: 200px;
-    height: 100px;
-    background-color: yellow;
-    color: black;
+#winclick a {
+    color: #ffffff;
+    background-color: red;
 }
+
 .board {
   height: 300px;
   width: 400px;
@@ -57,7 +56,6 @@ body {
   transform: rotateY(180deg);
 }
 
-
 #play {
   background-color: red;
   height: 50px;
@@ -70,8 +68,6 @@ body {
   font-size: 26px;
 }
 
-
-
 #instructions {
     color: #ffffff;
     margin: 0 auto;
@@ -80,6 +76,25 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+#gbox1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#box1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #timer {
   float: right;
 }

@@ -887,16 +887,21 @@ div #map1 {
 
 /*------------------Contact form--------------------*/
 
-.bg-color-contact {
+#contact-bit {
+    margin-top: 50px;
     background-color: #fff;
+    color: blue;
 }
-.contact-heading {
+#entercom {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
+    font-size: 22px;
     margin-bottom: 20px;
     color: blue;
     }
+
+#messagebox {
+    color: red;
+}
 
 /*--------form------*/
 .form-group {
@@ -910,6 +915,10 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+#messagebox {
+    color: red;
 }
 
 /*-----------------------media queries--------------------*/

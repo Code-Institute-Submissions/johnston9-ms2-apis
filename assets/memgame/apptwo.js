@@ -1,4 +1,3 @@
-/*preshow*/
 const frontImages = [
   "assets/memgame/images/cw.png",
   "assets/memgame/images/unicorn1.png",
@@ -38,6 +37,8 @@ function playSoundwin1() {
 
 /*-------/sounds-----------------*/
 
+/*preshow*/
+
 let faces = document.querySelectorAll(".card-front-face img");
 
 function flashImage() {
@@ -60,15 +61,18 @@ function moveCard() {
 }
 moveCard();
 
+/*/preshow*/
+
 /*clock*/
+let wintime;
 let playertime1;
+let winnernumber1;
 let timerId2;
 let clocktime = document.getElementById("clock");
 let currentTime = clocktime.textContent;
 let timebut = document.getElementById("time");
 timebut.addEventListener("click", startClock);
-let box = document.getElementById("box1")
-
+let box = document.getElementById("gbox1")
 
 function startClock() {
   clocktime.style.color = "black";
@@ -87,18 +91,14 @@ function countDown() {
     clearInterval(timerId2);
   } else if (winners.length === 2) {
       playertime1 = currentTime;
+      let winnernumber = (Math.random()*10000).toFixed();
+      localStorage.setItem('wintime', playertime1);
+      localStorage.setItem('winnum', winnernumber)
     playSoundwin1();
-    box.innerHTML = `Winner..your time is ${playertime1}...you number is ${Math.random()}`;
-    /*setTimeout(() => {
-    alert(`Winner..your time is ${playertime1}...you number is ${Math.random()}`); }, 1000);*/
-    console.log(playertime1)
+    box.innerHTML = `Winner..your time is ${playertime1}...you number is ${winnernumber}.<spam id=winclick><a href= contact.html>Click</a></spam>  to enter competition.`;
     currentTime = 60;
     clearInterval(timerId2);
   }
-}
-function startClock() {
-  clocktime.style.color = "black";
-  timerId2 = setInterval(countDown, 1000);
 }
 
 /*play*/
@@ -197,4 +197,6 @@ function reset() {
 }
 
 cards.forEach((card) => card.addEventListener("click", flip));
-/*cards.forEach((card) => card.addEventListener("click", playSoundflip1));*/
+
+
+

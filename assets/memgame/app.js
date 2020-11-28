@@ -1,4 +1,3 @@
-/*preshow*/
 const frontImages = [
   "assets/memgame/images/bit1.jpg",
   "assets/memgame/images/back.jpg",
@@ -37,6 +36,9 @@ function playSoundwin() {
 }
 
 /*-------/sounds-----------------*/
+
+/*preshow*/
+
 let faces = document.querySelectorAll(".card-front-face img");
 
 function flashImage() {
@@ -59,13 +61,17 @@ function moveCard() {
 }
 moveCard();
 
+/*preshow*/
+
 /*clock*/
 let playertime;
+let winnernumber;
 let timerId2;
 let clocktime = document.getElementById("clock");
 let currentTime = clocktime.textContent;
 let timebut = document.getElementById("time");
-timebut.addEventListener("click", startClock);
+timebut.addEventListener("click", startClock)
+let box = document.getElementById("box1")
 
 function startClock() {
   clocktime.style.color = "black";
@@ -82,18 +88,16 @@ function countDown() {
     alert("GAME OVER!"); }, 1000);
     currentTime = 60;
     clearInterval(timerId2);
-  } else if (winners.length === 4) {
-      playertime = currentTime;
-      console.log(playertime)
-    /*playSoundwin();
-    alert("Winner");*/
+  } else if (winners.length === 2) {
+      playertime1 = currentTime;
+      let winnernumber = (Math.random()*10000).toFixed();
+      localStorage.setItem('wintime', playertime1);
+      localStorage.setItem('winnum', winnernumber)
+    playSoundwin1();
+    box.innerHTML = `Winner..your time is ${playertime1}...you number is ${winnernumber}.<spam id=winclick><a href= contact.html>Click</a></spam>  to enter competition.`;
     currentTime = 60;
     clearInterval(timerId2);
   }
-}
-function startClock() {
-  clocktime.style.color = "black";
-  timerId2 = setInterval(countDown, 1000);
 }
 
 /*play*/
@@ -166,11 +170,11 @@ function freezeCards() {
   cardOne.removeEventListener("click", flip);
   winners.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  if (winners.length === 4) {
+  /*if (winners.length === 4) {
     playSoundwin();
     setTimeout(() => {
     alert("Winner!"); }, 1000);
-  }
+  }*/
   reset();
 }
 
@@ -191,5 +195,5 @@ function reset() {
 }
 
 cards.forEach((card) => card.addEventListener("click", flip));
-console.log(playertime)
+
 
