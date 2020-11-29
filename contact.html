@@ -37,10 +37,20 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-    <script
+    <!--<script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>-->
+    <script 
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
     ></script>
+    <script
+    type="text/javascript">
+    (function() {
+    emailjs.init("user_TZnl6mBgWTUOAkmv8HKrB");
+    })();
+   </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
@@ -176,8 +186,10 @@
         <div class="col">
           <div id="contact-bit">
             <p id="entercom" class="text-center">
-              <em>If you're just entering the BitMatch competition simply fill in your name and email and hit send.</em>
+              <em>If you're just entering the BitMatch competition click <button id="conbitnum"> here</button> then fill in your name and email and hit send.</em>
             </p>
+            
+
           </div>
         </div>
       </div>

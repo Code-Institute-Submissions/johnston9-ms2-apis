@@ -35,17 +35,26 @@ The business goals are for the college to find potential students and establish 
   - #### Colour Scheme
     - The site aims to have a strong presence created using a black background with white text contrasting with a white background with black and grey text. The touches of gold and silver are to give it a sophisticated and strong flare.
   
+    <p align="center">
+<img src="documentation/readme-images/data3a.png" width="80%">
+</p>
+  
   - #### Typography
     - Roboto was chosen as the main body font for its clarity and friendly sophistication. It gives a serious but open feel to the site. Goldman was blended in with this for the main titles to give style and an exciting and ever so slightly futuristic feel.
 
   - #### Imagery
     - The landing page has a deep rich serious and sophisticated cryptocurrency image overlaying an image if the New York skyline to give immediate understanding of what the site is all about. The use of strong rich cryptocurrency images throughout the site give it an exciting dynamic feel. The interactive coin all features have a blue and silver background to give them a usable inviting feel. This lies at the heart of the site giving people this approach to cryptocurrency and not overwhelming them with data and graphs.
 
+
+  <p align="center">
+<img src="documentation/readme-images/land1.png" width="80%">
+</p>
+
 * ### Wireframes
 
   - PDF – MS2 was  created in Balsamic for the Home, Cryptocurrency, College and About sections (Reviews and Us. This was where a lot of work went into creating the landing page image and the coin call features look.
 
-- [View on Github](https://github.com/johnston9/
+- [View on Github](https://github.com/johnston9/ms2-apis)
 
 ## Features
 
@@ -59,14 +68,27 @@ The business goals are for the college to find potential students and establish 
 
     The core features are the interactive coin data boxes. They are designed to have an inviting yet simple feel encouraging people to use them and get a feel of working with data even in this manner. Even though the code running in the background is complex the features are not. 
 
+    <p align="center">
+<img src="documentation/readme-images/data1.png" width="80%">
+</p>
+    
+    
     **Bitmatch game**
 
     The site also has a game using cryptocurrency images where people can win bitcoin. It has a more fun version as well. These are there to get people to interact with the site and stay longer. 
 
+    <p align="center">
+<img src="documentation/readme-images/rbit1.png" width="60%">
+</p>
+    
     **Interactive maps**
 
     The site has two map features. One showing the college’s position in New York and its proximity to the New York Stock Exchange and the Union Square apartments. The intention to give people a real feel of where the college is and where they could be. The other map is interactive and shows places to stay and eat in New York and a real time image to take bring even closer.
 
+
+<p align="center">
+<img src="documentation/readme-images/rmap2a.png" width="80%">
+</p>
 ## Technologies Used
 
 ### Languages Used
@@ -134,7 +156,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 	
     
 <p align="center">
-<img src="documentation/readme-images/" width="50%">
+<img src="documentation/readme-images/c1.png" width="80%">
 </p>
 
 2.  As a First Time Visitor, I want to find out about what courses are on offer and what they consist of. 
@@ -145,7 +167,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/" width="50%">
+<img src="documentation/readme-images/cr1.png" width="80%">
 </p>
 
 3.  As a First Time Visitor, I want to find out about the college, to find reviews and social media links.
@@ -155,19 +177,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/" width="50%">
+<img src="documentation/readme-images/foot.png" width="80%">
 </p>
 
 #### Returning Visitor Goals
 
 1.	As a Returning Visitor, I want to be able to easily navigate throughout the site to find content and easily go between the different sections.
  
-    1.	The site has been designed to be fluid andallow the user to explore all it has to offer as easily as possible and return to the home page at any moment. There is complete interactivity between all the pages and features on the page.  
+    1.	The site has been designed to be fluid and allow the user to explore all it has to offer as easily as possible and return to the home page at any moment. There is complete interactivity between all the pages and features on the page.  
     2.  At the top of each page there is a clean navigation bar guiding the user to the different sections. 
 
 
 <p align="center">
-<img src="documentation/readme-images/ " width="50%">
+<img src="documentation/readme-images/nav " width="60%">
 </p>
 
 2.  As a Returning Visitor, I want to to get in contact with the college to find out more information about the courses and to book a course.. 
@@ -175,10 +197,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  The navigation bar clearly highlights the "Contact Us" page. 
     2.  Throughout the site there are links to the contact page and links to book.
     3.  The user is being constantly encouraged and guided to find out more all leading them to the contact page. Here they will find a message saying to fill in their details to book or to have someone contact them back to answer their questions.
-   
+    4.  If they have played and won Bitmatch they can click a box to pass their winner time and number into the message box to enter the competition.
  
 <p align="center">
-<img src="documentation/readme-images/ " width="50%">
+<img src="documentation/readme-images/com1.png " width="70%">
 </p>
 
 3.  As a Returning Visitor, I want to examine the courses in detail. 
@@ -186,7 +208,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  The user can easily click on any of the many links to the courses page and go through each course and it’s modules in detail.   
 
 <p align="center">
-<img src="documentation/readme-images/ " width="50%">
+<img src="documentation/readme-images/cor1.png " width="60%">
 </p>
 
 #### Frequent User Goals
@@ -197,7 +219,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/ " width="50%">
+<img src="documentation/readme-images/data3.png " width="50%">
 </p>
 
 2.  As a Frequent User, I want to log in to the site to continue my online course.
@@ -206,7 +228,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/ width="50%">
+<img src="documentation/readme-images/log1.png width="50%">
 </p>
 
 3.  As a Frequent User, I want to play the Bitcoin game.

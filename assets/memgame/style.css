@@ -68,6 +68,18 @@ body {
   font-size: 26px;
 }
 
+#play1 {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+}
+
 #instructions {
     color: #ffffff;
     margin: 0 auto;
@@ -77,6 +89,35 @@ body {
     margin-bottom: 40px;
 }
 
+#instructions1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#straightback {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#straightback a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#straightback a {
+    color: red;
+    text-decoration: none;
+}
+
 #gbox1 {
     color: #ffffff;
     margin: 0 auto;
@@ -84,7 +125,7 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} 
 
 #box1 {
     color: #ffffff;
@@ -98,6 +139,11 @@ body {
 #timer {
   float: right;
 }
+
+#timer1 {
+  float: right;
+}
+
 #time {
   background-color: red;
   height: 50px;
@@ -108,7 +154,30 @@ body {
   color: black;
   font-size: 26px;
 }
+
+#time1 {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 0px;
+  color: black;
+  font-size: 26px;
+}
+
 #clock {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 25px;
+  border-radius: 25px;
+  color: red;
+}
+
+#clock1 {
   background-color: red;
   height: 50px;
   width: 50px;
@@ -130,7 +199,36 @@ body {
   font-size: 26px;
   margin-top: 20px;
 }
+
+#back1 {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
 #hard {
+  background-color: red;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  margin: 0;
+   margin-top: 20px;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+  float: right;
+}
+
+#hard1 {
   background-color: red;
   height: 50px;
   width: 150px;
@@ -158,7 +256,27 @@ body {
   font-size: 26px;
   float: right;
 }
+
+#easy1 {
+    background-color: red;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  margin: 0;
+   margin-top: 20px;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+  float: right;
+}
 #hard a {
+    color: black;
+    text-decoration: none
+}
+
+#hard1 a {
     color: black;
     text-decoration: none
 }
@@ -166,7 +284,17 @@ body {
     color: black;
     text-decoration: none
 }
+
+#back1 a {
+    color: black;
+    text-decoration: none
+}
 #easy a {
+    color: black;
+    text-decoration: none
+}
+
+#easy1 a {
     color: black;
     text-decoration: none
 }

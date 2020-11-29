@@ -901,6 +901,14 @@ div #map1 {
     color: blue;
     }
 
+#conbitnum {
+    color: red;
+    background-color: #ffffff;
+}
+
+#conbitnum:hover {
+    color: #000000;
+}
 #messagebox {
     color: red;
 }
@@ -926,7 +934,11 @@ button[type="submit"] {
 /*-----------------------media queries--------------------*/
 
 @media screen and (max-width: 768px) {
-    .footer-container {
+    #title {
+display: none;
+}
+
+.footer-container {
     background-image: url("/assets/images/ents.jpg");
 }
 

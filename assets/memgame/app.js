@@ -89,12 +89,12 @@ function countDown() {
     currentTime = 60;
     clearInterval(timerId2);
   } else if (winners.length === 2) {
-      playertime1 = currentTime;
+      playertime = currentTime;
       let winnernumber = (Math.random()*10000).toFixed();
-      localStorage.setItem('wintime', playertime1);
-      localStorage.setItem('winnum', winnernumber)
-    playSoundwin1();
-    box.innerHTML = `Winner..your time is ${playertime1}...you number is ${winnernumber}.<spam id=winclick><a href= contact.html>Click</a></spam>  to enter competition.`;
+      localStorage.setItem('wintime', playertime);
+      localStorage.setItem('winnum', winnernumber);
+    playSoundwin();
+    box.innerHTML = `Winner..your time is ${playertime}...you number is ${winnernumber}.<spam id=winclick><a href= contact.html>Click</a></spam>  to enter competition.`;
     currentTime = 60;
     clearInterval(timerId2);
   }
@@ -107,6 +107,7 @@ play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
+    box.innerHTML = ""
   clearInterval(timerId);
   clocktime.style.color = "red";
   currentTime = 60;
@@ -166,14 +167,13 @@ function checkForMatch() {
 }
 
 function freezeCards() {
-  console.log(winners);
   cardOne.removeEventListener("click", flip);
   winners.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  /*if (winners.length === 4) {
-    playSoundwin();
-    setTimeout(() => {
-    alert("Winner!"); }, 1000);
+  /*if (winners.length === 2) {
+    playSoundwin(); 
+    currentTime = 60;
+    clearInterval(timerId2);
   }*/
   reset();
 }

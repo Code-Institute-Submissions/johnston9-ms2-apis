@@ -18,13 +18,12 @@ function sendMail(contactForm) {
 
 /*$("#winner").html(`<p id="message">BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}</p>`)*/
 
-document.getElementById("message").innerHTML =`BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`
+/*document.getElementById("message").innerHTML =`BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`*/
 
-/*document.getElementById("conbitnum").addEventListener("click", fetchbitnum);
+document.getElementById("conbitnum").addEventListener("click", fetchbitnum);
 
 function fetchbitnum() {
-    //document.getElementById("message").value = localStorage.getItem('wintime');
+    document.getElementById("message").innerHTML = `BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`
     
-
-}*/
+}
 
