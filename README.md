@@ -2,7 +2,7 @@
 
 [View the project live here.](https://johnston9.github.io/ms2-apis/)
 
-This is the website for the New York Crypto College. Its main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
+This is the website for the New York Crypto College. It's main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
 <h2 align="center"><img src="documentation/readme-images/"></h2>
 
 ## User Experience (UX)
