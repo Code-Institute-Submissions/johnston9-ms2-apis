@@ -289,7 +289,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Medium]( https://medium.com/@khaledhassan45/how-to-make-a-simple-matching-game-using-vanilla-js-css-9ace9cd128f6): Here I began learning how to make a matching game.
 
-- [freeCodeCamp]( https://marina-ferreira.github.io/tutorials/js/memory-game/): The match card, unflip card, flip card and freeze functions from the Bitmatch game are bases on functions from this game. Here I learned the invaluable use of Boolean. After trying to build a game using other methods the simplicity and power of using Boolean as she did in her game seemed the most elegant way to go so I based my functions on those. The bulk of the game I designed myself.
+- [freeCodeCamp]( https://marina-ferreira.github.io/tutorials/js/memory-game/): The match card, unflip card, and freeze functions from the Bitmatch game are based on functions from this game. Here I learned the simplicity and power of using Boolean. 
 
 - [Ania-Kubov]( https://www.youtube.com/watch?v=tjyDOHzKN0w&ab_channel=CodewithAniaKub%C3%B3w%23JavaScriptGames): I got inspiration for my pre-game card flashing images from her Whack-a- Mole game and the use of random numbers.
 
