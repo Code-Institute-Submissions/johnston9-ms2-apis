@@ -37,7 +37,7 @@ The business goals are for the college to find potential students and establish 
     - The site aims to have a strong presence created using a black background with white text contrasting with a white background with black and grey text. The touches of gold and silver are to give it a sophisticated and strong flare.
 
 <p align="center">
-<img src="documentation/readme-images/data3a.png" width="90%">
+<img src="documentation/readme-images/data3.png" width="90%">
 </p>
   
   - #### Typography
@@ -47,7 +47,7 @@ The business goals are for the college to find potential students and establish 
   - The landing page has a deep rich serious and sophisticated cryptocurrency image overlaying an image if the New York skyline to give immediate understanding of what the site is all about. The use of strong rich cryptocurrency images throughout the site give it an exciting dynamic feel. The interactive coin all features have a blue and silver background to give them a usable inviting feel. This lies at the heart of the site giving people this approach to cryptocurrency and not overwhelming them with data and graphs.
 
 <p align="center">
-<img src="documentation/readme-images/land1.png" width="90%">
+<img src="documentation/readme-images/log1.png" width="90%">
 </p>
 
 - #### Wireframes
