@@ -80,8 +80,7 @@ in the background is complex the features are not.
 #### Bitmatch game
 
 The site also has a game using cryptocurrency images where people 
-can win bitcoin. It has a more fun version as well. These are 
-there to get people to interact with the site and stay longer.
+can win bitcoin. It has a more fun version as well. 
 
 <p align="center">
 <img src="documentation/readme-images/rbit1.png" width="60%">
@@ -133,7 +132,8 @@ eat in New York and a real time image to take bring even closer.
    - Gauger was used to create the favicon icon.
 1. [img-resize.com](https://img-resize.com/):
    - Img-resize was used to resize the game card images.
-
+1. [Am-I-Responsive](http://ami.responsivedesign.is/):
+   - Am I Responsive was used to get the responsive sizing landing page image.
 ### APIs used
 
 1.  [Coingecko](https://www.coingecko.com/api/)
