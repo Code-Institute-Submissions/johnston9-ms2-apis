@@ -37,7 +37,7 @@ The business goals are for the college to find potential students and establish 
     - The site aims to have a strong presence created using a black background with white text contrasting with a white background with black and grey text. The touches of gold and silver are to give it a sophisticated and strong flare.
 
 <p align="center">
-<img src="documentation/readme-images/data3a.png" width="80%">
+<img src="documentation/readme-images/data3a.png" width="90%">
 </p>
   
   - #### Typography
@@ -47,7 +47,7 @@ The business goals are for the college to find potential students and establish 
   - The landing page has a deep rich serious and sophisticated cryptocurrency image overlaying an image if the New York skyline to give immediate understanding of what the site is all about. The use of strong rich cryptocurrency images throughout the site give it an exciting dynamic feel. The interactive coin all features have a blue and silver background to give them a usable inviting feel. This lies at the heart of the site giving people this approach to cryptocurrency and not overwhelming them with data and graphs.
 
 <p align="center">
-<img src="documentation/readme-images/land1.png" width="80%">
+<img src="documentation/readme-images/land1.png" width="90%">
 </p>
 
 - #### Wireframes
@@ -73,17 +73,20 @@ with data even in this manner. Even though the code running
 in the background is complex the features are not.
 
 <p align="center">
-<img src="documentation/readme-images/data3.png" width="80%">
+<img src="documentation/readme-images/data3.png" width="90%">
 </p>
     
     
 #### Bitmatch game
 
 The site also has a game using cryptocurrency images where people 
-can win bitcoin. It has a more fun version as well. 
+can win bitcoin. It has a more fun version as well. On winning their 
+playertime number and winner number appear with a link that takes them
+to the contact page where they can click again to add their numbers
+to the message box .
 
 <p align="center">
-<img src="documentation/readme-images/rbit1.png" width="60%">
+<img src="documentation/readme-images/game3.png" width="90%">
 </p>
 
 
@@ -97,7 +100,7 @@ The other map is interactive and shows places to stay and
 eat in New York and a real time image to take bring even closer.
 
 <p align="center">
-<img src="documentation/readme-images/rmap2a.png" width="80%">
+<img src="documentation/readme-images/rmap2a.png" width="90%">
 </p>
 
 ## Technologies Used
@@ -166,7 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3. Throughout the site and in the navbar there are also links to take the user to the cryptocurrency page.
 
 <p align="center">
-<img src="documentation/readme-images/c1.png" width="80%">
+<img src="documentation/readme-images/c1.png" width="90%">
 </p>
 
 2.  As a First Time Visitor, I want to find out about what courses are on offer and what they consist of.
@@ -176,7 +179,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3. Throughout the site and in the navbar there are also links to take the user to the courses page.
 
 <p align="center">
-<img src="documentation/readme-images/cr1.png" width="80%">
+<img src="documentation/readme-images/cr1.png" width="90%">
 </p>
 
 3.  As a First Time Visitor, I want to find out about the college, to find reviews and social media links.
@@ -185,7 +188,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. The user will see clearly see the social media links in the footer on the bottom of any page on the site. They will also find another set of links to the reviews and testimonials.
 
 <p align="center">
-<img src="documentation/readme-images/foot.png" width="80%">
+<img src="documentation/readme-images/foot.png" width="90%">
 </p>
 
 #### Returning Visitor Goals
@@ -196,18 +199,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    2. At the top of each page there is a clean navigation bar guiding the user to the different sections.
 
 <p align="center">
-<img src="documentation/readme-images/nav.png" width="60%">
+<img src="documentation/readme-images/nav.png" width="90%">
 </p>
 
 2.  As a Returning Visitor, I want to to get in contact with the college to find out more information about the courses and to book a course..
-
+ 
     1.  The navigation bar clearly highlights the "Contact Us" page.
     2.  Throughout the site there are links to the contact page and links to book.
     3.  The user is being constantly encouraged and guided to find out more all leading them to the contact page. Here they will find a message saying to fill in their details to book or to have someone contact them back to answer their questions.
     4.  If they have played and won Bitmatch they can click a box to pass their winner time and number into the message box to enter the competition.
 
 <p align="center">
-<img src="documentation/readme-images/con1.png" width="70%">
+<img src="documentation/readme-images/con2.png" width="90%">
 </p>
 
 3.  As a Returning Visitor, I want to examine the courses in detail.
@@ -215,7 +218,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  The user can easily click on any of the many links to the courses page and go through each course and it’s modules in detail.
 
 <p align="center">
-<img src="documentation/readme-images/cor1.png " width="60%">
+<img src="documentation/readme-images/cor1.png " width="90%">
 </p>
 
 #### Frequent User Goals
@@ -225,7 +228,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    1. The user would already be comfortable with the website layout and can easily locate where they are displayed.
 
 <p align="center">
-<img src="documentation/readme-images/data3.png " width="50%">
+<img src="documentation/readme-images/data3.png " width="90%">
 </p>
 
 2.  As a Frequent User, I want to log in to the site to continue my online course.
@@ -233,7 +236,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  The sign button is at the top when they land on the site.
 
 <p align="center">
-<img src="documentation/readme-images/log1.png" width="50%">
+<img src="documentation/readme-images/log1.png" width="90%">
 </p>
 
 3.  As a Frequent User, I want to play the Bitcoin game.
@@ -241,7 +244,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  The Bitcoin link is at the top when they land on the site.
 
 <p align="center">
-<img src="documentation/readme-images/bitmatch2.png" width="50%">
+<img src="documentation/readme-images/game.png" width="90%">
 </p>
 
 ### Further Testing

@@ -1,6 +1,17 @@
 body {
   height: 100vh;
-  background: #060ab2;
+  background-color: #000000;
+  /*background-image: url("images/grey.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+p {
+    color:  #ffffff;
 }
 
 #board-container {
@@ -10,8 +21,11 @@ body {
 }
 
 #winclick a {
-    color: #ffffff;
-    background-color: red;
+    color: red;
+}
+
+#winclick a:hover {
+    color: rgb(119, 9, 9);
 }
 
 .board {
@@ -99,8 +113,6 @@ body {
 }
 
 #straightback {
-    background-color: #ffffff;
-    width: 300px;
     margin: 0 auto;
     font-size: 26px;
     text-align: center;
