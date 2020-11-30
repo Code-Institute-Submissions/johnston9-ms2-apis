@@ -3,7 +3,7 @@
 [View the project live here.](https://johnston9.github.io/ms2-apis/)
 
 This is the website for the New York Crypto College. It's main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
-<h2 align="center"><img src="documentation/readme-images/"></h2>
+<h2 align="center"><img src="documentation/readme-images/resland.png"></h2>
 
 ## User Experience (UX)
 
@@ -35,7 +35,7 @@ The business goals are for the college to find potential students and establish 
   - #### Colour Scheme
     - The site aims to have a strong presence created using a black background with white text contrasting with a white background with black and grey text. The touches of gold and silver are to give it a sophisticated and strong flare.
   
-    <p align="center">
+     <p align="center">
 <img src="documentation/readme-images/data3a.png" width="80%">
 </p>
   
@@ -50,7 +50,7 @@ The business goals are for the college to find potential students and establish 
 <img src="documentation/readme-images/land1.png" width="80%">
 </p>
 
-* ### Wireframes
+ - #### Wireframes
 
   - PDF – MS2 was  created in Balsamic for the Home, Cryptocurrency, College and About sections (Reviews and Us. This was where a lot of work went into creating the landing page image and the coin call features look.
 
@@ -60,35 +60,41 @@ The business goals are for the college to find potential students and establish 
 
 ### Existing Features
 
-    **Responsive Design**
+#### Responsive Design
 
-    The site is responsive to all sizes and the images remain whole and in proportion at all sizes.
+    - The site is responsive to all sizes and the images remain whole and in proportion at all sizes.
 
-    **Interactive cryptocurrency data fields**
+#### Interactive cryptocurrency data fields
 
-    The core features are the interactive coin data boxes. They are designed to have an inviting yet simple feel encouraging people to use them and get a feel of working with data even in this manner. Even though the code running in the background is complex the features are not. 
+    - The core features are the interactive coin data boxes. They are designed to have an inviting yet simple feel encouraging people to use them and get a feel of working with data even in this manner. Even though the code running in the background is complex the features are not. 
 
-    <p align="center">
-<img src="documentation/readme-images/data1.png" width="80%">
+
+<p align="center">
+<img src="documentation/readme-images/land1.png" width="80%">
 </p>
     
     
-    **Bitmatch game**
+#### Bitmatch game
 
-    The site also has a game using cryptocurrency images where people can win bitcoin. It has a more fun version as well. These are there to get people to interact with the site and stay longer. 
+    - The site also has a game using cryptocurrency images where people can win bitcoin. It has a more fun version as well. These are there to get people to interact with the site and stay longer. 
 
-    <p align="center">
+
+<p align="center">
 <img src="documentation/readme-images/rbit1.png" width="60%">
 </p>
     
-    **Interactive maps**
 
-    The site has two map features. One showing the college’s position in New York and its proximity to the New York Stock Exchange and the Union Square apartments. The intention to give people a real feel of where the college is and where they could be. The other map is interactive and shows places to stay and eat in New York and a real time image to take bring even closer.
+### Interactive maps
+
+    - The site has two map features. One showing the college’s position in New York and its proximity to the New York Stock Exchange and the Union Square apartments. The intention to give people a real feel of where the college is and where they could be. The other map is interactive and shows places to stay and eat in New York and a real time image to take bring even closer.
 
 
 <p align="center">
 <img src="documentation/readme-images/rmap2a.png" width="80%">
 </p>
+
+
+
 ## Technologies Used
 
 ### Languages Used
@@ -189,7 +195,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/nav " width="60%">
+<img src="documentation/readme-images/nav.png" width="60%">
 </p>
 
 2.  As a Returning Visitor, I want to to get in contact with the college to find out more information about the courses and to book a course.. 
@@ -200,7 +206,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     4.  If they have played and won Bitmatch they can click a box to pass their winner time and number into the message box to enter the competition.
  
 <p align="center">
-<img src="documentation/readme-images/com1.png " width="70%">
+<img src="documentation/readme-images/com1.png" width="70%">
 </p>
 
 3.  As a Returning Visitor, I want to examine the courses in detail. 
@@ -237,7 +243,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 <p align="center">
-<img src="documentation/readme-images/ " width="50%">
+<img src="documentation/readme-images/bitmatch1.png" width="50%">
 </p>
 
 ### Further Testing
