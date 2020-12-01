@@ -487,6 +487,7 @@ color: #666666;
 
     .coin-call-container {
     width: 90%;
+    margin-top: 70px;
     padding-right: 0;
     padding-left: 0; 
     background-image: url("../images/silver.jpg");
@@ -548,6 +549,8 @@ color: #666666;
     width: 80%;
     margin-top: 100px;
     margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 .imput-text {
     font-size: 20px; 
@@ -1033,12 +1036,12 @@ button[type="submit"] {
 display: none;
 }
 
-/*.footer-container {
-    background-image: url("/assets/images/ents.jpg");
-}*/
+.footer-container {
+    background-image: url("/assets/images/ents1.jpg");
+}
 
-.coin-call-container {
-    background-color: #ffffff;
+.coin-call-container { 
+    background-image: url("/assets/images/silver-small.jpg");
 }
 
 .footer-block {
