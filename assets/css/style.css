@@ -190,7 +190,7 @@ color: #666666;
 
 #bitMatch-alert {
     width: 100%;
-    background-color: #232b2b;
+    background-color: #353839;
     color: #ffffff;
     font-weight: bold;
     position: relative;
@@ -312,6 +312,8 @@ color: #666666;
     animation-name: small-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @keyframes small-zoom {
@@ -387,25 +389,25 @@ color: #666666;
 /*--------------------college and crypto sections-------------*/
 
 .college-container {
-     width: 90%;
+     width: 80%;
      margin-top: 20px;
      background-color: #232b2b;
 }
 
 .crypto1-container {
-     width: 90%;
+     width: 80%;
      margin-top: 20px;
      background-color: #232b2b;
 }
 
 .crypto-container {
-     width: 90%;
+     width: 80%;
      margin-top: 50px;
-     background-color: #232b2b;
+     background-color: #353839;
 }
 
 .briefs {
-    padding: 70px;
+    padding: 70px 70px 20px 70px;
     width: 80%;
 }
 
@@ -425,7 +427,7 @@ color: #666666;
 
 .explore {
     margin-top: 50px;
-    color: rgba(209, 161, 16, 0.993);
+    color: #fafafa;
     padding-left: 30px;
     font-family: 'Goldman', cursive;
     font-style: italic;
@@ -441,7 +443,7 @@ color: #666666;
 
 /*--------------------Courses section-------------*/
 .courses-container {
-    width: 90%;
+    width: 80%;
     margin-top: 40px;
 }
 
@@ -450,15 +452,13 @@ color: #666666;
 }
 
 .course-img {
-    width: 90%;
-    margin-left: 30px;
+    width: 100%;
 }
 
 .course-title {
     color: #232b2b;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -466,12 +466,10 @@ color: #666666;
     padding-right: 50px;
     padding-top: 10px;
     font-size: 16px;
-    margin-left: 30px;
     margin-top: 30px;
 }
 
 .course-link {
-    margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 20px;  
     font-size: 18px;
@@ -545,8 +543,8 @@ color: #666666;
 }
 
 .exchanges {
-    background-color: #232b2b;
-    width: 80%;
+    background-color: #3b444b;
+    width: 76%;
     margin-top: 100px;
     margin-bottom: 70px;
     padding-left: 30px;
@@ -570,7 +568,6 @@ color: #666666;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    background-color: #232b2b;
 }
 
 .exchanges #coin-data {
@@ -637,8 +634,9 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #fafafa;
-	background-color: rgba(209, 161, 16, 0.993);
+	color: rgba(209, 161, 16, 0.993);
+	background-color: #fafafa;
+    font-weight: bold;
     border-radius: 5px;
 }
 
@@ -647,8 +645,9 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #fafafa;
-	background-color: rgba(209, 161, 16, 0.993);
+	color: rgba(209, 161, 16, 0.993);
+	background-color: #fafafa;
+    font-weight: bold;
     border-radius: 5px;
 }
 
@@ -657,8 +656,9 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #fafafa;
-	background-color: rgba(209, 161, 16, 0.993);
+	color: rgba(209, 161, 16, 0.993);
+	background-color: #fafafa;
+    font-weight: bold;
     border-radius: 5px;
 }
 
@@ -667,23 +667,11 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #fafafa;
-	background-color: rgba(209, 161, 16, 0.993);
+	color: rgba(209, 161, 16, 0.993);
+	background-color: #fafafa;
+    font-weight: bold;
     border-radius: 5px;
 }
-
-/*.but-which a {
-    color: #fafafa
-}
-
-.but-which {
-    color: #fafafa;
-    margin-left: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 60px;
-    align-items: flex-end;
-}*/
 
 .but-whichl {
     color: #fafafa;
@@ -993,6 +981,18 @@ button[type="submit"] {
 
 /*-----------------------media queries--------------------*/
 
+@media screen and (max-width: 584px) {
+    .exchanges #coin-data, .exchanges #coin-data2, #coin-data4, 
+.exchanges input[type=text], .exchanges #coinfetch,
+.exchanges #coinfetch2, .exchanges #clear, .exchanges #clear2 {
+    width: 80px; 
+}
+.exchanges input[type=text] {
+    padding: 2px 4px;
+}
+
+
+
 @media screen and (max-width: 350px)  {
     .footer-block {
     padding: 5px 5px;}
@@ -1013,6 +1013,13 @@ button[type="submit"] {
 .coincourse-icon, .map-topper-container {
     display: none;
 }
+
+#book {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
  
 }
 
@@ -1027,6 +1034,14 @@ button[type="submit"] {
     font-size: 12px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#head {
+    font-size: 22px;
+}
+
+#headsmall {
+    font-size: 14px;
 }
 
 }
