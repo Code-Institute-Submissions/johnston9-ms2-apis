@@ -1,13 +1,10 @@
 body {
   height: 100vh;
-  background-color: #000000;
-  /*background-image: url("images/grey.png");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
+}
+
+.game-container {
+    background-color: #000000;
+    width: 90%;
 }
 
 p {
