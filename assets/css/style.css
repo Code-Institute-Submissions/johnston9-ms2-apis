@@ -341,17 +341,17 @@ color: #666666;
 /*--------------------goals section-------------*/
 .goals-container {
      width: 90%;
-     margin-top: 70px;
+     margin-top: 40px;
 }
 
 .goals-block {
   border-right: 2px solid #777777;  
-  padding: 20px 70px 70px 70px;
+  padding: 20px 70px 0px 70px;
 }
 
 .goals-block3 {
     border-right: 0px;
-    padding: 20px 70px 70px 70px;
+    padding: 20px 70px 0px 70px;
 }
 
 .goals-title {
@@ -372,8 +372,7 @@ color: #666666;
     font-size: 18px;
     font-weight: bold;
     color: rgba(209, 161, 16, 0.993);
-    margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .goals-link:hover {
@@ -393,9 +392,15 @@ color: #666666;
      background-color: #232b2b;
 }
 
-.crypto-container {
+.crypto1-container {
      width: 90%;
      margin-top: 20px;
+     background-color: #232b2b;
+}
+
+.crypto-container {
+     width: 90%;
+     margin-top: 50px;
      background-color: #232b2b;
 }
 
@@ -420,9 +425,10 @@ color: #666666;
 
 .explore {
     margin-top: 50px;
-    color: #fafafa;
+    color: rgba(209, 161, 16, 0.993);
     padding-left: 30px;
     font-family: 'Goldman', cursive;
+    font-style: italic;
 }
 
 .riddles {
@@ -436,7 +442,7 @@ color: #666666;
 /*--------------------Courses section-------------*/
 .courses-container {
     width: 90%;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .courses-block {
@@ -497,9 +503,25 @@ color: #666666;
 .coin-list {
     font-size: 26px;
     font-weight: bold;
-    color: #ffffff;
+    color: rgba(209, 161, 16, 0.993);
     margin-top: 20px;
     font-family: 'Goldman', cursive;    
+}
+
+.top-coins {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fafafa;
+    margin-top: 20px;
+    font-family: 'Goldman', cursive; 
+}
+
+.top-ex {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(209, 161, 16, 0.993);
+    margin-top: 20px;
+    font-family: 'Goldman', cursive; 
 }
 
 #coinbuttons {
@@ -510,8 +532,7 @@ color: #666666;
 .coinbutton {
     font-size: 26px;
     font-weight: bold;
-    color: #232b2b;
-    margin-top: 20px;
+    color: rgba(209, 161, 16, 0.993);
     font-family: 'Goldman', cursive; 
     background-color: hsla(120, 100%, 50%, 0);
 }
@@ -520,7 +541,6 @@ color: #666666;
     font-size: 26px;
     font-weight: bold;
     color: #fafafa;
-    background-color: #232b2b;
 }
 
 .exchanges {
@@ -534,7 +554,6 @@ color: #666666;
     color: #fafafa;;
     margin-bottom: 5px;
     font-weight: bold;
-    background-color: #232b2b;
 }
 
 #imput1 {
@@ -557,7 +576,7 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #000000;
     font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993);
@@ -570,7 +589,7 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #000000;
     font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993);
@@ -581,7 +600,7 @@ color: #666666;
     padding: 2px 20px;
     height: 30px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #000000;
     font-weight: bold;
     border: 2px solid rgba(209, 161, 16, 0.993);
@@ -604,7 +623,7 @@ color: #666666;
     width: 100px;
   border: 2px solid rgba(209, 161, 16, 0.993);
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #fafafa;
   color: #000000;
   font-weight: bold;
 
@@ -615,7 +634,7 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #ffffff;
+	color: #fafafa;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
 }
@@ -625,7 +644,7 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #ffffff;
+	color: #fafafa;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
 }
@@ -635,7 +654,7 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #ffffff;
+	color: #fafafa;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
 }
@@ -645,26 +664,26 @@ color: #666666;
     margin-bottom: 20px;
     height: 30px;
     width: 100px;
-	color: #ffffff;
+	color: #fafafa;
 	background-color: rgba(209, 161, 16, 0.993);
     border-radius: 5px;
 }
 
-.but-which a {
+/*.but-which a {
     color: #fafafa
 }
 
 .but-which {
-    color: #ffffff;
+    color: #fafafa;
     margin-left: 30px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 60px;
     align-items: flex-end;
-}
+}*/
 
 .but-whichl {
-    color: #fff;
+    color: #fafafa;
     font-size: 26px;
     font-weight: bold;
      margin-left: 50px;
@@ -673,7 +692,7 @@ color: #666666;
 }
 
 .coincourse {
- color: #ffffff;
+ color: #fafafa;
     font-size: 26px;
     font-weight: bold;   
 }  
@@ -683,7 +702,7 @@ color: #666666;
 }
 
 .but-whichl a {
-    color: #fff;
+    color: #fafafa;
     font-size: 26px;
     font-weight: bold; 
 }
@@ -701,7 +720,7 @@ color: #666666;
 /*-----------------------Footer--------------------*/
 .footer-container {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     background-image: url("../images/entf2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -895,7 +914,7 @@ padding-right: 100px;
 /*-----------------------map page--------------------*/
 
 .map-container {
-    margin-top: 5px;
+    margin-top: 50px;
 }
 div #map1 {
     min-height: 360px;
@@ -1026,6 +1045,10 @@ display: none;
     font-size: 16px;
     font-weight: bold;
     
+}
+
+.briefs {
+    padding: 20px;
 }
  
 }
