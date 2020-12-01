@@ -845,6 +845,8 @@ font-weight: bold;
 letter-spacing: 2px;
 font-family: 'Goldman', cursive;
 color: #ffffff;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .about-title {
@@ -933,6 +935,8 @@ div #map1 {
     font-size: 22px;
     margin-bottom: 20px;
     color: blue;
+    padding-left: 100px;
+    padding-right: 100px;
     }
 
 #conbitnum {
@@ -1023,8 +1027,41 @@ display: none;
     font-weight: bold;
     
 }
+ 
+}
+
+@media screen and (max-width: 1000px) {
+ .ustop-title {
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#entercom {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 }
+
+@media screen and (max-width: 700px) {
+ .ustop-title {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#entercom {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+}
+
+
+
 
 @media screen and (max-width: 584px) {
  .coincourse-icon, .map-topper-container {
