@@ -57,6 +57,44 @@ hr.usend {
   width: 100%;
 }
 
+
+/*-----grey breaks------*/
+
+.ustop {
+    width: 100%;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
+.map-ustop {
+    width: 100%;;
+    margin-top: 5px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ustop-nar {
+    width: 100%;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
 /*----------------------Navlogo section----------------------*/
 
 .navlogo-container {
@@ -152,7 +190,7 @@ color: #666666;
 
 #bitMatch-alert {
     width: 100%;
-    background-color: #000000;
+    background-color: #232b2b;
     color: #ffffff;
     font-weight: bold;
     position: relative;
@@ -302,7 +340,7 @@ color: #666666;
 
 /*--------------------goals section-------------*/
 .goals-container {
-     width: 100%;
+     width: 90%;
      margin-top: 70px;
 }
 
@@ -311,10 +349,15 @@ color: #666666;
   padding: 20px 70px 70px 70px;
 }
 
+.goals-block3 {
+    border-right: 0px;
+    padding: 20px 70px 70px 70px;
+}
+
 .goals-title {
     font-weight: bold;
     font-size: 20px;
-    color: #000000;
+    color: #232b2b;
     margin-bottom: 30px;
 
 }
@@ -345,33 +388,41 @@ color: #666666;
 /*--------------------college and crypto sections-------------*/
 
 .college-container {
-     width: 100%;
-     margin-top: 70px;
-     background-color: #000000;
+     width: 90%;
+     margin-top: 20px;
+     background-color: #232b2b;
 }
 
 .crypto-container {
-     width: 100%;
-     margin-top: 70px;
-     background-color: #000000;
+     width: 90%;
+     margin-top: 20px;
+     background-color: #232b2b;
 }
 
 .briefs {
     padding: 70px;
+    width: 80%;
 }
 
 .briefs-title {
-    color: #ffffff;
+    color: #fafafa;
     margin-top: 20px;
     padding-left: 30px;
     font-family: 'Goldman', cursive;
 }
 
 .briefs-par {
-    color: #ffffff;
+    color: #fafafa;
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.explore {
+    margin-top: 50px;
+    color: #fafafa;
+    padding-left: 30px;
+    font-family: 'Goldman', cursive;
 }
 
 .riddles {
@@ -384,7 +435,7 @@ color: #666666;
 
 /*--------------------Courses section-------------*/
 .courses-container {
-    width: 100%;
+    width: 90%;
     margin-top: 70px;
 }
 
@@ -393,13 +444,12 @@ color: #666666;
 }
 
 .course-img {
-    height: 150px;
     width: 90%;
     margin-left: 30px;
 }
 
 .course-title {
-    color: #000000;
+    color: #232b2b;
     font-weight: bold;
     font-size: 20px;
     margin-left: 30px;
@@ -424,16 +474,15 @@ color: #666666;
 }
 
 .course-link:hover {
-    color: #000000;
+    color: #232b2b;
 }
 
 /*--------------------coin-call section-------------*/
 
     .coin-call-container {
-    width: 100%;
-    margin-top: 70px;
+    width: 90%;
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 0; 
     background-image: url("../images/silver.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -441,6 +490,8 @@ color: #666666;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 .coin-list {
@@ -459,7 +510,7 @@ color: #666666;
 .coinbutton {
     font-size: 26px;
     font-weight: bold;
-    color: #ffffff;
+    color: #232b2b;
     margin-top: 20px;
     font-family: 'Goldman', cursive; 
     background-color: hsla(120, 100%, 50%, 0);
@@ -468,20 +519,22 @@ color: #666666;
 .extitle {
     font-size: 26px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fafafa;
+    background-color: #232b2b;
 }
 
 .exchanges {
-    background-color: #000000;
+    background-color: #232b2b;
     width: 80%;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
-
 .imput-text {
     font-size: 20px; 
-    color: #ffffff;;
+    color: #fafafa;;
     margin-bottom: 5px;
     font-weight: bold;
-    background-color: #000000;
+    background-color: #232b2b;
 }
 
 #imput1 {
@@ -491,11 +544,11 @@ color: #666666;
 
 #imput-text4 {
     font-size: 20px; 
-    color: #ffffff;;
+    color: #fafafa;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    background-color: #000000;
+    background-color: #232b2b;
 }
 
 .exchanges #coin-data {
@@ -597,22 +650,26 @@ color: #666666;
     border-radius: 5px;
 }
 
+.but-which a {
+    color: #fafafa
+}
+
 .but-which {
     color: #ffffff;
     margin-left: 30px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 60px;
     align-items: flex-end;
 }
 
 .but-whichl {
-    color: #ffffff;
+    color: #fff;
     font-size: 26px;
     font-weight: bold;
-    margin-left: 50px;
-    margin-top: 60px;
+     margin-left: 50px;
     align-items: flex-end;
+
 }
 
 .coincourse {
@@ -626,7 +683,7 @@ color: #666666;
 }
 
 .but-whichl a {
-    color: #ffffff;
+    color: #fff;
     font-size: 26px;
     font-weight: bold; 
 }
@@ -645,7 +702,7 @@ color: #666666;
 .footer-container {
     width: 100%;
     margin-top: 70px;
-    background-image: url("../images/entf.jpg");
+    background-image: url("../images/entf2.jpg");
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
@@ -674,7 +731,7 @@ font-weight: bold;
 }
 
 .footer-link:hover {
-    color: #000000;
+    color: #232b2b;
     font-weight: bold;
 }
 
@@ -683,13 +740,13 @@ font-weight: bold;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
-  color: #ffffff;
+  color: #fafafa;
   padding: 10px;
   
 }
 
 .social-links li a:hover {
-  color: #000000;
+  color: #232b2b;
 }
 
 /*----------------------Courses Page----------------*/
@@ -743,14 +800,14 @@ font-weight: bold;
 }
 
 .coursefull-title {
-    color: #ffffff;
+    color: #fafafa;
     font-size: 28px;
     font-weight: bold;
-    background-color: #000000;
+    background-color: #232b2b;
 }
 
 .coursefull-title2 {
-    color: #ffffff;
+    color: #fafafa;
     font-size: 16px;
 }
 
@@ -780,29 +837,6 @@ font-weight: bold;
      background-color: #eeeeee;
      margin-left: 50px;
      margin-right: 50px;
-}
-
-.ustop {
-    width: 100%;
-    height: 150px;
-    margin-top: 75px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-}
-
-.map-ustop {
-    width: 100%;;
-    margin-top: 5px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-}
-
-.ustop-nar {
-    width: 100%;
-    height: 60px;
-    margin-top: 75px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
 }
 
 .ustop-title {
@@ -973,19 +1007,27 @@ display: none;
 
 }
 
+@media screen and (min-width: 1000px) {
+    .briefs {
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 584px) {
  .but-whichl, .but-which {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 60px;
-    align-items: flex-end;
+    
 }
 
 }
 
 @media screen and (max-width: 584px) {
- .coincourse-icon, .but-which1-icon, .map-topper-container {
+ .coincourse-icon, .map-topper-container {
     display: none;
 }
 
