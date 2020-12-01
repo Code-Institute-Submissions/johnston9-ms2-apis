@@ -1052,11 +1052,11 @@ display: none;
 }
 
 .footer-container {
-    background-image: url("/assets/images/ents1.jpg");
+    background-image: url("../images/ents1.jpg");
 }
 
 .coin-call-container { 
-    background-image: url("/assets/images/silver-small.jpg");
+    background-image: url("../images/silver-small.jpg");
 }
 
 .footer-block {
