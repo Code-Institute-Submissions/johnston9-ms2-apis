@@ -1033,8 +1033,12 @@ button[type="submit"] {
 display: none;
 }
 
-.footer-container {
+/*.footer-container {
     background-image: url("/assets/images/ents.jpg");
+}*/
+
+.coin-call-container {
+    background-color: #ffffff;
 }
 
 .footer-block {
