@@ -80,29 +80,14 @@ hr.usend {
 }
 
 
-/*-----grey breaks------*/
+/*-----grey blocks------*/
 
-.ustop {
-    width: 100%;
-    height: 150px;
+.greytop {
     margin-top: 70px;
-    margin-left: 0px;
-    margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
     background-color: #333333;
     border: 2px solid rgba(209, 161, 16, 0.993);
-}
-
-.map-ustop {
-    width: 100%;;
-    margin-top: 5px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .ustop-nar {
@@ -115,6 +100,18 @@ hr.usend {
     padding-right: 0px;
     background-color: #333333;
     border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
+.greytop-title {
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Goldman', cursive;
+color: #ffffff;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 /*----------------------Navlogo section----------------------*/
@@ -133,12 +130,14 @@ hr.usend {
     position: relative;
 }
 
-#title {
+.logotit {
 font-size: 30px;
 font-weight: bold;
 letter-spacing: 2px;
 font-family: 'Goldman', cursive;
 color: #666666;
+position: absolute; 
+left: 5%;
 }
 
 #signin {
@@ -245,6 +244,27 @@ color: #666666;
 }
 
 #bitmatch a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#bitmatch-book {
+    height: 40px;
+    width: 150px;
+    background-color: rgba(209, 161, 16, 0.993);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    margin-right: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+
+#bitmatch-book a {
     color: #ffffff;
     font-weight: bold;
     font-size: 26px;
@@ -568,7 +588,7 @@ color: #666666;
     background-color: #3b444b;
     width: 76%;
     margin-top: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-right: 30px; 
 }
@@ -732,7 +752,7 @@ color: #666666;
 
 /*-----------------------Footer--------------------*/
 .footer-container {
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
     background-image: url("../images/entf2.jpg");
     background-repeat: no-repeat;
@@ -871,16 +891,6 @@ font-weight: bold;
      margin-right: 50px;
 }
 
-.ustop-title {
-font-size: 30px;
-font-weight: bold;
-letter-spacing: 2px;
-font-family: 'Goldman', cursive;
-color: #ffffff;
-padding-left: 100px;
-padding-right: 100px;
-}
-
 .about-title {
     margin-top: 70px;
     color: #666666;
@@ -961,15 +971,15 @@ div #map1 {
     margin-top: 50px;
     background-color: #fff;
     color: blue;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #entercom {
     font-family: "Exo", sans-serif;
-    font-size: 22px;
+    font-size: 12px;
     margin-bottom: 20px;
     color: blue;
-    padding-left: 100px;
-    padding-right: 100px;
-    }
+ }
 
 #conbitnum {
     color: red;
@@ -1003,6 +1013,50 @@ button[type="submit"] {
 
 /*-----------------------media queries--------------------*/
 
+/*--------top box---------*/
+
+@media screen and (max-width: 900px) {
+    .logotit {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logotit {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .greytop-title {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#competion {
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+ .greytop-title {
+    font-size: 26px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#competion {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+/*------------exchanges--------------*/  
+
 @media screen and (max-width: 584px) {
     .exchanges #coin-data, .exchanges #coin-data2, #coin-data4, 
 .exchanges input[type=text], .exchanges #coinfetch,
@@ -1013,7 +1067,9 @@ button[type="submit"] {
     padding: 2px 4px;
 }
 
+}
 
+/*----------------general---------------*/
 
 @media screen and (max-width: 350px)  {
     .footer-block {
@@ -1021,11 +1077,10 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 584px) {
- .but-whichl, .but-which {
+ .but-whichl {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
-    
 }
 
 .briefs {
@@ -1037,27 +1092,15 @@ button[type="submit"] {
 }
 
 #book {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
 }
- 
+
 }
 
-@media screen and (max-width: 700px) {
- .ustop-title {
-    font-size: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#entercom {
-    font-size: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
+@media screen and (max-width: 800px) {
 #head {
     font-size: 22px;
 }
@@ -1068,13 +1111,6 @@ button[type="submit"] {
 
 .mods i {
     display: none;
-}
-
-}
-
-@media screen and (max-width: 768px) {
-    #title {
-display: none;
 }
 
 .footer-container {
@@ -1094,7 +1130,6 @@ display: none;
 
 .describe {
     margin-top: 50px;
-
 }
 
  #bitMatch-alert p {
@@ -1109,48 +1144,24 @@ display: none;
         width: 100px;
         font-size: 12px;
     }
-#bitmatch a 
-
-    {font-size: 12px;
+#bitmatch a {
+    font-size: 12px;
 }
 
+#bitmatch-book {
+        width: 100px;
+        font-size: 12px;
 }
 
-@media screen and (max-width: 1000px) {
- .ustop-title {
-    font-size: 22px;
-    padding-left: 50px;
-    padding-right: 50px;
+#bitmatch-book a {
+    font-size: 12px;
+}
 }
 
-#entercom {
-    font-size: 18px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
-}
 
-@media screen and (min-width: 768px) {
-    #title {
-        position: absolute;
-        left: 5%;
-}
 
-    .pagename {
-        position: absolute; 
-        left: 5%;
-        font-size: 14px;
-}
 
-@media screen and (min-width: 1000px) {
-    .briefs {
-        padding-right: 200px;
-        padding-left: 200px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
 
 
 

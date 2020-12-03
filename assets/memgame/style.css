@@ -3,8 +3,44 @@ body {
 }
 
 .game-container {
+    margin-top: 50px;
     background-color: #000000;
-    width: 90%;
+    width: 80%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.center-van {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memtop {
+    margin-top: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #333333;
+    border: 2px solid rgba(209, 161, 16, 0.993);
+}
+
+.memtop-title {
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Goldman', cursive;
+color: #ffffff;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.memtop-title span {
+    color: red;
 }
 
 p {
@@ -316,5 +352,23 @@ p {
   width: 304px;
  
 }
+}
+
+@media screen and (min-width: 700px) {
+ .memtop-title {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+ .memtop-title {
+    font-size: 26px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 }
 
