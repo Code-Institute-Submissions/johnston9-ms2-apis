@@ -34,10 +34,11 @@ The business goals are for the college to find potential students and establish 
 - ### Design
 
   - #### Colour Scheme
-    - The site aims to have a strong presence created using a black background with white text contrasting with a white background with black and grey text. The touches of gold and silver are to give it a sophisticated and strong flare.
+    - The site aims to have a strong presence created by the contrast between
+      off-black backgrounds shades and off-white text and a white background with black and grey text. There are touches of gold and silver are to give it a sophisticated and strong flare.
 
 <p align="center">
-<img src="documentation/readme-images/data3.png" width="90%">
+<img src="documentation/readme-images/design.png" width="90%">
 </p>
   
   - #### Typography
@@ -73,7 +74,7 @@ with data even in this manner. Even though the code running
 in the background is complex the features are not.
 
 <p align="center">
-<img src="documentation/readme-images/data3.png" width="90%">
+<img src="documentation/readme-images/exchange.png" width="90%">
 </p>
     
     
@@ -158,8 +159,8 @@ eat in New York and a real time image to take bring even closer.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com /)
+- [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/johnston9/ms2-apis)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/johnston9/ms2-apis)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -190,9 +191,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. The third site goal introduces the college and has a link to industry testimonials and student reviews so the user can find out all about the college itself and what people say about it.
     2. The user will see clearly see the social media links in the footer on the bottom of any page on the site. They will also find another set of links to the reviews and testimonials.
 
-<p align="center">
-<img src="documentation/readme-images/foot.png" width="90%">
-</p>
 
 #### Returning Visitor Goals
 
@@ -231,20 +229,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    1. The user would already be comfortable with the website layout and can easily locate where they are displayed.
 
 <p align="center">
-<img src="documentation/readme-images/data3.png " width="90%">
+<img src="documentation/readme-images/price.png " width="90%">
 </p>
 
 2.  As a Frequent User, I want to log in to the site to continue my online course.
 
     1.  The sign button is at the top when they land on the site.
+        See Imagary image above.
 
-<p align="center">
-<img src="documentation/readme-images/log1.png" width="90%">
-</p>
 
-3.  As a Frequent User, I want to play the Bitcoin game.
+3.  As a Frequent User, I want to play the Bitcoin and Funmatch games.
 
-    1.  The Bitcoin link is at the top when they land on the site.
+    1.  The Bitcoin and Funmatch links are at the top when they land on the site.
 
 <p align="center">
 <img src="documentation/readme-images/game.png" width="90%">
@@ -254,17 +250,66 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 - The three coin fetch features were tested extensively and all work with no errors.
+  See Interactive cryptocurrency data fields image and Frequent user image for images of 
+  coin price feature with price fetched and exchanges feature with prices fetched. Below 
+  is the image of the price chang feature with data fetched.
 
-- The games were tested extensively and all the functions, the onload display the play
-  button with it's shuffle fuction and reset functions, the sounds, the mute function 
-  of which I had to experiment with code to only get one control display on screen and
-  and the sound functions themselves which threw console errors at first as causing
-  interrupted calls which I fixed with settimouts, the on win display of timer number 
-  and random winner number and these being set in local storage then retrieved on the
-  contact page...all these are working without error.
 
-- It is easier to test the winner function by setting the winner length to 2 instead 
-  of 12.
+<p align="center">
+<img src="documentation/readme-images/change.png" width="90%">
+</p>  
+
+- The error response was also tested and responded correctly with "error" set in data box
+  on incorrect input and "network error" for network errors.
+
+
+<p align="center">
+<img src="documentation/readme-images/priceer.png" width="90%">
+</p> 
+
+- The games functions below were tested extensively without error.
+     
+  -  The onload display functions.
+     The play button with it's shuffle fuction and reset functions.
+     The mute function which involved experimentation with code
+     to only get one control box display on screen and the different srcs 
+     being set on the one audio.
+     The sound functions which threw console errors at first from
+     causing interrupted calls which I fixed with set timouts.
+
+  - The on win display of timer number and random winner number worked every time tested.
+
+
+<p align="center">
+<img src="documentation/readme-images/bitwin.png" width="90%">
+</p>
+
+  - These were tested by setting the winner length to 2 instead of 12 as there were numerous 
+    tests hense only 2 cards in these images but also worked when set to 12.
+
+
+<p align="center">
+<img src="documentation/readme-images/funwin.png" width="90%">
+</p>
+
+  - The winner number variables being set in local storage then retrieved on the
+  contact page.
+
+<p align="center">
+<img src="documentation/readme-images/bitsend.png" width="90%">
+</p>
+
+  - The recieving of the message in gmail.
+
+<p align="center">
+<img src="documentation/readme-images/bitgmail.png" width="90%">
+</p>
+
+- The info box, bounce, and marker clusters functions were tested for the Find Us map.
+
+<p align="center">
+<img src="documentation/readme-images/nymap.png" width="90%">
+</p>
 
 - The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
 
