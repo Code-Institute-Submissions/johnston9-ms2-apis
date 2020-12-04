@@ -285,7 +285,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p>
 
   - These were tested by setting the winner length to 2 instead of 12 as there were numerous 
-    tests hense only 2 cards in these images but also worked when set to 12.
+    tests hence only 2 cards in these images but also worked when set to 12.
 
 
 <p align="center">
@@ -305,7 +305,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/bitgmail.png" width="90%">
 </p>
 
+<<<<<<< HEAD
 - The info box, bounce, and marker clusters functions were tested for the Find Us map.
+=======
+- The info box, bounce function and marker clusters were tested for the Find Us map.
+>>>>>>> 1c0266ee7e56587de1eb243f6cb4891a8e75b2d3
 
 <p align="center">
 <img src="documentation/readme-images/nymap.png" width="90%">
