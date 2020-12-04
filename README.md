@@ -252,9 +252,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
+
+- The three coin fetch features were tested extensively and all work with no errors.
+
+- The games were tested extensively and all the functions, the onload display the play
+  button with it's shuffle fuction and reset functions, the sounds, the mute function 
+  of which I had to experiment with code to only get one control display on screen and
+  and the sound functions themselves which threw console errors at first as causing
+  interrupted calls which I fixed with settimouts, the on win display of timer number 
+  and random winner number and these being set in local storage then retrieved on the
+  contact page...all these are working without error.
+
+- It is easier to test the winner function by setting the winner length to 2 instead 
+  of 12.
+
 - The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
+
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone and various other smartphones.
+
 - A large amount of testing was done to ensure that all pages were linking correctly and that all the API call worked smoothly as well as all aspect of the games.
+
 - Friends and family members were asked to review the site and to point out any bugs and/or user experience issues. These were taken on board and changes were made if necessary or to give a better user experience.
 
 ### Known Bugs
