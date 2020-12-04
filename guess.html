@@ -177,34 +177,17 @@
     </div>
 
     <div class="container-fluid game-container">
+      
       <audio
+        class="mutewidth"
         controls
-        muted
-        id="audio-lose1"
-        src="assets/memgame/sounds/game-lose.mp3"
+        muted 
         autoplay="false"
-      ></audio>
-      <audio
-        controls
-        muted
-        id="audio-flip1"
-        src="assets/memgame/sounds/click.mp3"
-        autoplay="false"
-      ></audio>
-      <audio
-        controls
-        muted
-        id="audio-pair1"
-        src="assets/memgame/sounds/pair.mp3"
-        autoplay="false"
-      ></audio>
-      <audio
-        controls
-        muted
-        id="audio-win1"
-        src="assets/memgame/sounds/win.mp3"
-        autoplay="false"
-      ></audio>
+        id="audio1">
+        <source src="assets/memgame/sounds/click.mp3"></audio>
+
+      <div id="mute" class="center-van">SOUND</div>
+    
       <p id="gbox1"></p>
       <button id="play1"><strong>Play</strong></button>
       <div id="timer1">
@@ -354,7 +337,8 @@
         </h2>
       </div>
     </div>
-    <!--/footer-->
+
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
       integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="

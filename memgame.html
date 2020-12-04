@@ -31,8 +31,11 @@
       href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -44,8 +47,8 @@
       src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-     <link rel="stylesheet" href="assets/memgame/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/memgame/style.css" type="text/css" />
   </head>
 
   <body>
@@ -146,12 +149,12 @@
       <div id="bitMatch-alert" class="clearfix">
         <div class="row">
           <div class="col-10 center-vandh">
-            <p class=" pagename">WIN BITCOIN  - PLAY  <span>BITMATCH</span></p>
+            <p class="pagename">BITMATCH</p>
           </div>
           <div class="col-2 center-vandh">
-            <button id="bitmatch" class="">
-              <a href="memgame.html">BITMATCH</a>
-            </button>
+            <div id="bitmatch-book" >
+              <a class="ml-3" href="contact.html">BOOK</a>
+            </div>
           </div>
         </div>
       </div>
@@ -159,167 +162,184 @@
     </div>
     <!--/nav-->
 
-  <div class="container-fluid game-container">
-    <audio id="audio-lose" src="assets/memgame/sounds/game-lose.mp3" autoplay="false" ></audio>
-  <audio id="audio-flip" src="assets/memgame/sounds/click.mp3" autoplay="false" ></audio>
-  <audio id="audio-pair" src="assets/memgame/sounds/pair.mp3" autoplay="false" ></audio>
-   <audio id="audio-win" src="assets/memgame/sounds/win.mp3" autoplay="false" ></audio>
-    <!--game-->
-    <p id="straightback"><a href="index.html"><strong>Return to NYCC Website</strong></a></p>
-    <p id="instructions">
-      Click on boxes to flip cards. Match all six pairs to win. Just play or click Timer to enter competition. Fastest time
-      on December 31st wins Bitcoin. <br>Play Funmatch for practice.
-    </p>
-    <p id="box1"></p>
-    <button id="play"><strong>Play</strong></button>
-    <div id="timer">
-      <h2 id="time"><strong>Timer</strong></h2>
-      <h2 id="clock">60</h2>
-    </div>
-
-    <div id="board-container"></div>
-    <div class="board">
-      <div class="card-box">
-        <div class="card" data-name="bit1" data-id="1">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="bit1" data-id="2">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="bit2" data-id="3">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit2.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="bit2" data-id="4">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit2.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="bit3" data-id="5">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit3.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="bit3" data-id="6">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/bit3.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="eth1" data-id="7">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/eth1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="eth1" data-id="8">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/eth1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="lit1" data-id="9">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/lit1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="lit1" data-id="10">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/lit1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="rip1" data-id="11">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/rip1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card-box">
-        <div class="card" data-name="rip1" data-id="12">
-          <div class="card-front-face">
-            <img src="assets/memgame/images/back.jpg" />
-          </div>
-          <div class="card-back-face">
-            <img src="assets/memgame/images/rip1.jpg" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="memtop center">
+            <p class="memtop-title text-center">
+              Click on boxes to flip cards. Match all six pairs to win. Just play or
+        click Timer to enter competition. No limit to entries. Fastest time on December 31st wins
+        Bitcoin. Play Funmatch for practice. <br><span>
+                PRESS PLAY TO START GAME</span
+              >
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <div id="botton">
-      <button id="back">
-        <a href="index.html"><strong>Back</strong></a>
-      </button>
-      <h2 id="hard">
-        <a href="guess.html"><strong>Funmatch</strong></a>
-      </h2>
+
+    <div class="container-fluid game-container">
+
+      <audio
+        class="mutewidth"
+        controls
+        muted 
+        autoplay="false"
+        id="audio1">
+        <source src="assets/memgame/sounds/click.mp3"></audio>
+
+      <div id="mute" class="center-van">SOUND</div>
+
+      <p id="box1"></p>
+      <button id="play"><strong>Play</strong></button>
+      <div id="timer">
+        <h2 id="time"><strong>Timer</strong></h2>
+        <h2 id="clock">60</h2>
+      </div>
+
+      <div id="board-container"></div>
+      <div class="board">
+        <div class="card-box">
+          <div class="card" data-name="bit1" data-id="1">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="bit1" data-id="2">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="bit2" data-id="3">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit2.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="bit2" data-id="4">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit2.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="bit3" data-id="5">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit3.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="bit3" data-id="6">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/bit3.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="eth1" data-id="7">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/eth1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="eth1" data-id="8">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/eth1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="lit1" data-id="9">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/lit1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="lit1" data-id="10">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/lit1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="rip1" data-id="11">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/rip1.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <div class="card" data-name="rip1" data-id="12">
+            <div class="card-front-face">
+              <img src="assets/memgame/images/back.jpg" />
+            </div>
+            <div class="card-back-face">
+              <img src="assets/memgame/images/rip1.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="botton">
+        <button id="back">
+          <a href="index.html"><strong>Back</strong></a>
+        </button>
+        <h2 id="hard">
+          <a href="guess.html"><strong>Funmatch</strong></a>
+        </h2>
+      </div>
     </div>
-  </div>
     <!--/footer-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"

@@ -137,6 +137,8 @@ eat in New York and a real time image to take bring even closer.
    - Img-resize was used to resize the game card images.
 1. [Am-I-Responsive](http://ami.responsivedesign.is/):
    - Am I Responsive was used to get the responsive sizing landing page image.
+
+
 ### APIs used
 
 1.  [Coingecko](https://www.coingecko.com/api/)
@@ -310,6 +312,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [W3schools.com](https://www.w3schools.com/howto/howto_css_flip_card.asp): Here I learnt how to create the flip card function.
 
+- [W3schools.com](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp): Here I learnt how to create the return to top function.
+
 - [stackoverflow](https://stackoverflow.com/questions/29567580/play-a-beep-sound-on-button-click): Here I learnt how to add sound to a page for the games.
 
 - [Bootstrap4](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp): Bootstrap docs used throughout the project mainly for positioning.
@@ -318,7 +322,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Medium](https://medium.com/@khaledhassan45/how-to-make-a-simple-matching-game-using-vanilla-js-css-9ace9cd128f6): Here I began learning how to make a matching game.
 
-- [freeCodeCamp](https://marina-ferreira.github.io/tutorials/js/memory-game/): The match card, unflip card, and freeze functions from the Bitmatch game are based on functions from this game. Here I learned the simplicity and power of using Boolean.
+- [freeCodeCamp](https://marina-ferreira.github.io/tutorials/js/memory-game/): The match card, unflip card, and freeze functions from the Bitmatch game are based on functions from this game.  
 
 - [Ania-Kubov](https://www.youtube.com/watch?v=tjyDOHzKN0w&ab_channel=CodewithAniaKub%C3%B3w%23JavaScriptGames): I got inspiration for my pre-game card flashing images from her Whack-a- Mole game and the use of random numbers.
 

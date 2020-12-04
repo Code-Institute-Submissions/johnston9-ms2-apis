@@ -228,7 +228,6 @@ left: 5%;
 }
 
 #bitmatch {
-    height: 50px;
     width: 150px;
     background-image: url("../images/silver1.jpg");
     background-size: cover;
@@ -1058,7 +1057,7 @@ button[type="submit"] {
 /*------------exchanges--------------*/  
 
 @media screen and (max-width: 584px) {
-    .exchanges #coin-data, .exchanges #coin-data2, #coin-data4, 
+.exchanges #coin-data, .exchanges #coin-data2, #coin-data4, 
 .exchanges input[type=text], .exchanges #coinfetch,
 .exchanges #coinfetch2, .exchanges #clear, .exchanges #clear2 {
     width: 80px; 

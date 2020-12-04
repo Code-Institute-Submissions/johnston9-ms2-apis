@@ -15,27 +15,32 @@ const frontImages = [
 
 /*-------sounds-----------------*/
 
+var sound = document.getElementById("audio1")
+
 function playSoundflip1() {
-  var soundflip1 = document.getElementById("audio-flip1");
-  soundflip1.play();
+    srcflip = "assets/memgame/sounds/click.mp3"
+    sound.setAttribute('src', srcflip);
+    sound.play();
 }
 
 function playSoundlose1() {
-  var soundlose1 = document.getElementById("audio-lose1");
-  soundlose1.play();
+    srclose = "assets/memgame/sounds/game-lose.mp3";
+    sound.setAttribute('src', srclose);
+    sound.play();
 }
 
 function playSoundpair1() {
-  var soundpair1 = document.getElementById("audio-pair1");
-  soundpair1.play();
+    srcpair = "assets/memgame/sounds/pair.mp3";
+    sound.setAttribute('src', srcpair);
+    sound.play();}
+    
+ function playSoundwin1() {
+    srcwin = "assets/memgame/sounds/win.mp3";
+    sound.setAttribute('src', srcwin);
+    sound.play();
 }
 
-function playSoundwin1() {
-  var soundwin1 = document.getElementById("audio-win1");
-  soundwin1.play();
-}
-
-/*preshow*/
+/*preshow-on load*/
 
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -88,9 +93,12 @@ function countDown() {
     clearInterval(timerId2);
   } else if (winners1.length === 2) {
     playertime1 = currentTime1;
-    playSoundwin1();
+    setTimeout(() => {
+    playSoundwin1(); }, 2000);
+    box1.innerHTML = `Winner`;
     currentTime1 = 60;
     clearInterval(timerId2);
+    
   }
 }
 
@@ -148,16 +156,16 @@ function flip() {
   } else {
     flippedCard = false;
     cardTwo = this;
-
     checkForMatch();
   }
 }
 
 function checkForMatch() {
   if (cardOne.dataset.name === cardTwo.dataset.name) {
-    freezeCards();
-    playSoundpair1();
-  } else {
+      freezeCards();
+   setTimeout(() => {
+    playSoundpair1(); }, 500); 
+    }  else {
     unflipCards();
   }
 }
@@ -166,11 +174,6 @@ function freezeCards() {
   cardOne.removeEventListener("click", flip);
   winners1.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  if (winners1.length === 2) {
-    playSoundwin1();
-    currentTime1 = 60;
-    clearInterval(timerId2);
-  }
   reset();
 }
 
@@ -180,7 +183,7 @@ function unflipCards() {
     cardOne.classList.remove("is-flipped");
     cardTwo.classList.remove("is-flipped");
     reset();
-  }, 1500);
+  }, 1000);
 }
 
 function reset() {

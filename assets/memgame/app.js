@@ -15,24 +15,29 @@ const frontImages = [
 
 /*-------sounds-----------------*/
 
+var sound = document.getElementById("audio1")
+
 function playSoundflip() {
-  var soundflip = document.getElementById("audio-flip");
-  soundflip.play();
+    sound.setAttribute('src', "assets/memgame/sounds/click.mp3");
+    sound.play();
 }
 
 function playSoundlose() {
-  var soundlose = document.getElementById("audio-lose");
-  soundlose.play();
+    srclose = "assets/memgame/sounds/game-lose.mp3";
+    sound.setAttribute('src', srclose);
+    sound.play();
 }
 
 function playSoundpair() {
-  var soundpair = document.getElementById("audio-pair");
-  soundpair.play();
+    srcpair = "assets/memgame/sounds/pair.mp3";
+    sound.setAttribute('src', srcpair);
+    sound.play();
 }
 
 function playSoundwin() {
-  var soundwin = document.getElementById("audio-win");
-  soundwin.play();
+    srcwin = "assets/memgame/sounds/win.mp3";
+    sound.setAttribute('src', srcwin);
+    sound.play();
 }
 
 /*-------/sounds-----------------*/
@@ -93,7 +98,8 @@ function countDown() {
       let winnernumber = (Math.random()*10000).toFixed();
       localStorage.setItem('wintime', playertime);
       localStorage.setItem('winnum', winnernumber);
-    playSoundwin();
+      setTimeout(() => {
+    playSoundwin(); }, 2000);
     box.innerHTML = `Winner..your time is ${playertime}...you number is ${winnernumber}.<spam id=winclick><a href= contact.html>Click</a></spam>  to enter competition.`;
     currentTime = 60;
     clearInterval(timerId2);
@@ -152,7 +158,6 @@ function flip() {
   } else {
     flippedCard = false;
     cardTwo = this;
-
     checkForMatch();
   }
 }
@@ -160,8 +165,9 @@ function flip() {
 function checkForMatch() {
   if (cardOne.dataset.name === cardTwo.dataset.name) {
     freezeCards();
-    playSoundpair();
-  } else {
+    setTimeout(() => {
+    playSoundpair(); }, 500); 
+    } else {
     unflipCards();
   }
 }
@@ -170,11 +176,6 @@ function freezeCards() {
   cardOne.removeEventListener("click", flip);
   winners.push(cardOne, cardTwo);
   cardTwo.removeEventListener("click", flip);
-  /*if (winners.length === 2) {
-    playSoundwin(); 
-    currentTime = 60;
-    clearInterval(timerId2);
-  }*/
   reset();
 }
 
@@ -184,7 +185,7 @@ function unflipCards() {
     cardOne.classList.remove("is-flipped");
     cardTwo.classList.remove("is-flipped");
     reset();
-  }, 1500);
+  }, 1000);
 }
 
 function reset() {
