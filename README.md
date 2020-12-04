@@ -267,6 +267,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/priceer.png" width="90%">
 </p> 
 
+- The emailjs error handling function was tested successfully printing "Message sent" if 
+  succussful and "Error Please Resend" if failed in box.
+
+
+<p align="center">
+<img src="documentation/readme-images/message.png" width="90%">
+</p> 
+
 - The games functions below were tested extensively without error.
      
   -  The onload display functions.

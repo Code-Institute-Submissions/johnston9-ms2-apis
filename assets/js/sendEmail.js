@@ -8,9 +8,13 @@ function sendMail(contactForm) {
     }).then(
         function(response) {
             console.log("SUCCESS", response);
+            datadiv = document.getElementById("success");
+            datadiv.innerHTML = "Message sent";
         },
         function(error) {
             console.log("FAILED", error);
+            datadiv = document.getElementById("success");
+            datadiv.innerHTML = "Error - Please Resend";
         }
     );
     return false;  
