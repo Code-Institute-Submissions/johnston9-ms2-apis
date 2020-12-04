@@ -1,3 +1,9 @@
+/*---The code for app.js and the Memgame is duplicated in apptwo.js for Funmatch 
+for clarity bescause of the different images array, different winners array
+and different timers--*/
+
+/*-------image array for the onload preshpw-----------------*/
+
 const frontImages = [
   "assets/memgame/images/cw.png",
   "assets/memgame/images/unicorn1.png",
@@ -14,6 +20,9 @@ const frontImages = [
 ];
 
 /*-------sounds-----------------*/
+
+/*-------Functions so only one control box is displayed for the 
+4 audio files and to set the audio src in it-----------------*/
 
 var sound = document.getElementById("audio1")
 
@@ -40,7 +49,10 @@ function playSoundpair1() {
     sound.play();
 }
 
-/*preshow-on load*/
+/*--------On load preshow display--/
+
+/*-On load preshow images flash. They are set on the card back face with 
+the movecard function bt a settimeout that lasts 20 seconds.*/
 
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -64,9 +76,15 @@ function moveCard() {
 }
 moveCard();
 
-/*/preshow*/
+/*-------Timer------*/
 
-/*clock*/
+/*--Countdown function for timer. 
+1) If player looses calls alert and plays sound 
+2) If player wins sets win time to localstorage along
+with a ramdom winner number, displayes these on screen and playes win sound.
+The random number does not need to be unique as users will be sending 
+it in with their email-----*/
+
 let wintime1;
 let playertime1;
 let timerId2;
@@ -102,7 +120,14 @@ function countDown() {
   }
 }
 
-/*play*/
+/*--------Play button and shuffle-----------*/
+
+/*-When the player clicks play 
+1) The cards back image is reset after the preshow function. 
+2) The timers are reset.
+3) The cards are shuffled.
+4) The winner display box is cleared.----------*/
+
 winners1 = [];
 var play1 = document.querySelector("#play1");
 play1.addEventListener("click", shuffle);
@@ -138,7 +163,9 @@ function shuffle() {
   reset();
 }
 
-/*Flip*/
+/*--------------Main game functions----------*/
+
+/*-Inspired by code from freeCodeCamp, details in Readme--*/
 
 var cards = document.querySelectorAll(".card");
 let flippedCard = false;

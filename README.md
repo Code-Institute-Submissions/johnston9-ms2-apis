@@ -80,10 +80,11 @@ in the background is complex the features are not.
 #### Bitmatch game
 
 The site also has a game using cryptocurrency images where people 
-can win bitcoin. It has a more fun version as well. On winning their 
-playertime number and winner number appear with a link that takes them
-to the contact page where they can click again to add their numbers
-to the message box .
+can win bitcoin. It has a easier version called Funmatch as well. 
+On winning their playertime number and winner number appear with 
+a link that takes them to the contact page where they can 
+add their numbers to the message box and send in their entry. 
+See the user stories section for working images.
 
 <p align="center">
 <img src="documentation/readme-images/game3.png" width="90%">
