@@ -242,7 +242,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/log1.png" width="90%">
 </p>
 
-3.  As a Frequent User, I want to play the Bitcoin game.
+3.  As a Frequent User, I want to play the Bitcoin and Funmatch games.
 
     1.  The Bitcoin link is at the top when they land on the site.
 
@@ -255,16 +255,49 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The three coin fetch features were tested extensively and all work with no errors.
 
-- The games were tested extensively and all the functions, the onload display the play
-  button with it's shuffle fuction and reset functions, the sounds, the mute function 
-  of which I had to experiment with code to only get one control display on screen and
-  and the sound functions themselves which threw console errors at first as causing
-  interrupted calls which I fixed with settimouts, the on win display of timer number 
-  and random winner number and these being set in local storage then retrieved on the
-  contact page...all these are working without error.
+- The games were tested extensively and all the functions.
+     
+  -  The onload display.
+     The play button with it's shuffle fuction and reset functions.
+     The mute function which entailed experimentation with code
+     to only get one control box display on screen and the different srcs 
+     being set on the one audio.
+     The sound functions themselves which threw console errors at first from
+     causing interrupted calls which I fixed with set timouts.
 
-- It is easier to test the winner function by setting the winner length to 2 instead 
-  of 12.
+  - The on win display of timer number and random winner number worked every time tested.
+
+
+<p align="center">
+<img src="documentation/readme-images/bitwin.png" width="90%">
+</p>
+
+  - These were tested by setting the winner length to 2 instead of 12 as there were numerous 
+  tests hense only 2 cards in these images but also worked when set to 12.
+
+
+<p align="center">
+<img src="documentation/readme-images/funwin.png" width="90%">
+</p>
+
+  - The winner number variables being set in local storage then retrieved on the
+  contact page.
+
+<p align="center">
+<img src="documentation/readme-images/bitsend.png" width="90%">
+</p>
+
+  - The recieving of the message in gmail.
+
+<p align="center">
+<img src="documentation/readme-images/bitgmail.png" width="90%">
+</p>
+
+- The info box, bounce function and marker clusters were tested for the Find Us map.
+
+<p align="center">
+<img src="documentation/readme-images/nymap.png" width="90%">
+</p>
 
 - The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
 
