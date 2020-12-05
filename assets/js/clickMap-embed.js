@@ -1,3 +1,5 @@
+/*---------Google Maps API Embed calls set on click--*/
+
 const nyfood = document.getElementById("nyfood");
 nyfood.addEventListener("click", function() {
     document.getElementById("newYork").setAttribute("src", 
@@ -16,4 +18,3 @@ nystay.addEventListener("click", function() {
     "https://www.google.com/maps/embed/v1/search?q=hotels+near+Manhattan,+New+York,+NY,+USA&key=AIzaSyANvu2QE7pazETJVRzBRoUVgFm9hQJ3zYU");
         });
 
-/*AIzaSyANvu2QE7pazETJVRzBRoUVgFm9hQJ3zYU*/

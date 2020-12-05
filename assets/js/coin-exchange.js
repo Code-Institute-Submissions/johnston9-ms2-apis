@@ -1,4 +1,4 @@
-/*------exchanges data call---------*/
+/*---Data getJSON calls for Exchanges Price feature---*/
 
 $(document).ready(function () {
     $("#chainlink").click(fetchdata);
