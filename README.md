@@ -260,14 +260,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p>  
 
 - The error response was also tested and responded correctly with "error" set in data box
-  on incorrect input and "network error" for network errors.
+  on incorrect input and "network error" for network errors. 
+- The Gemini Exchange in the exchange fetch feature on the cryptocurrency page does not support
+  the Ripple coin so I set it's return to N/A.
 
 
 <p align="center">
 <img src="documentation/readme-images/priceer.png" width="90%">
 </p> 
 
-- The emailjs error handling function was tested successfully printing "Message sent" if 
+- The email.js error handling function was tested successfully printing "Message sent" if 
   succussful and "Error Please Resend" if failed in box.
 
 
