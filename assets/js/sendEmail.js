@@ -1,3 +1,4 @@
+/*--email.js with success and error resend function--*/
 
 function sendMail(contactForm) {
 
@@ -20,9 +21,7 @@ function sendMail(contactForm) {
     return false;  
 }
 
-/*$("#winner").html(`<p id="message">BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}</p>`)*/
-
-/*document.getElementById("message").innerHTML =`BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`*/
+/*--retrieve bitmatch winner variables from local storage--*/
 
 document.getElementById("conbitnum").addEventListener("click", fetchbitnum);
 

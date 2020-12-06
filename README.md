@@ -299,7 +299,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/bitwin.png" width="90%">
 </p>
 
-  - These were tested by setting the winners.length to 2 instead of 12 on line 113 of app.js
+  - The games were tested by setting the winners.length to 2 instead of 12 on line 113 of app.js
     for Bitmatch and winners1.length also to 2 on line 112 of apptwo.js for Funmatch.
     Hence only 2 cards in these images but also worked when set to 12.
 
@@ -309,19 +309,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p>
 
   - The winner number variables being set in local storage then retrieved on the
-  contact page.
+    contact page.
 
 <p align="center">
 <img src="documentation/readme-images/bitsend.png" width="90%">
 </p>
 
-  - The recieving of the message in gmail.
+  - The result of email.js sending the message to gmail account.
 
 <p align="center">
 <img src="documentation/readme-images/bitgmail.png" width="90%">
 </p>
 
-- The InfoWindow, drop Animation, icon image and marker clusters functions were tested for the Find Us map.
+- For the Find Us map the InfoWindow, drop Animation, icon image and marker clusters functions were tested for the Find Us map.
 
 <p align="center">
 <img src="documentation/readme-images/nymap.png" width="90%">

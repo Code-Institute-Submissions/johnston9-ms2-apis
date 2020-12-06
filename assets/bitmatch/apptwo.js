@@ -1,58 +1,58 @@
-/*---The code for app.js and the Memgame is duplicated in apptwo.js for Funmatch 
-for clarity bescause of the different images array, different winners array
-and different timers--*/
+/*---The code for apptwo.js and the Funmatch is in the main a duplication of app.js 
+but this duplication was necessary bescause of the different images array, different winners array
+and different timers---*/
 
-/*-------image array for the onload preshpw-----------------*/
+/*---image array for the onload preshow image display---*/
 
 const frontImages = [
-  "assets/memgame/images/cw.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/cw2.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/hq1.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/hq2.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/sf1.png",
-  "assets/memgame/images/unicorn1.png",
-  "assets/memgame/images/wr1.png",
-  "assets/memgame/images/unicorn1.png",
+  "assets/bitmatch/images/cw.png",
+  "assets/bitmatch/images/unicorn1.png",
+  "assets/bitmatch/images/cw2.png",
+  "assets/bitmatch/images/unicorn1.png",
+  "assets/bitmatch/images/hq1.png",
+  "assets/bitmatch/images/unicorn1.png",
+  "assets/bitmatch/images/hq2.png",
+  "assets/bitmatch/images/unicorn1.png",
+  "assets/bitmatch/images/sf1.png",
+  "assets/bitmatch/images/unicorn1.png",
+  "assets/bitmatch/images/wr1.png",
+  "assets/bitmatch/images/unicorn1.png",
 ];
 
 /*-------sounds-----------------*/
 
-/*-------Functions so only one control box is displayed for the 
-4 audio files and to set the audio src in it-----------------*/
+/*---Functions so only one control box is displayed for the 
+4 audio files and to set the audio src in it---*/
 
 var sound = document.getElementById("audio1")
 
 function playSoundflip1() {
-    srcflip = "assets/memgame/sounds/click.mp3"
+    srcflip = "assets/bitmatch/sounds/click.mp3"
     sound.setAttribute('src', srcflip);
     sound.play();
 }
 
 function playSoundlose1() {
-    srclose = "assets/memgame/sounds/game-lose.mp3";
+    srclose = "assets/bitmatch/sounds/game-lose.mp3";
     sound.setAttribute('src', srclose);
     sound.play();
 }
 
 function playSoundpair1() {
-    srcpair = "assets/memgame/sounds/pair.mp3";
+    srcpair = "assets/bitmatch/sounds/pair.mp3";
     sound.setAttribute('src', srcpair);
     sound.play();}
     
  function playSoundwin1() {
-    srcwin = "assets/memgame/sounds/win.mp3";
+    srcwin = "assets/bitmatch/sounds/win.mp3";
     sound.setAttribute('src', srcwin);
     sound.play();
 }
 
-/*--------On load preshow display--/
+/*---On load preshow images display---/
 
-/*-On load preshow images flash. They are set on the card back face with 
-the movecard function bt a settimeout that lasts 20 seconds.*/
+/*---The images are set on the cards back face with the movecard function 
+and a setTimeout function that lasts 20 seconds.*/
 
 let faces = document.querySelectorAll(".card-front-face img");
 
@@ -70,7 +70,7 @@ function moveCard() {
   setTimeout(() => {
     clearInterval(timerId);
     faces.forEach((face) => {
-      face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+      face.setAttribute("src", "assets/bitmatch/images/unicorn1.png");
     });
   }, 20000);
 }
@@ -79,9 +79,9 @@ moveCard();
 /*-------Timer------*/
 
 /*--Countdown function for timer. 
-1) If player looses calls alert and plays sound 
+1) If player loses calls alert and plays sound 
 2) If player wins sets win time to localstorage along
-with a ramdom winner number, displayes these on screen and playes win sound.
+with a ramdom winner number, displays these on screen and playes win sound.
 The random number does not need to be unique as users will be sending 
 it in with their email-----*/
 
@@ -122,11 +122,12 @@ function countDown() {
 
 /*--------Play button and shuffle-----------*/
 
-/*-When the player clicks play 
+/*---When the player clicks play 
+
 1) The cards back image is reset after the preshow function. 
 2) The timers are reset.
 3) The cards are shuffled.
-4) The winner display box is cleared.----------*/
+4) The winner display box is cleared.---*/
 
 winners1 = [];
 var play1 = document.querySelector("#play1");
@@ -141,7 +142,7 @@ function shuffle() {
   clearInterval(timerId2);
 
   faces.forEach((face) => {
-    face.setAttribute("src", "assets/memgame/images/unicorn1.png");
+    face.setAttribute("src", "assets/bitmatch/images/unicorn1.png");
   });
 
    box1.innerHTML = "";
@@ -165,7 +166,7 @@ function shuffle() {
 
 /*--------------Main game functions----------*/
 
-/*-Inspired by code from freeCodeCamp, details in Readme--*/
+/*---Inspired by code from freeCodeCamp, details in Readme---*/
 
 var cards = document.querySelectorAll(".card");
 let flippedCard = false;

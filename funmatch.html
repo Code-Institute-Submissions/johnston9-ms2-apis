@@ -44,7 +44,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="assets/memgame/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/bitmatch/style.css" type="text/css" />
   </head>
 
   <body>
@@ -80,7 +80,7 @@
 
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
-              <li class="active nav-item mr-3">
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item mr-3">
@@ -91,7 +91,7 @@
                   >Cryptocurrency</a
                 >
               </li>
-              <li class="nav-item dropdown mr-3">
+              <li class="active nav-item dropdown mr-3">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -107,7 +107,7 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink3"
                 >
-                  <a class="dropdown-item" href="memgame.html">Bitmatch</a>
+                  <a class="dropdown-item" href="bitmatch.html">Bitmatch</a>
                   <a class="dropdown-item" href="funmatch.html">Funmatch</a>
                 </div>
               </li>
@@ -176,9 +176,7 @@
 
     <div class="container-fluid game-container">
 
-    <!--set one audio for all 4 sound files, muted on load. It is reduced and 
-    the mute button mover right when the user clicks itbut that is so the
-    box is contained on very small screens.-->
+    <!---set one audio for all 4 sound files, muted on load-->
       
       <audio
         class="mutewidth"
@@ -186,10 +184,10 @@
         muted 
         autoplay="false"
         id="audio1">
-        <source src="assets/memgame/sounds/click.mp3"></audio>
+        <source src="assets/bitmatch/sounds/click.mp3"></audio>
 
-    <!--set a div to cover the unwanted part of the audio control box
-    with the word sound to inform user of the mute button-->
+    <!---set a div to cover the unwanted part of the audio control box
+    with the word sound to inform user of the mute button--->
 
       <div id="mute" class="center-van">SOUND</div>
 
@@ -200,7 +198,7 @@
     
       <p id="gbox1"></p>
 
-    <!--buttons and timer-->
+    <!---buttons and timer--->
 
     <button id="play1"><strong>Play</strong></button>
       <div id="timer1">
@@ -208,17 +206,17 @@
         <h2 id="clock1">60</h2>
       </div>
 
-      <!--game-->
+      <!---game--->
 
       <div id="board-container"></div>
       <div class="board">
         <div class="card-box">
           <div class="card" data-name="cat1" data-id="1">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/cw.png" />
+              <img src="assets/bitmatch/images/cw.png" />
             </div>
           </div>
         </div>
@@ -226,10 +224,10 @@
         <div class="card-box">
           <div class="card" data-name="cat1" data-id="2">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/cw.png" />
+              <img src="assets/bitmatch/images/cw.png" />
             </div>
           </div>
         </div>
@@ -237,10 +235,10 @@
         <div class="card-box">
           <div class="card" data-name="cat2" data-id="3">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/cw2.png" />
+              <img src="assets/bitmatch/images/cw2.png" />
             </div>
           </div>
         </div>
@@ -248,10 +246,10 @@
         <div class="card-box">
           <div class="card" data-name="cat2" data-id="4">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/cw2.png" />
+              <img src="assets/bitmatch/images/cw2.png" />
             </div>
           </div>
         </div>
@@ -259,10 +257,10 @@
         <div class="card-box">
           <div class="card" data-name="har1" data-id="5">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/hq1.png" />
+              <img src="assets/bitmatch/images/hq1.png" />
             </div>
           </div>
         </div>
@@ -270,10 +268,10 @@
         <div class="card-box">
           <div class="card" data-name="har1" data-id="6">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/hq1.png" />
+              <img src="assets/bitmatch/images/hq1.png" />
             </div>
           </div>
         </div>
@@ -281,10 +279,10 @@
         <div class="card-box">
           <div class="card" data-name="har2" data-id="7">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/hq2.png" />
+              <img src="assets/bitmatch/images/hq2.png" />
             </div>
           </div>
         </div>
@@ -292,10 +290,10 @@
         <div class="card-box">
           <div class="card" data-name="har2" data-id="8">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/hq2.png" />
+              <img src="assets/bitmatch/images/hq2.png" />
             </div>
           </div>
         </div>
@@ -303,10 +301,10 @@
         <div class="card-box">
           <div class="card" data-name="si-fi" data-id="9">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/sf1.png" />
+              <img src="assets/bitmatch/images/sf1.png" />
             </div>
           </div>
         </div>
@@ -314,10 +312,10 @@
         <div class="card-box">
           <div class="card" data-name="si-fi" data-id="10">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/sf1.png" />
+              <img src="assets/bitmatch/images/sf1.png" />
             </div>
           </div>
         </div>
@@ -325,10 +323,10 @@
         <div class="card-box">
           <div class="card" data-name="war" data-id="11">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/wr1.png" />
+              <img src="assets/bitmatch/images/wr1.png" />
             </div>
           </div>
         </div>
@@ -336,23 +334,23 @@
         <div class="card-box">
           <div class="card" data-name="war" data-id="12">
             <div class="card-front-face">
-              <img src="assets/memgame/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" />
             </div>
             <div class="card-back-face">
-              <img src="assets/memgame/images/wr1.png" />
+              <img src="assets/bitmatch/images/wr1.png" />
             </div>
           </div>
         </div>
       </div>
 
-      <!--back buttons and funmatch-->
+      <!---back buttons and funmatch--->
 
-      <div id="botton">
-        <button id="back1">
+      <div id="botton" class="clearfix">
+        <div id="back1">
           <a href="index.html"><strong>Back</strong></a>
-        </button>
+        </div>
         <h2 id="hard1">
-          <a href="memgame.html"><strong>Bitmatch</strong></a>
+          <a href="bitmatch.html"><strong>Bitmatch</strong></a>
         </h2>
       </div>
     </div>
@@ -375,6 +373,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/memgame/apptwo.js" charset="UTF-8"></script>
+    <script src="assets/bitmatch/apptwo.js" charset="UTF-8"></script>
   </body>
 </html>
