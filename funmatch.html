@@ -176,18 +176,17 @@
 
     <div class="container-fluid game-container">
 
-    <!---set one audio for all 4 sound files, muted on load-->
+    <!--set one audio for all 4 sound files, muted on load-->
       
       <audio
         class="mutewidth"
         controls
         muted 
-        autoplay="false"
         id="audio1">
         <source src="assets/bitmatch/sounds/click.mp3"></audio>
 
-    <!---set a div to cover the unwanted part of the audio control box
-    with the word sound to inform user of the mute button--->
+    <!--set a div to cover the unwanted part of the audio control box
+    with the word sound to inform user of the mute button-->
 
       <div id="mute" class="center-van">SOUND</div>
 
@@ -198,7 +197,7 @@
     
       <p id="gbox1"></p>
 
-    <!---buttons and timer--->
+    <!--buttons and timer-->
 
     <button id="play1"><strong>Play</strong></button>
       <div id="timer1">
@@ -206,17 +205,20 @@
         <h2 id="clock1">60</h2>
       </div>
 
-      <!---game--->
+      <!--game-->
+
+      <!--The different images are on the card's back face and the image labeled card back 
+      which the user see at first is on the card's front face-->
 
       <div id="board-container"></div>
       <div class="board">
         <div class="card-box">
           <div class="card" data-name="cat1" data-id="1">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/cw.png" />
+              <img src="assets/bitmatch/images/cw.png" alt="cat woman 1 image"/>
             </div>
           </div>
         </div>
@@ -224,10 +226,10 @@
         <div class="card-box">
           <div class="card" data-name="cat1" data-id="2">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/cw.png" />
+              <img src="assets/bitmatch/images/cw.png" alt="cat woman 1 image"/>
             </div>
           </div>
         </div>
@@ -235,10 +237,10 @@
         <div class="card-box">
           <div class="card" data-name="cat2" data-id="3">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/cw2.png" />
+              <img src="assets/bitmatch/images/cw2.png" alt="cat woman 2 image"/>
             </div>
           </div>
         </div>
@@ -246,10 +248,10 @@
         <div class="card-box">
           <div class="card" data-name="cat2" data-id="4">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/cw2.png" />
+              <img src="assets/bitmatch/images/cw2.png" alt="cat woman 2 image"/>
             </div>
           </div>
         </div>
@@ -257,10 +259,10 @@
         <div class="card-box">
           <div class="card" data-name="har1" data-id="5">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/hq1.png" />
+              <img src="assets/bitmatch/images/hq1.png" alt="harley quinn 1 image"/>
             </div>
           </div>
         </div>
@@ -268,10 +270,10 @@
         <div class="card-box">
           <div class="card" data-name="har1" data-id="6">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/hq1.png" />
+              <img src="assets/bitmatch/images/hq1.png" alt="harley quinn 1 image"/>
             </div>
           </div>
         </div>
@@ -279,10 +281,10 @@
         <div class="card-box">
           <div class="card" data-name="har2" data-id="7">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/hq2.png" />
+              <img src="assets/bitmatch/images/hq2.png" alt="harley quinn 2 image"/>
             </div>
           </div>
         </div>
@@ -290,10 +292,10 @@
         <div class="card-box">
           <div class="card" data-name="har2" data-id="8">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/hq2.png" />
+              <img src="assets/bitmatch/images/hq2.png" alt="harley quinn 1 image"/>
             </div>
           </div>
         </div>
@@ -301,10 +303,10 @@
         <div class="card-box">
           <div class="card" data-name="si-fi" data-id="9">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/sf1.png" />
+              <img src="assets/bitmatch/images/sf1.png" alt="si-fi image"/>
             </div>
           </div>
         </div>
@@ -312,10 +314,10 @@
         <div class="card-box">
           <div class="card" data-name="si-fi" data-id="10">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/sf1.png" />
+              <img src="assets/bitmatch/images/sf1.png" alt="si-fi image"/>
             </div>
           </div>
         </div>
@@ -323,10 +325,10 @@
         <div class="card-box">
           <div class="card" data-name="war" data-id="11">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/wr1.png" />
+              <img src="assets/bitmatch/images/wr1.png" alt="warrior image"/>
             </div>
           </div>
         </div>
@@ -334,16 +336,16 @@
         <div class="card-box">
           <div class="card" data-name="war" data-id="12">
             <div class="card-front-face">
-              <img src="assets/bitmatch/images/unicorn1.png" />
+              <img src="assets/bitmatch/images/unicorn1.png" alt="card back image"/>
             </div>
             <div class="card-back-face">
-              <img src="assets/bitmatch/images/wr1.png" />
+              <img src="assets/bitmatch/images/wr1.png" alt="warrior image"/>
             </div>
           </div>
         </div>
       </div>
 
-      <!---back buttons and funmatch--->
+      <!--back buttons and funmatch-->
 
       <div id="botton" class="clearfix">
         <div id="back1">
@@ -373,6 +375,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/bitmatch/apptwo.js" charset="UTF-8"></script>
+    <script src="assets/bitmatch/apptwo.js"></script>
   </body>
 </html>

@@ -1,381 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New York Crypto College</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  </head>
-
-  <body>
-  <button id="topbut" title="Return to top">Top</button>
-    <div class="container-fluid navlogo-container">
-      <div class="logo clearfix">
-        <hr class="nav1" />
-        <div class="row">
-          <div class="col-md-10 center-vandh">
-            <p class="logotit">NEW YORK CRYPTO COLLEGE</p>
-          </div>
-          <div class="col-md-2 center-vandh">
-            <button class="text-center" id="signin">Sign In</button>
-          </div>
-        </div>
-      </div>
-      <!--</div>-->
-
-      <!--nav-->
-      <div class="container-fluid nav-container">
-        <nav class="navbar navbar-light navbar-expand-sm navbar-custom">
-          <a href="index.html" class="navbar-brand">NYCC</a>
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="courses.html">Courses</a>
-              </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="cryptocurrency.html"
-                  >Cryptocurrency</a
-                >
-              </li>
-              <li class="nav-item dropdown mr-3">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink3"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Bitmatch
-                </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink3"
-                >
-                  <a class="dropdown-item" href="bitmatch.html">Bitmatch</a>
-                  <a class="dropdown-item" href="funmatch.html">Funmatch</a>
-                </div>
-              </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="map.html">Map</a>
-              </li>
-              <li class="active nav-item dropdown mr-3">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink4"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  About
-                </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink4"
-                >
-                  <a class="dropdown-item" href="us.html">Us</a>
-                  <a class="dropdown-item" href="newyork.html">New York</a>
-                  <a class="dropdown-item" href="reviews.html">Reviews</a>
-                </div>
-              </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <div id="bitMatch-alert" class="clearfix">
-        <div class="row">
-          <div class="col-8 center-vandh">
-            <p class=" pagename">US</p>
-          </div>
-          <div class="col-4 center-vandh">
-            <div id="bitmatch-book" class="center-vandh">
-              <a href="contact.html">BOOK</a>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>New York Crypto College</title>
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+         crossorigin="anonymous"
+         />
+      <link
+         rel="shortcut icon"
+         href="assets/images/favicon.ico"
+         type="image/x-icon"
+         />
+      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+         rel="stylesheet"
+         />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+         crossorigin="anonymous"
+         />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+   </head>
+   <body>
+      <button id="topbut" title="Return to top">Top</button>
+      <div class="container-fluid navlogo-container">
+         <div class="logo clearfix">
+            <hr class="nav1" />
+            <div class="row">
+               <div class="col-md-10 center-vandh">
+                  <p class="logotit">NEW YORK CRYPTO COLLEGE</p>
+               </div>
+               <div class="col-md-2 center-vandh">
+                  <button class="text-center" id="signin">Sign In</button>
+               </div>
             </div>
-          </div>
-        </div>
+         </div>
+         <!--</div>-->
+         <!--nav-->
+         <div class="container-fluid nav-container">
+            <nav class="navbar navbar-light navbar-expand-sm navbar-custom">
+               <a href="index.html" class="navbar-brand">NYCC</a>
+               <button
+                  class="navbar-toggler ml-auto"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item mr-3">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item mr-3">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                     </li>
+                     <li class="nav-item mr-3">
+                        <a class="nav-link" href="cryptocurrency.html"
+                           >Cryptocurrency</a
+                           >
+                     </li>
+                     <li class="nav-item dropdown mr-3">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdownMenuLink3"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false"
+                           >
+                        Bitmatch
+                        </a>
+                        <div
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdownMenuLink3"
+                           >
+                           <a class="dropdown-item" href="bitmatch.html">Bitmatch</a>
+                           <a class="dropdown-item" href="funmatch.html">Funmatch</a>
+                        </div>
+                     </li>
+                     <li class="nav-item mr-3">
+                        <a class="nav-link" href="map.html">Map</a>
+                     </li>
+                     <li class="active nav-item dropdown mr-3">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdownMenuLink4"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false"
+                           >
+                        About
+                        </a>
+                        <div
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdownMenuLink4"
+                           >
+                           <a class="dropdown-item" href="us.html">Us</a>
+                           <a class="dropdown-item" href="newyork.html">New York</a>
+                           <a class="dropdown-item" href="reviews.html">Reviews</a>
+                        </div>
+                     </li>
+                     <li class="nav-item mr-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+         <div id="bitMatch-alert" class="clearfix">
+            <div class="row">
+               <div class="col-8 center-vandh">
+                  <p class=" pagename">US</p>
+               </div>
+               <div class="col-4 center-vandh">
+                  <div id="bitmatch-book" class="center-vandh">
+                     <a href="contact.html">BOOK</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr class="nav2" />
       </div>
-      <hr class="nav2" />
-    </div>
-    <!--/nav-->
-
-    <!--us-->
-    <div class="container-fluid about-container">
-      <div class="row">
-        <div class="col">
-          <div class="greytop center center-vandh">
-            <p class="greytop-title text-center">WHO WE ARE</p>
-          </div>
-        </div>
+      <!--/nav-->
+      <!--us-->
+      <div class="container-fluid about-container">
+         <div class="row">
+            <div class="col">
+               <div class="greytop center center-vandh">
+                  <p class="greytop-title text-center">WHO WE ARE</p>
+               </div>
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 photo">
+               <img
+                  class="us-img center"
+                  src="assets/images/us1.jpeg"
+                  alt="Michael Stearn image"
+                  />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+               <div class="describe center">
+                  <p class="describe-t">Michael Stearn, CEO and Founder</p>
+                  <p class="describe-p">
+                     MBA Business and Economics, Harvard Business School. After twenty
+                     years as a senior trading analysist with the Cauldwell Group
+                     Michael founded the NYCC College as he saw a vacuum in the the
+                     business education system with regards to the cryptocurrency
+                     trading opportunity.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 photo">
+               <img
+                  class="us-img center"
+                  src="assets/images/us2.jpeg"
+                  alt="Charlie Leibnitz image"
+                  />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+               <div class="describe center">
+                  <p class="describe-t">
+                     Charlie Leibnitz, Programme Developer and Chief Lecturer
+                  </p>
+                  <p class="describe-p">
+                     PhD in Economics, Harvard. Previous positions include senior
+                     analyst and hedge fund manager with Alpha Capital Management.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 photo">
+               <img
+                  class="us-img center"
+                  src="assets/images/us3.jpeg"
+                  alt="Gail Thompson image"
+                  />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+               <div class="describe center">
+                  <p class="describe-t">
+                     Gail Thompson, Student Affairs and Programme Coordinator
+                  </p>
+                  <p class="describe-p">
+                     BA in Business Administration & Management, Syracuse University.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <!--/us-->
+         <!--the college-->
+         <div class="row">
+            <div class="col">
+               <div class="greytop center center-vandh">
+                  <p class="greytop-title text-center">THE COLLEGE</p>
+               </div>
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 mt-3 mb-3">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/class1.jpeg"
+                  alt="Class image"
+                  />
+            </div>
+            <div class="col-md-6 mt-3 mb-3">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/class2.jpeg"
+                  alt="Class image"
+                  />
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 mt-3 mb-3">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/class3.jpeg"
+                  alt="Class image"
+                  />
+            </div>
+            <div class="col-md-6 mt-3 mb-3">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/class4.jpeg"
+                  alt="Class image"
+                  />
+            </div>
+         </div>
+         <!--the college-->
+         <!--apartment-->
+         <div class="row">
+            <div class="col">
+               <div class="greytop center center-vandh">
+                  <p class="greytop-title text-center">UNION SQUARE APARTMENTS</p>
+               </div>
+            </div>
+         </div>
+         <div class="row about-row">
+            <div class="col-md-6 photo">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/apart.jpeg"
+                  alt="Apartment image"
+                  />
+            </div>
+            <div class="col-md-6 photo d-flex align-items-center">
+               <img
+                  class="us-img center mt-3 mb-3"
+                  src="assets/images/apar1.jpeg"
+                  alt="Apartment image"
+                  />
+            </div>
+         </div>
       </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 photo">
-          <img
-            class="us-img center"
-            src="assets/images/us1.jpeg"
-            alt="Michael Stearn image"
-          />
-        </div>
-        <div class="col-md-6 d-flex align-items-center">
-          <div class="describe center">
-            <p class="describe-t">Michael Stearn, CEO and Founder</p>
-            <p class="describe-p">
-              MBA Business and Economics, Harvard Business School. After twenty
-              years as a senior trading analysist with the Cauldwell Group
-              Michael founded the NYCC College as he saw a vacuum in the the
-              business education system with regards to the cryptocurrency
-              trading opportunity.
-            </p>
-          </div>
-        </div>
+      <!--/apartment-->
+      <!--footer-->
+      <div class="container-fluid footer-container">
+         <div class="row">
+            <div class="col-md-4 order-1 order-md-1 footer-block">
+               <p class="footer-par text-center">
+                  How are we rated in the business world. Read the testimonials from
+                  business insiders.
+               </p>
+               <h5 class="text-center">
+                  <a class="footer-link" href="reviews.html">Read testimonials</a>
+               </h5>
+            </div>
+            <div class="col-md-4 order-3 order-md-2 footer-block">
+               <p class="footer-par text-center">
+                  Contact <br />
+                  ++1 212 555777<br />
+                  info@nycc.com<br />
+                  70 South Street<br />
+                  NY NY 10038
+               </p>
+               <!--icons-->
+               <ul class="list-inline social-links text-center">
+                  <li class="list-inline-item">
+                     <a href="https://www.facebook.com" target="_blank">
+                     <i class="fab fa-facebook-square"></i
+                        ></a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.twitter.com" target="_blank">
+                     <i class="fab fa-twitter-square"></i
+                        ></a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.youtube.com" target="_blank">
+                     <i class="fab fa-youtube-square"></i
+                        ></a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.instagram.com" target="_blank">
+                     <i class="fab fa-instagram"></i
+                        ></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-4 order-2 order-md-3 footer-block">
+               <p class="footer-par text-center">
+                  What do our student say. Read reviews from our graduates.
+               </p>
+               <h5 class="text-center">
+                  <a class="footer-link" href="reviews.html">Read reviews</a>
+               </h5>
+            </div>
+         </div>
       </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 photo">
-          <img
-            class="us-img center"
-            src="assets/images/us2.jpeg"
-            alt="Charlie Leibnitz image"
-          />
-        </div>
-        <div class="col-md-6 d-flex align-items-center">
-          <div class="describe center">
-            <p class="describe-t">
-              Charlie Leibnitz, Programme Developer and Chief Lecturer
-            </p>
-            <p class="describe-p">
-              PhD in Economics, Harvard. Previous positions include senior
-              analyst and hedge fund manager with Alpha Capital Management.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 photo">
-          <img
-            class="us-img center"
-            src="assets/images/us3.jpeg"
-            alt="Gail Thompson image"
-          />
-        </div>
-        <div class="col-md-6 d-flex align-items-center">
-          <div class="describe center">
-            <p class="describe-t">
-              Gail Thompson, Student Affairs and Programme Coordinator
-            </p>
-            <p class="describe-p">
-              BA in Business Administration & Management, Syracuse University.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--/us-->
-
-      <!--the college-->
-      <div class="row">
-        <div class="col">
-          <div class="greytop center center-vandh">
-            <p class="greytop-title text-center">THE COLLEGE</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 mt-3 mb-3">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/class1.jpeg"
-            alt="Class image"
-          />
-        </div>
-
-        <div class="col-md-6 mt-3 mb-3">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/class2.jpeg"
-            alt="Class image"
-          />
-        </div>
-      </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 mt-3 mb-3">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/class3.jpeg"
-            alt="Class image"
-          />
-        </div>
-        <div class="col-md-6 mt-3 mb-3">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/class4.jpeg"
-            alt="Class image"
-          />
-        </div>
-      </div>
-      <!--the college-->
-
-      <!--apartment-->
-      <div class="row">
-        <div class="col">
-          <div class="greytop center center-vandh">
-            <p class="greytop-title text-center">UNION SQUARE APARTMENTS</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row about-row">
-        <div class="col-md-6 photo">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/apart.jpeg"
-            alt="Apartment image"
-          />
-        </div>
-
-        <div class="col-md-6 photo d-flex align-items-center">
-          <img
-            class="us-img center mt-3 mb-3"
-            src="assets/images/apar1.jpeg"
-            alt="Apartment image"
-          />
-        </div>
-      </div>
-    </div>
-    <!--/apartment-->
-
-    <!--footer-->
-    <div class="container-fluid footer-container">
-      <div class="row">
-        <div class="col-md-4 order-1 order-md-1 footer-block">
-          <p class="footer-par text-center">
-            How are we rated in the business world. Read the testimonials from
-            business insiders.
-          </p>
-          <h5 class="text-center">
-            <a class="footer-link" href="reviews.html">Read testimonials</a>
-          </h5>
-        </div>
-
-        <div class="col-md-4 order-3 order-md-2 footer-block">
-          <p class="footer-par text-center">
-            Contact <br />
-            ++1 212 555777<br />
-            info@nycc.com<br />
-            70 South Street<br />
-            NY NY 10038
-          </p>
-          <!--icons-->
-          <ul class="list-inline social-links text-center">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com" target="_blank">
-                <i class="fab fa-facebook-square"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-twitter-square"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.youtube.com" target="_blank">
-                <i class="fab fa-youtube-square"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank">
-                <i class="fab fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-md-4 order-2 order-md-3 footer-block">
-          <p class="footer-par text-center">
-            What do our student say. Read reviews from our graduates.
-          </p>
-          <h5 class="text-center">
-            <a class="footer-link" href="reviews.html">Read reviews</a>
-          </h5>
-        </div>
-      </div>
-    </div>
-    <!--/footer-->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/alert.js"></script>
-    <script src="assets/js/top.js"></script>
-  </body>
+      <!--/footer-->
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+         crossorigin="anonymous"
+         ></script>
+      <script src="assets/js/alert.js"></script>
+      <script src="assets/js/top.js"></script>
+   </body>
 </html>
