@@ -94,10 +94,15 @@ See the user stories section for working images.
 
 ### Interactive maps
 
-The site has two map features. One showing the college’s position 
-in New York and its proximity to the New York Stock Exchange 
-and the Union Square apartments. The intention to give people a 
-real feel of where the college is and where they could be. 
+The site has two maps.
+Map one is set to a far zoom with a marker cluster which when clicked
+zooms in on New York and shows the college's location in relation to 
+the New York Stock Exchange and the Union Square apartments. The college
+has a flag icon with a drop Animation for an onload effect and an onclick infowindow.
+
+The intention to give people a real feel of where the college is and where
+they could be. 
+
 The other map is interactive and shows places to stay and 
 eat in New York and a real time image to take bring even closer.
 
@@ -294,8 +299,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/bitwin.png" width="90%">
 </p>
 
-  - These were tested by setting the winner length to 2 instead of 12 as there were numerous 
-    tests hence only 2 cards in these images but also worked when set to 12.
+  - These were tested by setting the winners.length to 2 instead of 12 on line 113 of app.js
+    for Bitmatch and winners1.length also to 2 on line 112 of apptwo.js for Funmatch.
+    Hence only 2 cards in these images but also worked when set to 12.
 
 
 <p align="center">
@@ -315,11 +321,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <img src="documentation/readme-images/bitgmail.png" width="90%">
 </p>
 
-<<<<<<< HEAD
-- The info box, bounce, and marker clusters functions were tested for the Find Us map.
-=======
-- The info box, bounce function and marker clusters were tested for the Find Us map.
->>>>>>> 1c0266ee7e56587de1eb243f6cb4891a8e75b2d3
+- The InfoWindow, drop Animation, icon image and marker clusters functions were tested for the Find Us map.
 
 <p align="center">
 <img src="documentation/readme-images/nymap.png" width="90%">
