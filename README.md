@@ -4,6 +4,8 @@
 
 This is the website for the New York Crypto College. Its main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
 
+
+
 <h2 align="center"><img src="documentation/readme-images/resland.png"></h2>
 
 ## User Experience (UX)
@@ -37,6 +39,8 @@ The business goals are for the college to find potential students and establish 
     - The site aims to have a strong presence created by the contrast between
       off-black backgrounds shades and off-white text and a white background with black and grey text. There are touches of gold and silver are to give it a sophisticated and strong flare.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/design.png" width="90%">
 </p>
@@ -46,6 +50,8 @@ The business goals are for the college to find potential students and establish 
 
 - #### Imagery
   - The landing page has a deep rich serious and sophisticated cryptocurrency image overlaying an image if the New York skyline to give immediate understanding of what the site is all about. The use of strong rich cryptocurrency images throughout the site give it an exciting dynamic feel. The interactive coin all features have a blue and silver background to give them a usable inviting feel. This lies at the heart of the site giving people this approach to cryptocurrency and not overwhelming them with data and graphs.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/log1.png" width="90%">
@@ -57,7 +63,10 @@ The business goals are for the college to find potential students and establish 
 
 - [View on Github](https://github.com/johnston9/ms2-apis)
 
+
+
 ## Features
+
 
 ### Existing Features
 
@@ -73,6 +82,8 @@ encouraging people to use them and get a feel of working
 with data even in this manner. Even though the code running
 in the background is complex the features are not.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/exchange.png" width="90%">
 </p>
@@ -86,6 +97,8 @@ On winning their playertime number and winner number appear with
 a link that takes them to the contact page where they can 
 add their numbers to the message box and send in their entry. 
 See the user stories section for working images.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/game3.png" width="90%">
@@ -105,6 +118,8 @@ they could be.
 
 The other map is interactive and shows places to stay and 
 eat in New York and a real time image to take bring even closer.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/rmap2a.png" width="90%">
@@ -177,9 +192,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. Upon going to that page apart from short intos to various aspect of cryptocurrency there are two interactive cryptocurrency data features which allow the user to engage with crypto data, maybe for the first time, in a controllable and simple manner, hopefully building their confidence and inspiring a desire for knowing more.
     3. Throughout the site and in the navbar there are also links to take the user to the cryptocurrency page.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/c1.png" width="90%">
 </p>
+
+
 
 2.  As a First Time Visitor, I want to find out about what courses are on offer and what they consist of.
 
@@ -187,9 +206,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. Upon going to the page, the user will find clearly laid out information about each course and it’s modules.
     3. Throughout the site and in the navbar there are also links to take the user to the courses page.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/cr1.png" width="90%">
 </p>
+
+
 
 3.  As a First Time Visitor, I want to find out about the college, to find reviews and social media links.
 
@@ -204,9 +227,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    1. The site has been designed to be fluid and allow the user to explore all it has to offer as easily as possible and return to the home page at any moment. There is complete interactivity between all the pages and features on the page.
    2. At the top of each page there is a clean navigation bar guiding the user to the different sections.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/nav.png" width="90%">
 </p>
+
+
 
 2.  As a Returning Visitor, I want to to get in contact with the college to find out more information about the courses and to book a course..
  
@@ -215,17 +242,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3.  The user is being constantly encouraged and guided to find out more all leading them to the contact page. Here they will find a message saying to fill in their details to book or to have someone contact them back to answer their questions.
     4.  If they have played and won Bitmatch they can click a box to pass their winner time and number into the message box to enter the competition.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/con2.png" width="90%">
 </p>
+
+
 
 3.  As a Returning Visitor, I want to examine the courses in detail.
 
     1.  The user can easily click on any of the many links to the courses page and go through each course and it’s modules in detail.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/cor1.png " width="90%">
 </p>
+
+
 
 #### Frequent User Goals
 
@@ -233,9 +268,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
    1. The user would already be comfortable with the website layout and can easily locate where they are displayed.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/price.png " width="90%">
 </p>
+
+
 
 2.  As a Frequent User, I want to log in to the site to continue my online course.
 
@@ -247,9 +286,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1.  The Bitcoin and Funmatch links are at the top when they land on the site.
 
+
+
 <p align="center">
 <img src="documentation/readme-images/game.png" width="90%">
 </p>
+
+
 
 ### Further Testing
 
@@ -260,25 +303,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   is the image of the price change feature with data fetched.
 
 
+
 <p align="center">
 <img src="documentation/readme-images/change.png" width="90%">
 </p>  
 
+
+
 - The error response was also tested and responded correctly with "error" set in data box
   on incorrect input and "network error" for network errors. 
+
 
 
 <p align="center">
 <img src="documentation/readme-images/priceer.png" width="90%">
 </p> 
 
+
+
 - The email.js error handling function was tested successfully printing "Message sent" if 
   successful and "Error Please Resend" if sending failed.
+
 
 
 <p align="center">
 <img src="documentation/readme-images/message.png" width="90%">
 </p> 
+
+
 
 - The games functions below were tested extensively without error.
      
@@ -293,37 +345,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - The on-win display of timer number and random winner number worked every time tested.
 
 
+
 <p align="center">
 <img src="documentation/readme-images/bitwin.png" width="90%">
 </p>
+
+
 
   - The games were tested by setting the winners.length to 2 instead of 12 on line 113 of app.js
     for Bitmatch and winners1.length also to 2 on line 112 of apptwo.js for Funmatch.
     Hence only 2 cards in these images but also worked when set to 12.
 
 
+
 <p align="center">
 <img src="documentation/readme-images/funwin.png" width="90%">
 </p>
 
+
+
   - The winner number variables being set in local storage then retrieved on the
     contact page.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/bitsend.png" width="90%">
 </p>
 
+
+
   - The result of email.js sending the message to gmail account.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/bitgmail.png" width="90%">
 </p>
 
+
+
 - For the Find Us map the InfoWindow, drop Animation, icon image and marker clusters functions were tested for the Find Us map.
+
+
 
 <p align="center">
 <img src="documentation/readme-images/nymap.png" width="90%">
 </p>
+
+
 
 - The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
 
@@ -333,9 +403,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Friends and family members were asked to review the site and to point out any bugs and/or user experience issues. These were taken on board and changes were made if necessary or to give a better user experience.
 
+
+
 ### Known Bugs
 
+- All bugs to date have been dealt with.
+
+
+
 ## Deployment
+
 
 ### GitHub Pages
 
@@ -368,6 +445,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 7. Press Enter. Your local clone will be created.
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
 
 ## Credits
 
