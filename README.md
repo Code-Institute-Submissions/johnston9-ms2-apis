@@ -2,7 +2,7 @@
 
 [View the project live here.](https://johnston9.github.io/ms2-apis/)
 
-This is the website for the New York Crypto College. It's main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
+This is the website for the New York Crypto College. Its main purpose is to establish the newly founded college’s presence and to attract potential students. People coming to the site who have a minor or real interest in cryptocurrency can not only find out about courses but learn more about the field in an easy and way.
 
 <h2 align="center"><img src="documentation/readme-images/resland.png"></h2>
 
@@ -81,7 +81,7 @@ in the background is complex the features are not.
 #### Bitmatch game
 
 The site also has a game using cryptocurrency images where people 
-can win bitcoin. It has a easier version called Funmatch as well. 
+can win bitcoin. It has an easier version called Funmatch as well. 
 On winning their playertime number and winner number appear with 
 a link that takes them to the contact page where they can 
 add their numbers to the message box and send in their entry. 
@@ -148,17 +148,17 @@ eat in New York and a real time image to take bring even closer.
 
 ### APIs used
 
-1.  [Coingecko](https://www.coingecko.com/api/)
+1. [Coingecko](https://www.coingecko.com/api/)
 
-    - Coingecko was use for all the coin data fetch functions.
+   - Coingecko was use for all the coin data fetch functions.
 
-1.  [Google Maps](https://developers.google.com/maps/documentation/javascript/overview)
+1. [Google Maps](https://developers.google.com/maps/documentation/javascript/overview)
 
-    - Google Maps API was used for the Find Us page to show the college’s location in New York. The marker clusters feature was used to set two locations using their coordinates. The info box feature was used on a third location along with a bounce function.
-    - The Google Maps API embed feature was also used to call three different place selectors in New York.
+   - Google Maps API was used for the Find Us page to show the college’s location in New York. The marker clusters feature was used to set two locations using their coordinates. The info box feature was used on a third location along with a bounce function.
+   - The Google Maps API embed feature was also used to call three different place selectors in New York.
 
-1.  [EmailJS](https://www.emailjs.com)
-    - EmailJS was used for the contact page.
+1. [EmailJS](https://www.emailjs.com)
+   - EmailJS was used for the contact page.
 
 ## Testing
 
@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 1.  As a First Time Visitor, I want to find out about cryptocurrency.
 
     1. Upon entering the site, users are automatically greeted with a cryptocurrency image expanding towards them below which are three short explanations about the purpose of the site, the first being about cryptocurrency and having a link to a cryptocurrency page where the user can immediately find out about it.
-    2. Upon going to that page apart from short intos to various aspect of cryptocurrency there are two interactive cryptocurrency data features which allow the user to engage with crypto data , maybe for the first time, in a controllable and simple manner, hopefully building their confidence and inspiring a desire for knowing more.
+    2. Upon going to that page apart from short intos to various aspect of cryptocurrency there are two interactive cryptocurrency data features which allow the user to engage with crypto data, maybe for the first time, in a controllable and simple manner, hopefully building their confidence and inspiring a desire for knowing more.
     3. Throughout the site and in the navbar there are also links to take the user to the cryptocurrency page.
 
 <p align="center">
@@ -240,7 +240,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 2.  As a Frequent User, I want to log in to the site to continue my online course.
 
     1.  The sign button is at the top when they land on the site.
-        See Imagary image above.
+        See Imagery image above.
 
 
 3.  As a Frequent User, I want to play the Bitcoin and Funmatch games.
@@ -254,10 +254,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 
-- The three coin fetch features were tested extensively and all work with no errors.
+- The three coin-fetch features were tested extensively and all work with no errors.
   See Interactive cryptocurrency data fields image and Frequent user image for images of 
   coin price feature with price fetched and exchanges feature with prices fetched. Below 
-  is the image of the price chang feature with data fetched.
+  is the image of the price change feature with data fetched.
 
 
 <p align="center">
@@ -266,8 +266,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The error response was also tested and responded correctly with "error" set in data box
   on incorrect input and "network error" for network errors. 
-- The Gemini Exchange in the exchange fetch feature on the cryptocurrency page does not support
-  the Ripple coin so I set it's return to N/A.
 
 
 <p align="center">
@@ -275,7 +273,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p> 
 
 - The email.js error handling function was tested successfully printing "Message sent" if 
-  succussful and "Error Please Resend" if failed in box.
+  successful and "Error Please Resend" if sending failed.
 
 
 <p align="center">
@@ -292,7 +290,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      The sound functions which threw console errors at first from
      causing interrupted calls which I fixed with set timouts.
 
-  - The on win display of timer number and random winner number worked every time tested.
+  - The on-win display of timer number and random winner number worked every time tested.
 
 
 <p align="center">
@@ -344,7 +342,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The project was deployed to GitHub Pages using the following steps.
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+2. At the top of the Repository locate the "Settings" Button on the menu.
    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -367,21 +365,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
 7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
