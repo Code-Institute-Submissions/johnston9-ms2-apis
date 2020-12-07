@@ -1,9 +1,5 @@
 /* Function for Map Page to set map, with a marker cluster of 2 markers, "Union Square Apartments" and
-   the "NY Stock Exchange" both labeled by their object name value.
-   A seperate marker is set for the NYCC to make it stand out, giving it a
-   flag icon, a drop Animation, a title to instruct the user to click on the flag
-   and an infowindow to open on doing so.
-   */
+   the "NY Stock Exchange" both labeled by their object name value.*/
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map1"), {
@@ -32,7 +28,7 @@ function initMap() {
         });
     });
 
-    new MarkerClusterer(map, markers, {
+    var markerCluster = new MarkerClusterer(map, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
@@ -40,12 +36,17 @@ function initMap() {
     const image =
         "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
 
+
+    /*A seperate marker is set for the NYCC to make it stand out, giving it a
+    flag icon, a drop Animation, a title to instruct the user to click on the flag
+    and an infowindow to open on doing so.*/    
+    
     const marker1 = new google.maps.Marker({
-        position: new google.maps.LatLng(40.706, -74.0048),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        icon: image,
-        title: "NYCC - CLICK HERE",
+    position: new google.maps.LatLng(40.706, -74.0048),
+    map: map,
+    animation: google.maps.Animation.DROP,
+    icon: image,
+    title: "NYCC - CLICK HERE",
     });
 
     const contentString =
