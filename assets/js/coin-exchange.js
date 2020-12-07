@@ -1,6 +1,11 @@
-/*jshint esversion: 6 */
+/*---"When and then" used for "getJSON" calls for Cryptocurrency Page Exchanges prices feature.
 
-/*---Data getJSON calls for Exchanges Price feature---*/
+     The user clicks a Cryptocurrency coin to call the "fetchdata" function.
+     This sets the variable "coin" to that coins's id using the attr function
+     then send 4 calls to the "Coingecko API" for the coin's price in 4 exchanges. 
+     The prices are extracted from the responses and set in 4 data boxes.
+     
+     Error messages are printed in the data box---*/
 
 $(document).ready(function () {
 
@@ -12,7 +17,7 @@ $(document).ready(function () {
     function fetchdata(coin) {
          coin = $(this).attr("id");
 
-        $("#binancebox").html("");
+        $("#binancebox").html("");   
         $("#krakenbox").html("");
         $("#geminibox").html("");
         $("#bitfinexbox").html("");

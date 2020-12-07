@@ -1,4 +1,9 @@
-
+/* Function for Map Page to set map, with a marker cluster of 2 markers, "Union Square Apartments" and
+   the "NY Stock Exchange" both labeled by their object name value.
+   A seperate marker is set for the NYCC to make it stand out, giving it a
+   flag icon, a drop Animation, a title to instruct the user to click on the flag
+   and an infowindow to open on doing so.
+   */
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map1"), {
@@ -27,7 +32,7 @@ function initMap() {
         });
     });
 
-    var markerCluster = new MarkerClusterer(map, markers, {
+    new MarkerClusterer(map, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });

@@ -1,6 +1,9 @@
 /*jshint esversion: 6 */
 
-/*---------Google Maps API Embed calls set on click--*/
+/*--New York Page--*/
+
+/*-----on click functions to set the src of the Google Maps API Embed New York map
+       to resturants, places to stay or a live shot of Times Square--*/
 
 const nyfood = document.getElementById("nyfood");
 nyfood.addEventListener("click", function() {

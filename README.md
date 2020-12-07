@@ -177,11 +177,16 @@ eat in New York and a real time image to take bring even closer.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+W3C Markup Validator, W3C CSS Validator and JSHint were used to validate every page of the project to ensure there were no errors in the project.
 
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/johnston9/ms2-apis)
+
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/johnston9/ms2-apis)
   - The W3C CSS Validator gave 2 warnings about the background-color and color of the bitmatch timer being the same but that is intentional for use in a javascript function that hides and shows the display.
+
+- [JSHint](https://jshint.com/) - [Results](https://github.com/johnston9/ms2-apis)
+  - JSHint was used with "New JavaScript features (ES6)" and "jQuery" checked in the configuration menu.
+
 
 ### Testing User Stories from User Experience (UX) Section
 

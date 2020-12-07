@@ -1,4 +1,13 @@
-/*---Data fetch calls for Cryptocurrency Page 24 Hour Change feature---*/
+/*---Data fetch call for Cryptocurrency Page 24 Hour Change feature.
+
+     The user imputs a Cryptocurrency coin into the "coin2" imput box.
+     The imput is then set as the variable "coin2" and used in the submit 
+     button's on-click "fetchdata2" fetch function. 
+     This function calls to the API Coingecko for that coin's 24 hour
+     change percentage.
+     This is extracted from the response and set in the "coin-data2" data box.
+     
+     Error messages are printed in the data box---*/
 
 document.getElementById("coinfetch2").addEventListener("click", fetchdata2);
 
@@ -32,6 +41,9 @@ function fetchdata2(coin2) {
     });
 }
 
+/*--function to clear the text from the "coin2" imput box
+    and  from the "coin-data2" data box.--*/
+
 document.getElementById("clear2").addEventListener("click", cleardata2);
 
 function cleardata2() {
@@ -41,7 +53,6 @@ function cleardata2() {
     dataDiv2.innerHTML = "";
 }
 
-/*---/change call---*/
 
 
 
