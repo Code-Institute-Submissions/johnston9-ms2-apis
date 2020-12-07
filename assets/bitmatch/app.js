@@ -23,28 +23,28 @@ const frontImages = [
 /*---Functions to allow only one control box to be displayed on the screen
 for the 4 audio files and to set it's audio src---*/
 
-var sound = document.getElementById("audio1")
+var sound = document.getElementById("audio1");
 
 function playSoundflip() {
-    srcflip = "assets/bitmatch/sounds/click.mp3"
+    const srcflip = "assets/bitmatch/sounds/click.mp3";
     sound.setAttribute('src', srcflip);
     sound.play();
 }
 
 function playSoundlose() {
-    srclose = "assets/bitmatch/sounds/game-lose.mp3";
+    const srclose = "assets/bitmatch/sounds/game-lose.mp3";
     sound.setAttribute('src', srclose);
     sound.play();
 }
 
 function playSoundpair() {
-    srcpair = "assets/bitmatch/sounds/pair.mp3";
+    const srcpair = "assets/bitmatch/sounds/pair.mp3";
     sound.setAttribute('src', srcpair);
     sound.play();
 }
 
 function playSoundwin() {
-    srcwin = "assets/bitmatch/sounds/win.mp3";
+    const srcwin = "assets/bitmatch/sounds/win.mp3";
     sound.setAttribute('src', srcwin);
     sound.play();
 }
@@ -55,6 +55,7 @@ function playSoundwin() {
 and a setTimeout function that lasts 20 seconds.*/
 
 let faces = document.querySelectorAll(".card-front-face img");
+let timerId;
 
 function flashImage() {
   return frontImages[Math.floor(Math.random() * 12)];
@@ -92,8 +93,8 @@ let timerId2;
 let clocktime = document.getElementById("clock");
 let currentTime = clocktime.textContent;
 let timebut = document.getElementById("time");
-timebut.addEventListener("click", startClock)
-let box = document.getElementById("box1")
+timebut.addEventListener("click", startClock);
+let box = document.getElementById("box1");
 
 function startClock() {
   clocktime.style.color = "black";
@@ -112,7 +113,7 @@ function countDown() {
     clearInterval(timerId2);
   } else if (winners.length === 2) {
       playertime = currentTime;
-      let winnernumber = (Math.random()*10000).toFixed();
+      winnernumber = (Math.random()*10000).toFixed();
       localStorage.setItem('wintime', playertime);
       localStorage.setItem('winnum', winnernumber);
       setTimeout(() => {
@@ -132,13 +133,13 @@ function countDown() {
 3) The cards are shuffled.
 4) The winner display box is cleared.----------*/
 
-winners = [];
+let winners = [];
 var play = document.querySelector("#play");
 play.addEventListener("click", shuffle);
 var boxes = document.querySelectorAll(".card-box");
 
 function shuffle() {
-    box.innerHTML = ""
+    box.innerHTML = "";
   clearInterval(timerId);
   clocktime.style.color = "red";
   currentTime = 60;

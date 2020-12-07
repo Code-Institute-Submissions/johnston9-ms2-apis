@@ -38,7 +38,7 @@ function cleardata2() {
     let coin2 = document.getElementById("coin2");
     let dataDiv2 = document.getElementById("coin-data2");
     coin2.value = ""; 
-    dataDiv2.innerHTML = ""
+    dataDiv2.innerHTML = "";
 }
 
 /*---/change call---*/

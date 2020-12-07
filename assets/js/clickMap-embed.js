@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /*---------Google Maps API Embed calls set on click--*/
 
 const nyfood = document.getElementById("nyfood");

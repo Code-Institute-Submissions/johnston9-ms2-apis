@@ -1,13 +1,16 @@
+/*jshint esversion: 6 */
+
 /*---Data getJSON calls for Exchanges Price feature---*/
 
 $(document).ready(function () {
+
     $("#chainlink").click(fetchdata);
     $("#litecoin").click(fetchdata);
     $("#ethereum").click(fetchdata);
     $("#bitcoin").click(fetchdata);
 
     function fetchdata(coin) {
-        var coin = $(this).attr("id");
+         coin = $(this).attr("id");
 
         $("#binancebox").html("");
         $("#krakenbox").html("");
@@ -37,7 +40,6 @@ $(document).ready(function () {
                     $("#binancebox").html(
                         `Re-enter`);
                 }
-            })
+            });
     }
-})
-
+});
