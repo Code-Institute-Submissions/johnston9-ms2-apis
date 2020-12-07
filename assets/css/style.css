@@ -1,120 +1,122 @@
 /*----------------------General----------------------*/
-/*python3 -m http.server*/
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
+
 body {
-  color: #777777;
-  font-family: 'Roboto', sans-serif;
+	color: #777777;
+	font-family: 'Roboto', sans-serif;
 }
+
 
 /*return to top button*/
 
 #topbut {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 50px; 
-  z-index: 99; 
-  height: 34px;
-  width: 90px;
-  background-color: rgba(209, 161, 16, 0.993);
-  border: none; 
-  font-weight: bold;
-  border-radius: 5px;
-  outline: none; 
-  color: #fafafa;
-  cursor: pointer; 
-  font-size: 24px; 
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	z-index: 99;
+	height: 34px;
+	width: 90px;
+	background-color: rgba(209, 161, 16, 0.993);
+	border: none;
+	font-weight: bold;
+	border-radius: 5px;
+	outline: none;
+	color: #fafafa;
+	cursor: pointer;
+	font-size: 24px;
 }
 
 #topbut:hover {
-  background-color: #666666; 
+	background-color: #666666;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
 .center-vandh {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
 /*-----gold line breaks------*/
 
 hr.nav1 {
-  border-top: 2px solid gold;
-  margin: 10px auto 0px;
-  width: 50%;
+	border-top: 2px solid gold;
+	margin: 10px auto 0px;
+	width: 50%;
 }
 
 hr.nav2 {
-  border-top: 2px solid gold;
-  margin: 5px auto 5px;
-  width: 70%;   
+	border-top: 2px solid gold;
+	margin: 5px auto 5px;
+	width: 70%;
 }
 
 hr.six {
-  border-top: 2px solid gold;
-  margin: 50px auto 0px;
-  width: 60%;
+	border-top: 2px solid gold;
+	margin: 50px auto 0px;
+	width: 60%;
 }
 
 hr.us {
-  border-top: 2px solid #666666;
-  margin: 5px auto 0px;
-  width: 100%;
+	border-top: 2px solid #666666;
+	margin: 5px auto 0px;
+	width: 100%;
 }
 
 hr.usend {
-  border-top: 2px solid #666666;
-  margin: 50px auto 50px;
-  width: 100%;
+	border-top: 2px solid #666666;
+	margin: 50px auto 50px;
+	width: 100%;
 }
 
 
 /*-----top of page blocks------*/
 
 .greytop {
-    margin-top: 40px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
+	margin-top: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #333333;
+	border: 2px solid rgba(209, 161, 16, 0.993);
 }
 
 .ustop-nar {
-    width: 100%;
-    height: 60px;
-    margin-top: 70px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
+	width: 100%;
+	height: 60px;
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #333333;
+	border: 2px solid rgba(209, 161, 16, 0.993);
 }
 
 .greytop-title {
-font-size: 14px;
-font-weight: bold;
-letter-spacing: 2px;
-font-family: 'Goldman', cursive;
-color: #ffffff;
-padding-left: 30px;
-padding-right: 30px;
-margin-top: 0px;
-margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Goldman', cursive;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
+
 
 /*----------------------Navlogo section----------------------*/
 
@@ -127,32 +129,32 @@ margin-bottom: 0px;
 }
 
 .logo {
-    border-bottom: 2px solid gold;
-    width: 100%;
-    position: relative;
+	border-bottom: 2px solid gold;
+	width: 100%;
+	position: relative;
 }
 
 .logotit {
-font-size: 30px;
-font-weight: bold;
-letter-spacing: 2px;
-font-family: 'Goldman', cursive;
-color: #666666;
-position: absolute; 
-left: 5%;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Goldman', cursive;
+	color: #666666;
+	position: absolute;
+	left: 5%;
 }
 
 #signin {
-    height: 40px;
-    width: 100px;
-    background-color: rgba(209, 161, 16, 0.993);
-    color: #ffffff;
-    margin: 10px 20px;
-    border-color: white;
-    border-width: 0;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
+	margin: 10px 20px;
+	border-color: white;
+	border-width: 0;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 #navbarNavDropdown {
@@ -160,7 +162,7 @@ left: 5%;
 	z-index: 5;
 	width: 50px;
 	background-color: #ffffff;
-    float: right;
+	float: right;
 }
 
 #navbarNavDropdown ul li {
@@ -168,10 +170,10 @@ left: 5%;
 }
 
 .navbar {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 	border: 0;
 	width: 100%;
 }
@@ -180,7 +182,7 @@ left: 5%;
 	font-weight: bold;
 	font-size: 24px;
 	color: #999999;
-    font-family: 'Goldman', cursive;
+	font-family: 'Goldman', cursive;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -212,984 +214,970 @@ left: 5%;
 }
 
 #bitMatch-alert {
-    width: 100%;
-    background-color: #353839;
-    color: #ffffff;
-    font-weight: bold;
-    position: relative;
+	width: 100%;
+	background-color: #353839;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
 }
 
 #bitMatch-alert p {
-    margin: 0px 40px;
-    font-size: 24px;
+	margin: 0px 40px;
+	font-size: 24px;
 }
 
 #bitMatch-alert span {
-    font-weight: bold;
-    font-size: 26px;
+	font-weight: bold;
+	font-size: 26px;
 }
 
 #bitmatch {
-    width: 150px;
-    background-image: url("../images/silver1.jpg");
-    background-size: cover;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 26px;
-    margin-top: 0;
-    margin-right: 20%;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-radius: 5px; 
+	width: 150px;
+	background-image: url("../images/silver1.jpg");
+	background-size: cover;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: 0;
+	margin-right: 20%;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 5px;
 }
 
 #bitmatch a {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 26px;
-    margin-right: auto;
-    margin-left: auto;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 26px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #bitmatch-book {
-    height: 40px;
-    width: 100px;
-    background-color: rgba(209, 161, 16, 0.993);
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-radius: 5px; 
+	height: 40px;
+	width: 100px;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 5px;
 }
 
 #bitmatch-book a {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 26px;
-    margin-right: auto;
-    margin-left: auto;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 26px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .pagename {
-    font-weight: bold;
-    font-size: 26px;
-    position: absolute;
-        left: 5%;   
+	font-weight: bold;
+	font-size: 26px;
+	position: absolute;
+	left: 5%;
 }
+
 
 /*--------------------Header section-------------*/
 
 .outer-header-container {
-    width: 100%;
-    height: 600px;
+	width: 100%;
+	height: 600px;
 }
+
 
 /*set image overlay and transition effect to landing page image*/
 
 .header-container {
-    height: 500px;
-    width: 100%;
-    margin-top: 10px;
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
-    background-image: url("../images/citydark.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	height: 500px;
+	width: 100%;
+	margin-top: 10px;
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url("../images/citydark.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-    overflow: hidden;
-    position: relative;
+	overflow: hidden;
+	position: relative;
 }
 
 #city {
-        width: 100%;
-        height: 500px;
-        background-image: url("../images/bitonl.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-        opacity: 0.8;
-        position: absolute;
-        animation-name: city-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+	width: 100%;
+	height: 500px;
+	background-image: url("../images/bitonl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+	position: absolute;
+	animation-name: city-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 }
 
 @keyframes city-zoom {
-    from {
-      transform: scale(1)
-    }
-    to {
-      transform: scale(1.1)
-    }
-    }
+	from {
+		transform: scale(1)
+	}
+	to {
+		transform: scale(1.1)
+	}
+}
 
 #header-text {
-    color: #ffffff;
-    margin: 180px auto 0px;
+	color: #ffffff;
+	margin: 180px auto 0px;
 }
 
 #head {
-    font-weight: bold;
-    background-color: #000000;
-    animation-name: head-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+	font-weight: bold;
+	background-color: #000000;
+	animation-name: head-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 }
 
 @keyframes head-zoom {
-    from {
-      font-size: 6px;
-    }
-    to {
-      font-size: 36px;
-    }
-    }
+	from {
+		font-size: 6px;
+	}
+	to {
+		font-size: 36px;
+	}
+}
 
 #headsmall {
-    font-weight: bold;
-    margin-top: 30px;
-    animation-name: small-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    padding-left: 30px;
-    padding-right: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+	animation-name: small-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 @keyframes small-zoom {
-    from {
-      font-size: 2px;
-    }
-    to {
-      font-size: 20px;
-    }
+	from {
+		font-size: 2px;
+	}
+	to {
+		font-size: 20px;
+	}
 }
 
 #book {
-    height: 40px;
-    width: 100px;
-    background-color: rgba(209, 161, 16, 0.993);
-    color: #ffffff;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: 100px;
-    border-color: white;
-    border-width: 0;
-    font-size: 26px;
-    font-weight: bold;
-    border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	border-color: white;
+	border-width: 0;
+	font-size: 26px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 #book a {
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: bold;
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: bold;
 }
 
+
 /*--------------------goals section-------------*/
+
 .goals-container {
-     width: 90%;
-     margin-top: 40px;
+	width: 90%;
+	margin-top: 40px;
 }
 
 .goals-block {
-  border-right: 2px solid #777777;  
-  padding: 20px 70px 0px 70px;
+	border-right: 2px solid #777777;
+	padding: 20px 70px 0px 70px;
 }
 
 .goals-block3 {
-    border-right: 0px;
-    padding: 20px 70px 0px 70px;
+	border-right: 0px;
+	padding: 20px 70px 0px 70px;
 }
 
 .goals-title {
-    font-weight: bold;
-    font-size: 20px;
-    color: #232b2b;
-    margin-bottom: 30px;
-
+	font-weight: bold;
+	font-size: 20px;
+	color: #232b2b;
+	margin-bottom: 30px;
 }
 
 .goals-par {
-    padding-top: 20px;
-    font-size: 16px;
-    padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	padding-bottom: 20px;
 }
 
 .goals-link {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgba(209, 161, 16, 0.993);
-    margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+	margin-top: 20px;
 }
 
 .goals-link:hover {
-  color: #000000;
+	color: #000000;
 }
 
 .goals-icon {
-    font-size: 18px;
-    margin-left: 50px;
+	font-size: 18px;
+	margin-left: 50px;
 }
+
 
 /*--------------------college and crypto sections-------------*/
 
 .college-container {
-     width: 80%;
-     margin-top: 20px;
-     background-color: #232b2b;
+	width: 80%;
+	margin-top: 20px;
+	background-color: #232b2b;
 }
 
 .crypto1-container {
-     width: 80%;
-     margin-top: 20px;
-     background-color: #232b2b;
+	width: 80%;
+	margin-top: 20px;
+	background-color: #232b2b;
 }
 
 .crypto-container {
-     width: 80%;
-     margin-top: 50px;
-     background-color: #353839;
+	width: 80%;
+	margin-top: 50px;
+	background-color: #353839;
 }
 
 .briefs {
-    padding: 70px 70px 20px 70px;
-    width: 80%;
+	padding: 70px 70px 20px 70px;
+	width: 80%;
 }
 
 .briefs-title {
-    color: #fafafa;
-    margin-top: 20px;
-    padding-left: 30px;
-    font-family: 'Goldman', cursive;
+	color: #fafafa;
+	margin-top: 20px;
+	padding-left: 30px;
+	font-family: 'Goldman', cursive;
 }
 
 .briefs-par {
-    color: #fafafa;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+	color: #fafafa;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .explore {
-    margin-top: 50px;
-    color: #fafafa;
-    padding-left: 30px;
-    font-family: 'Goldman', cursive;
-    font-style: italic;
+	margin-top: 50px;
+	color: #fafafa;
+	padding-left: 30px;
+	font-family: 'Goldman', cursive;
+	font-style: italic;
 }
 
+
 /*--------------------Courses section-------------*/
+
 .courses-container {
-    width: 80%;
-    margin-top: 40px;
+	width: 80%;
+	margin-top: 40px;
 }
 
 .courses-block {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 
 .course-img {
-    width: 100%;
+	width: 100%;
 }
 
 .course-title {
-    color: #232b2b;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 30px;
+	color: #232b2b;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
 }
 
 .course-par {
-    padding-right: 50px;
-    padding-top: 10px;
-    font-size: 16px;
-    margin-top: 30px;
+	padding-right: 50px;
+	padding-top: 10px;
+	font-size: 16px;
+	margin-top: 30px;
 }
 
 .course-link {
-    margin-top: 30px;
-    margin-bottom: 20px;  
-    font-size: 18px;
-    font-weight: bold;
-    color: rgba(209, 161, 16, 0.993);
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
 }
 
 .course-link:hover {
-    color: #232b2b;
+	color: #232b2b;
 }
+
 
 /*--------------------coin-call section-------------*/
 
-    .coin-call-container {
-    width: 90%;
-    margin-top: 70px;
-    padding-right: 0;
-    padding-left: 0; 
-    background-image: url("../images/silver.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+.coin-call-container {
+	width: 90%;
+	margin-top: 70px;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url("../images/silver.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-    overflow: hidden;
-    position: relative;
+	overflow: hidden;
+	position: relative;
 }
 
 .coin-list {
-    font-size: 26px;
-    font-weight: bold;
-    color: rgba(209, 161, 16, 0.993);
-    margin-top: 20px;
-    font-family: 'Goldman', cursive;    
+	font-size: 26px;
+	font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+	margin-top: 20px;
+	font-family: 'Goldman', cursive;
 }
 
 .top-coins {
-    font-size: 26px;
-    font-weight: bold;
-    color: #fafafa;
-    margin-top: 20px;
-    font-family: 'Goldman', cursive; 
+	font-size: 26px;
+	font-weight: bold;
+	color: #fafafa;
+	margin-top: 20px;
+	font-family: 'Goldman', cursive;
 }
 
 .top-ex {
-    font-size: 26px;
-    font-weight: bold;
-    color: rgba(209, 161, 16, 0.993);
-    margin-top: 20px;
-    font-family: 'Goldman', cursive; 
+	font-size: 26px;
+	font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+	margin-top: 20px;
+	font-family: 'Goldman', cursive;
 }
 
 #coinbuttons {
-  display: flex;
-  justify-content: space-around; 
+	display: flex;
+	justify-content: space-around;
 }
 
 .coinbutton {
-    font-size: 26px;
-    font-weight: bold;
-    color: rgba(209, 161, 16, 0.993);
-    font-family: 'Goldman', cursive; 
-    background-color: hsla(120, 100%, 50%, 0);
+	font-size: 26px;
+	font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+	font-family: 'Goldman', cursive;
+	background-color: hsla(120, 100%, 50%, 0);
 }
 
 .extitle {
-    font-size: 26px;
-    font-weight: bold;
-    color: #fafafa;
+	font-size: 26px;
+	font-weight: bold;
+	color: #fafafa;
 }
 
 .exchanges {
-    background-color: #3b444b;
-    width: 76%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px; 
+	background-color: #3b444b;
+	width: 76%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
+
 .imput-text {
-    font-size: 20px; 
-    color: #fafafa;;
-    margin-bottom: 5px;
-    font-weight: bold;
+	font-size: 20px;
+	color: #fafafa;
+	;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 #imput1 {
-    margin-top: 35px;
-    margin-bottom: 15px;
+	margin-top: 35px;
+	margin-bottom: 15px;
 }
 
 #imput-text4 {
-    font-size: 20px; 
-    color: #fafafa;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
+	font-size: 20px;
+	color: #fafafa;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .exchanges #coin-data {
-    padding: 2px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
-    background-color: #fafafa;
-    color: #000000;
-    font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-    border-radius: 5px;
+	padding: 2px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
+	background-color: #fafafa;
+	color: #000000;
+	font-weight: bold;
+	border: 2px solid rgba(209, 161, 16, 0.993);
+	border-radius: 5px;
 }
 
 .exchanges #coin-data2 {
-    padding: 2px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
-    background-color: #fafafa;
-    color: #000000;
-    font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-    border-radius: 5px;
+	padding: 2px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
+	background-color: #fafafa;
+	color: #000000;
+	font-weight: bold;
+	border: 2px solid rgba(209, 161, 16, 0.993);
+	border-radius: 5px;
 }
 
 .coin-data4 {
-    padding: 2px 20px;
-    height: 30px;
-    width: 100px;
-    background-color: #fafafa;
-    color: #000000;
-    font-weight: bold;
-    border: 2px solid rgba(209, 161, 16, 0.993);
-    margin-bottom: 20px;
+	padding: 2px 20px;
+	height: 30px;
+	width: 100px;
+	background-color: #fafafa;
+	color: #000000;
+	font-weight: bold;
+	border: 2px solid rgba(209, 161, 16, 0.993);
+	margin-bottom: 20px;
 }
 
 .exbox {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 .exchanges ::placeholder {
-    color: rgba(209, 161, 16, 0.993);
+	color: rgba(209, 161, 16, 0.993);
 }
 
 .exchanges input[type=text] {
-    padding: 2px 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-  border: 2px solid rgba(209, 161, 16, 0.993);
-  border-radius: 4px;
-  background-color: #fafafa;
-  color: #000000;
-  font-weight: bold;
-
+	padding: 2px 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+	border: 2px solid rgba(209, 161, 16, 0.993);
+	border-radius: 4px;
+	background-color: #fafafa;
+	color: #000000;
+	font-weight: bold;
 }
 
 .exchanges #coinfetch {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
 	color: rgba(209, 161, 16, 0.993);
 	background-color: #fafafa;
-    font-weight: bold;
-    border-radius: 5px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .exchanges #coinfetch2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
 	color: rgba(209, 161, 16, 0.993);
 	background-color: #fafafa;
-    font-weight: bold;
-    border-radius: 5px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .exchanges #clear {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
 	color: rgba(209, 161, 16, 0.993);
 	background-color: #fafafa;
-    font-weight: bold;
-    border-radius: 5px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .exchanges #clear2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
 	color: rgba(209, 161, 16, 0.993);
 	background-color: #fafafa;
-    font-weight: bold;
-    border-radius: 5px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .but-whichl {
-    color: #fafafa;
-    font-size: 26px;
-    font-weight: bold;
-     margin-left: 50px;
-    align-items: flex-end;
-
+	color: #fafafa;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 50px;
+	align-items: flex-end;
 }
 
 .coincourse {
- color: #fafafa;
-    font-size: 26px;
-    font-weight: bold;   
-}  
+	color: #fafafa;
+	font-size: 26px;
+	font-weight: bold;
+}
 
 .coincourse-icon {
-    margin-left: 50px;
+	margin-left: 50px;
 }
 
 .but-whichl a {
-    color: #fafafa;
-    font-size: 26px;
-    font-weight: bold; 
+	color: #fafafa;
+	font-size: 26px;
+	font-weight: bold;
 }
 
 .but-whichl a:hover {
-    color: #000000;
-    font-size: 26px;
-    font-weight: bold; 
+	color: #000000;
+	font-size: 26px;
+	font-weight: bold;
 }
+
 .but-which1-icon {
-    font-size: 26px;
-    margin-left: 50px;
+	font-size: 26px;
+	margin-left: 50px;
 }
+
 
 /*-----------------------Footer--------------------*/
 
 .footer-container {
-    width: 90%;
-    margin-top: 50px;
-    background-image: url("../images/entf2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	width: 90%;
+	margin-top: 50px;
+	background-image: url("../images/entf2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 }
 
 .footer-block {
-    margin-top: 70px;
-    margin-bottom: 5px;
-    padding: 10px 10px;
+	margin-top: 70px;
+	margin-bottom: 5px;
+	padding: 10px 10px;
 }
 
 .footer-par {
-font-size: 14px;
-color: #ffffff;
-font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .footer-link {
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: 'Goldman', cursive;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Goldman', cursive;
 }
 
 .footer-link:hover {
-    color: #232b2b;
-    font-weight: bold;
+	color: #232b2b;
+	font-weight: bold;
 }
 
 .social-links li a {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  color: #fafafa;
-  padding: 10px;
-  
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	color: #fafafa;
+	padding: 10px;
 }
 
 .social-links li a:hover {
-  color: #232b2b;
+	color: #232b2b;
 }
+
 
 /*----------------------Courses Page----------------*/
 
 .coursefull-container {
-    width: 100%;
+	width: 100%;
 }
 
 .coursefull-img {
-    width: 70%;
-    height: 300px;
-    margin-top: 50px;
-    padding-right: 0;
-    padding-left: 0;
-    background-image: url("../images/bitonl.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; 
+	width: 70%;
+	height: 300px;
+	margin-top: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url("../images/bitonl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .coursefull-img2 {
-    width: 70%;
-    height: 300px;
-    margin-top: 50px;
-    padding-right: 0;
-    padding-left: 0;
-    background-image: url("../images/bit1w.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; 
+	width: 70%;
+	height: 300px;
+	margin-top: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url("../images/bit1w.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .coursefull-img3 {
-    width: 70%;
-    height: 300px;
-    margin-top: 50px;
-    padding-right: 0;
-    padding-left: 0;
-    background-image: url("../images/bit4.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; 
+	width: 70%;
+	height: 300px;
+	margin-top: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	background-image: url("../images/bit4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .coursefull-title {
-    color: #fafafa;
-    font-size: 28px;
-    font-weight: bold;
-    background-color: #232b2b;
+	color: #fafafa;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: #232b2b;
 }
 
 .coursefull-title2 {
-    color: #fafafa;
-    font-size: 16px;
+	color: #fafafa;
+	font-size: 16px;
 }
 
 .modules {
-    width: 70%;
-    margin-top: 30px;
+	width: 70%;
+	margin-top: 30px;
 }
 
 .coursefull-mod {
-    color: rgba(209, 161, 16, 0.993);
-    font-size: 24px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+	color: rgba(209, 161, 16, 0.993);
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
 .mod p {
-    font-size: 16px;
+	font-size: 16px;
 }
+
 
 /*-----------------------about/review pages--------------------*/
 
 .about-container {
-    width: 100%;
+	width: 100%;
 }
 
 .about-row {
-    margin-top: 70px;
-     background-color: #eeeeee;
-     margin-left: 50px;
-     margin-right: 50px;
+	margin-top: 70px;
+	background-color: #eeeeee;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .about-title {
-    margin-top: 70px;
-    color: #666666;
-    font-size: 30px;
+	margin-top: 70px;
+	color: #666666;
+	font-size: 30px;
 }
 
 .describe {
-    width: 80%;
+	width: 80%;
 }
 
 .describe-t {
-    font-size: 20px;
-    color: #333333;
+	font-size: 20px;
+	color: #333333;
 }
 
 .describe-p {
-    font-size: 16px;
-    color: #666666;
+	font-size: 16px;
+	color: #666666;
 }
 
 .usbutt {
-    height: 40px;
-    width: 100px;
-    background-color: #ffffff;
-    color: rgba(209, 161, 16, 0.993);
-    border: 2px solid rgba(209, 161, 16, 0.993);
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	background-color: #ffffff;
+	color: rgba(209, 161, 16, 0.993);
+	border: 2px solid rgba(209, 161, 16, 0.993);
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .usbutt a {
-    color: rgba(209, 161, 16, 0.993);
-    font-size: 24px;
-    font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .usbutt a:hover {
-    color: #000000;
-    font-size: 24px;
-    font-weight: bold;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
 }
+
 
 /*-----------------------map page--------------------*/
 
 .map-container {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 #zoom {
-    color: #333333;
-    margin-bottom:20px;
+	color: #333333;
+	margin-bottom: 20px;
 }
+
 div #map1 {
-    min-height: 360px;
+	min-height: 360px;
 }
+
+
 /*---------------------new york page---------------------*/
 
 .places-container {
-    margin-top: 75px;
+	margin-top: 75px;
 }
 
 #places-instruct {
-    font-size: 20px;
-    background-color: rgba(209, 161, 16, 0.993);
-    color: #ffffff;
-    margin-bottom: 50px;
-    font-family: 'Merriweather', serif;
+	font-size: 20px;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
+	margin-bottom: 50px;
+	font-family: 'Merriweather', serif;
 }
 
 .embut-container {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .embed-btn {
-    background-color: rgba(209, 161, 16, 0.993);
-    color: #ffffff;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
 }
+
 
 /*------------------Contact form--------------------*/
 
 #contact-bit {
-    margin-top: 50px;
-    background-color: #fff;
-    color: blue;
-    padding-left: 30px;
-    padding-right: 30px;
+	margin-top: 50px;
+	background-color: #fff;
+	color: blue;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 #entercom {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-    margin-bottom: 20px;
-    color: blue;
- }
+	font-family: "Exo", sans-serif;
+	font-size: 12px;
+	margin-bottom: 20px;
+	color: blue;
+}
 
 #conbitnum {
-    color: red;
-    background-color: #ffffff;
+	color: red;
+	background-color: #ffffff;
 }
 
 #conbitnum:hover {
-    color: #000000;
+	color: #000000;
 }
 
 #success {
-    width: 200px;
-    height: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    color: #fafafa;
-    background-color: #e84610;
+	width: 200px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color: #fafafa;
+	background-color: #e84610;
 }
 
 #messagebox {
-    color: red;
+	color: red;
 }
 
+
 /*--------contact form------*/
+
 .form-group {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 90%;
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 90%;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #fafafa;
+	background-color: #e84610;
 }
 
 #messagebox {
-    color: red;
+	color: red;
 }
 
+
 /*-----------------------media queries--------------------*/
+
 
 /*--------top box - set seperatly as was not responding ---------*/
 
 @media screen and (max-width: 900px) {
-    .logotit {
-        font-size: 20px;
-    }
+	.logotit {
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    .logotit {
-        display: none;
-    }
+	.logotit {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 768px) {
-  .greytop-title {
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#competion {
-    font-size: 16px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+	.greytop-title {
+		font-size: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#competion {
+		font-size: 16px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
 
 @media screen and (min-width: 1000px) {
- .greytop-title {
-    font-size: 26px;
-    padding-left: 100px;
-    padding-right: 100px;
+	.greytop-title {
+		font-size: 26px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	#competion {
+		font-size: 20px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
 
-#competion {
-    font-size: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-}
 
-/*------------exchanges--------------*/  
+/*------------exchanges--------------*/
 
 @media screen and (max-width: 584px) {
-.exchanges #coin-data, .exchanges #coin-data2, #coin-data4, 
-.exchanges input[type=text], .exchanges #coinfetch,
-.exchanges #coinfetch2, .exchanges #clear, .exchanges #clear2 {
-    width: 80px; 
-}
-.exchanges input[type=text] {
-    padding: 2px 4px;
+	.exchanges #coin-data,
+	.exchanges #coin-data2,
+	#coin-data4,
+	.exchanges input[type=text],
+	.exchanges #coinfetch,
+	.exchanges #coinfetch2,
+	.exchanges #clear,
+	.exchanges #clear2 {
+		width: 80px;
+	}
+	.exchanges input[type=text] {
+		padding: 2px 4px;
+	}
 }
 
-}
 
 /*----------------general---------------*/
 
-@media screen and (max-width: 350px)  {
-    .footer-block {
-    padding: 5px 5px;}
+@media screen and (max-width: 350px) {
+	.footer-block {
+		padding: 5px 5px;
+	}
 }
 
 @media screen and (max-width: 584px) {
-
-    .game-container {
-        width: 100%;
-    }
-    
- .but-whichl {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.briefs {
-    padding: 20px;
-}
-
-.coincourse-icon, .map-topper-container {
-    display: none;
-}
-
-#book {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-}
-
+	.game-container {
+		width: 100%;
+	}
+	.but-whichl {
+		color: #ffffff;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.briefs {
+		padding: 20px;
+	}
+	.coincourse-icon,
+	.map-topper-container {
+		display: none;
+	}
+	#book {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 70px;
+	}
 }
 
 @media screen and (max-width: 800px) {
-#head {
-    font-size: 22px;
-}
-
-#headsmall {
-    font-size: 14px;
-}
-
-.mods i {
-    display: none;
-}
-
-.footer-container {
-    background-image: url("../images/ents1.jpg");
-}
-
-.coin-call-container { 
-    background-image: url("../images/silver-small.jpg");
-}
-
-.footer-block {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding: 10px 50px;
-
-}
-
-.describe {
-    margin-top: 50px;
-}
-
- #bitMatch-alert p {
-    font-size: 12px;   
-}
-
-#bitMatch-alert span {
-    display: none;
-}
-
-#bitmatch  {
-    width: 100px;
-    margin-right: 50px;
-}
-
-#bitmatch a {
-    font-size: 18px;
-}
-
-#bitmatch-book  {
-    margin-right: 20px;
-}
-
-#bitmatch-book a {
-    font-size: 22px;
-}
+	#head {
+		font-size: 22px;
+	}
+	#headsmall {
+		font-size: 14px;
+	}
+	.mods i {
+		display: none;
+	}
+	.footer-container {
+		background-image: url("../images/ents1.jpg");
+	}
+	.coin-call-container {
+		background-image: url("../images/silver-small.jpg");
+	}
+	.footer-block {
+		margin-top: 20px;
+		margin-bottom: 5px;
+		padding: 10px 50px;
+	}
+	.describe {
+		margin-top: 50px;
+	}
+	#bitMatch-alert p {
+		font-size: 12px;
+	}
+	#bitMatch-alert span {
+		display: none;
+	}
+	#bitmatch {
+		width: 100px;
+		margin-right: 50px;
+	}
+	#bitmatch a {
+		font-size: 18px;
+	}
+	#bitmatch-book {
+		margin-right: 20px;
+	}
+	#bitmatch-book a {
+		font-size: 22px;
+	}
 }
 
 
+/*--end css--*/
 
 
 

@@ -181,6 +181,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/johnston9/ms2-apis)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/johnston9/ms2-apis)
+  - The W3C CSS Validator gave 2 warnings about the background-color and color of the bitmatch timer being the same but that is intentional for use in a javascript function that hides and shows the display.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -206,7 +207,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. Upon going to the page, the user will find clearly laid out information about each course and it’s modules.
     3. Throughout the site and in the navbar there are also links to take the user to the courses page.
 
---
+---
 
 <h2 align="center">
 <img src="documentation/readme-images/cr1.png" width="90%">
@@ -329,7 +330,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <h2 align="center">
 <img src="documentation/readme-images/message.png" width="90%">
 </h2> 
-
 
 
 - The games functions below were tested extensively without error.

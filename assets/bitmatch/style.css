@@ -1,393 +1,396 @@
 body {
-  height: 100vh;
+	height: 100vh;
 }
 
 .game-container {
-    margin-top: 50px;
-    background-color: #000000;
-    width: 80%;
-    position: relative;
+	margin-top: 50px;
+	background-color: #000000;
+	width: 80%;
+	position: relative;
 }
 
 #mute {
-    width: 240px;
-    height: 60px;
-    background-color: #000000;
-    color: red;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 26px;
+	width: 240px;
+	height: 60px;
+	background-color: #000000;
+	color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 26px;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
 .center-van {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .memtop {
-    margin-top: 70px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #333333;
-    border: 2px solid rgba(209, 161, 16, 0.993);
+	margin-top: 70px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #333333;
+	border: 2px solid rgba(209, 161, 16, 0.993);
 }
 
 .memtop-title {
-font-size: 14px;
-font-weight: bold;
-letter-spacing: 2px;
-font-family: 'Goldman', cursive;
-color: #ffffff;
-padding-left: 30px;
-padding-right: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Goldman', cursive;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .memtop-title span {
-    color: red;
+	color: red;
 }
 
 p {
-    color:  #ffffff;
+	color: #ffffff;
 }
 
 #board-container {
-    margin-top: 20px;
-    display: flex;
-    clear: both;
+	margin-top: 20px;
+	display: flex;
+	clear: both;
 }
 
 #winclick a {
-    color: red;
+	color: red;
 }
 
 #winclick a:hover {
-    color: rgb(119, 9, 9);
+	color: rgb(119, 9, 9);
 }
 
 .board {
-  height: 300px;
-  width: 400px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+	height: 300px;
+	width: 400px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
 }
+
 .card-box {
-  background-color: #fff;
-  height: 100px;
-  width: 100px;
-  perspective: 800px;
+	background-color: #fff;
+	height: 100px;
+	width: 100px;
+	perspective: 800px;
 }
+
 .card {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-  position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	position: relative;
 }
 
 .card-front-face {
-  position: absolute;
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
-  background: #1c7ccc;
+	position: absolute;
+	backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: #1c7ccc;
 }
+
 .card-back-face {
-  position: absolute;
-  transform: rotateY(180deg);
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
-  background: #1c7ccc;
+	position: absolute;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: #1c7ccc;
 }
 
 .card.is-flipped {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 #play {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
 }
 
 #play1 {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
 }
 
 #instructions {
-    color: #ffffff;
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
+	color: #ffffff;
+	margin: 0 auto;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 #instructions1 {
-    color: #ffffff;
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
+	color: #ffffff;
+	margin: 0 auto;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 #straightback {
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+	margin: 0 auto;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 #straightback a:hover {
-    color: #000000;
-    text-decoration: underline;
+	color: #000000;
+	text-decoration: underline;
 }
 
 #straightback a {
-    color: red;
-    text-decoration: none;
+	color: red;
+	text-decoration: none;
 }
 
 #gbox1 {
-    color: #ffffff;
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-} 
+	color: #ffffff;
+	margin: 0 auto;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 #box1 {
-    color: #ffffff;
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	color: #ffffff;
+	margin: 0 auto;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #timer {
-  float: right;
+	float: right;
 }
 
 #timer1 {
-  float: right;
+	float: right;
 }
 
 #time {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  margin-top: 0px;
-  color: black;
-  font-size: 26px;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+	color: black;
+	font-size: 26px;
 }
 
 #time1 {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  margin-top: 0px;
-  color: black;
-  font-size: 26px;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+	color: black;
+	font-size: 26px;
 }
 
 #clock {
-  background-color: red;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  margin-left: 25px;
-  border-radius: 25px;
-  color: red;
+	background-color: red;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 25px;
+	border-radius: 25px;
+	color: red;
 }
 
 #clock1 {
-  background-color: red;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  margin-left: 25px;
-  border-radius: 25px;
-  color: red;
+	background-color: red;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 25px;
+	border-radius: 25px;
+	color: red;
 }
 
 #back {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  margin-top: 20px;
-  float: left;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	margin-top: 20px;
+	float: left;
 }
 
 #back1 {
-  background-color: red;
-  height: 50px;
-  width: 100px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  margin-top: 20px;
-  float: left;
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	margin-top: 20px;
+	float: left;
 }
 
 #hard {
-  background-color: red;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  margin: 0;
-   margin-top: 20px;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  float: right;
+	background-color: red;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	margin: 0;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	float: right;
 }
 
 #hard1 {
-  background-color: red;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  margin: 0;
-   margin-top: 20px;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  float: right;
+	background-color: red;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	margin: 0;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	float: right;
 }
+
 #easy {
-    background-color: red;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  margin: 0;
-   margin-top: 20px;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  float: right;
+	background-color: red;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	margin: 0;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	float: right;
 }
 
 #easy1 {
-    background-color: red;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-  margin: 0;
-   margin-top: 20px;
-  border: 0;
-  padding: 0;
-  font-size: 26px;
-  float: right;
+	background-color: red;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	margin: 0;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+	font-size: 26px;
+	float: right;
 }
+
 #hard a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
 
 #hard1 a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
+
 #back a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
 
 #back1 a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
+
 #easy a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
 
 #easy1 a {
-    color: black;
-    text-decoration: none
+	color: black;
+	text-decoration: none
 }
+
 
 /*---------------MediaQueries-----------------*/
 
 @media (max-width: 600px) {
-    .game-container {
-        width: 100%;
-    }
-
-   .board {
-        height: 400px;
-        width: 304px;
- 
-}
+	.game-container {
+		width: 100%;
+	}
+	.board {
+		height: 400px;
+		width: 304px;
+	}
 }
 
 @media screen and (min-width: 700px) {
- .memtop-title {
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
+	.memtop-title {
+		font-size: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
 
 @media screen and (min-width: 1000px) {
- .memtop-title {
-    font-size: 26px;
-    padding-left: 100px;
-    padding-right: 100px;
+	.memtop-title {
+		font-size: 26px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
-
-}
-
