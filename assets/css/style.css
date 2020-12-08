@@ -1006,9 +1006,21 @@ div #map1 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
-	color: #fafafa;
-	background-color: #e84610;
+	font-size: 26px;
+    font-weight: bold;
+	color: rgba(209, 161, 16, 0.993);
+}
+
+#email-button{
+    height: 40px;
+	width: 100px;
+	background-color: rgba(209, 161, 16, 0.993);
+	color: #ffffff;
+	border-color: white;
+	border-width: 0;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 #messagebox {

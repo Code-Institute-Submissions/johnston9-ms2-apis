@@ -186,11 +186,13 @@ W3C Markup Validator, W3C CSS Validator and JSHint were used to validate every p
 
 - [JSHint](https://jshint.com/) - [Results](https://github.com/johnston9/ms2-apis)
   - JSHint was used with "New JavaScript features (ES6)" and "jQuery" checked in the configuration menu.
-    All files were clear of errors and warnings. On the maps.js file for the Map Page it gave a "two undefined variables" note
-    for "google" and "MarkerClusterer" but these are part of Google Maps own functionality. It also gave a "two unused variables" note
+    All files were clear of errors and warnings.
+    
+  - For the maps.js file for the Map Page it gave a "two undefined variables" note
+    for "google" and "MarkerClusterer" but these are part of Google Maps own functionality. It also gave a "Two unused variables" note
     "initMap", which is called from the html page script and "markerCluster" which is used so as not to give a "Do not use 'new' for side effects" warning.
 
-
+ -  For the sendEmail.js file for the Contactp Page it gave a "One undefined variable" for "emailjs" and a "One unused variable" for "sendMail" which is called on the html page.
 
 
 ### Testing User Stories from User Experience (UX) Section

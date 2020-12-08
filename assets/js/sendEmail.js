@@ -1,4 +1,4 @@
-/*--email.js with success and error resend function--*/
+/*--sendMail function to send email using email.js with success and error resend function--*/
 
 function sendMail(contactForm) {
 
@@ -9,13 +9,13 @@ function sendMail(contactForm) {
     }).then(
         function(response) {
             console.log("SUCCESS", response);
-            datadiv = document.getElementById("success");
-            datadiv.innerHTML = "Message sent";
+            let datadiv = document.getElementById("success");
+            datadiv.innerHTML = "MESSAGE SENT";
         },
         function(error) {
             console.log("FAILED", error);
-            datadiv = document.getElementById("success");
-            datadiv.innerHTML = "Error - Please Resend";
+            let datadiv = document.getElementById("success");
+            datadiv.innerHTML = "ERROR - PLEASE RESEND";
         }
     );
     return false;  
@@ -26,7 +26,7 @@ function sendMail(contactForm) {
 document.getElementById("conbitnum").addEventListener("click", fetchbitnum);
 
 function fetchbitnum() {
-    document.getElementById("message").innerHTML = `BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`
+    document.getElementById("message").innerHTML = `BITMATCH WINTIME: ${localStorage.getItem('wintime')} BITMATCH WINNER NUMBER: ${localStorage.getItem('winnum')}`;
     
 }
 
