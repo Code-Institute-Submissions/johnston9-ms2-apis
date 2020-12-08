@@ -196,7 +196,7 @@ W3C Markup Validator, W3C CSS Validator and JSHint were used to validate every p
     for "google" and "MarkerClusterer" but these are part of Google Maps own functionality. It also gave a "Two unused variables" note
     "initMap", which is called from the html page script and "markerCluster" which is used so as not to give a "Do not use 'new' for side effects" warning.
 
- -  For the sendEmail.js file for the Contactp Page it gave a "One undefined variable" for "emailjs" and a "One unused variable" for "sendMail" which is called on the html page.
+  - For the sendEmail.js file for the Contactp Page it gave a "One undefined variable" for "emailjs" and a "One unused variable" for "sendMail" which is called on the html page.
 
 
 ### Testing User Stories from User Experience (UX) Section
