@@ -6,6 +6,13 @@
 	border: 0;
 }
 
+.row {
+    margin: 0;
+	padding-right: 0;
+    padding-left: ;
+	border: 0;
+}
+
 body {
 	color: #777777;
 	font-family: 'Roboto', sans-serif;
@@ -303,6 +310,9 @@ hr.usend {
 	background-image: url("../images/citydark.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
@@ -314,6 +324,9 @@ hr.usend {
 	background-image: url("../images/bitonl.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	opacity: 0.8;
 	position: absolute;
@@ -541,6 +554,9 @@ hr.usend {
 	background-image: url("../images/silver.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
@@ -765,6 +781,9 @@ hr.usend {
 	background-image: url("../images/entf2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -822,6 +841,9 @@ hr.usend {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .coursefull-img2 {
@@ -834,6 +856,9 @@ hr.usend {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .coursefull-img3 {
@@ -846,6 +871,9 @@ hr.usend {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .coursefull-title {

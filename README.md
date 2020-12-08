@@ -91,12 +91,15 @@ in the background is complex the features are not.
     
 #### Bitmatch game
 
-The site also has a game using cryptocurrency images where people 
+The site also has a memory match card game using cryptocurrency images where people 
 can win bitcoin. It has an easier version called Funmatch as well. 
-On winning their playertime number and winner number appear with 
+On winning Bitmatch their playertime number and winner number appear with 
 a link that takes them to the contact page where they can 
-add their numbers to the message box and send in their entry. 
+add their numbers to the message box and send in their entry.  
 See the user stories section for working images.
+
+The Bitmatch and Funmatch images and sounds folders along with the style.css and javaScript files are in the Bitmatch folder which is
+in the assets folder. 
 
 ---
 
@@ -152,7 +155,7 @@ eat in New York and a real time image to take bring even closer.
 1. [Favicon-generator](https://www.favicon-generator.org/)
    - Favicon-generator was used to create the favicon link.
 1. [Freeformatter](https://www.freeformatter.com/html-formatter.html)
-   - Freeformatter was used to tidy up the final code.
+   - Freeformatter was used to format the final code.
 1. [Gauger](https://gauger.io/fonticon/)
    - Gauger was used to create the favicon icon.
 1. [img-resize.com](https://img-resize.com/):
@@ -182,7 +185,8 @@ W3C Markup Validator, W3C CSS Validator and JSHint were used to validate every p
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/johnston9/ms2-apis)
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/johnston9/ms2-apis)
-  - The W3C CSS Validator gave 2 warnings about the background-color and color of the bitmatch timer being the same but that is intentional for use in a javascript function that hides and shows the display.
+  - For Bitmatch style.css the W3C CSS Validator gave 2 warnings about the background-color and color of the bitmatch timer being the same but that is intentional for use in a javascript function that hides and shows the display.
+  - W3C CSS Validator gave 21 warnings in the main style.css file all about the 3 vendor extenions I used for the background-size for some of the images. After due consultation with the tutor I was informed it was best practice to leave them in.(see style.css-warnings.png and webkit.png in documentation)
 
 - [JSHint](https://jshint.com/) - [Results](https://github.com/johnston9/ms2-apis)
   - JSHint was used with "New JavaScript features (ES6)" and "jQuery" checked in the configuration menu.
@@ -503,4 +507,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--
+- I'd like to thank the Code Institute tutor team for their support and my mentor 
+Aaron Sinnott for his insights and clarity.
