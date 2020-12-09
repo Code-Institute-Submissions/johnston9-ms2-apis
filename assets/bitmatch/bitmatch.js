@@ -116,7 +116,7 @@ function countDown() {
 		}, 1000);
 		currentTime = 60;
 		clearInterval(timerId2);
-	} else if (winners.length === 12) {
+	} else if (winners.length === 2) {
 		playertime = currentTime;
 		winnernumber = (Math.random() * 10000).toFixed();
 		localStorage.setItem('wintime', playertime);
