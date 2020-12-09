@@ -484,6 +484,7 @@ hr.usend {
 	margin-top: 20px;
 	padding-left: 30px;
 	font-family: 'Goldman', cursive;
+    font-size: 24px;
 }
 
 .briefs-par {
@@ -491,6 +492,7 @@ hr.usend {
 	margin-top: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
+    font-size: 16px;
 }
 
 .explore {
@@ -499,6 +501,7 @@ hr.usend {
 	padding-left: 30px;
 	font-family: 'Goldman', cursive;
 	font-style: italic;
+    font-size: 24px;
 }
 
 
@@ -1182,6 +1185,24 @@ button[type="submit"] {
 		margin-right: auto;
 		margin-top: 70px;
 	}
+    .briefs-title {
+	    color: #fafafa;
+	    margin-top: 20px;
+	    font-family: 'Goldman', cursive;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .briefs-par {
+	    color: #fafafa;
+	    margin-top: 20px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+        font-size: 12px;
+    }
+    .explore {
+	    padding-left: 20px;
+        font-size: 20px;
+}
 }
 
 @media screen and (max-width: 800px) {
