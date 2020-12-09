@@ -19,17 +19,17 @@ function fetchdata1(coin) {
 		.then((response) => response.json())
 		.then(function (resp) {
 			if (coin === "Bitcoin" || coin === "bitcoin") {
-				dataDiv.innerHTML = resp.bitcoin.usd;
+				dataDiv.innerHTML = (resp.bitcoin.usd).toFixed(2);
 			} else if (coin === "Ethereum" || coin === "ethereum") {
-				dataDiv.innerHTML = resp.ethereum.usd;
+				dataDiv.innerHTML = (resp.ethereum.usd).toFixed(2);
 			} else if (coin === "Litecoin" || coin === "litecoin") {
-				dataDiv.innerHTML = resp.litecoin.usd;
+				dataDiv.innerHTML = (resp.litecoin.usd).toFixed(2);
 			} else if (coin === "Ripple" || coin === "ripple") {
-				dataDiv.innerHTML = resp.ripple.usd;
+				dataDiv.innerHTML = (resp.ripple.usd).toFixed(2);
 			} else if (coin === "Chainlink" || coin === "chainlink") {
-				dataDiv.innerHTML = resp.chainlink.usd;
+				dataDiv.innerHTML = (resp.chainlink.usd).toFixed(2);
 			} else {
-				dataDiv.innerHTML = "Error";
+				dataDiv.innerHTML = "Error"; 
 			}
 			return resp;
 		})

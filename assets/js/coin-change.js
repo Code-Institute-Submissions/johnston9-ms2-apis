@@ -13,7 +13,7 @@
 document.getElementById("coinfetch2").addEventListener("click", fetchdata2);
 
 function fetchdata2(coin2) {
-	var coin2 = $("#coin2").val();
+	coin2 = $("#coin2").val();
 	let dataDiv2 = document.getElementById("coin-data2");
 	let url = `https://api.coingecko.com/api/v3`;
 	let qstring = `/simple/price?ids=${coin2}&vs_currencies=USD&include_24hr_change=true`;

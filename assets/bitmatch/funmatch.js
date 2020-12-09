@@ -82,7 +82,10 @@ moveCard();
 
 /*--Countdown function for timer. 
 1) If player loses calls alert and plays sound.
-2) If player wins displays "Winner"" on screen and plays win sound.--*/
+2) If player wins displays "Winner"" on screen and plays win sound.
+   
+This can be more easily tested if "(winners1.length === 12)" on line 114 
+is changed to (winners1.length === 2)--*/
 
 let playertime1;
 let timerId2;
@@ -108,7 +111,7 @@ function countDown() {
 		}, 1000);
 		currentTime1 = 60;
 		clearInterval(timerId2);
-	} else if (winners1.length === 2) {
+	} else if (winners1.length === 12) {
 		playertime1 = currentTime1;
 		setTimeout(() => {
 			playSoundwin1();

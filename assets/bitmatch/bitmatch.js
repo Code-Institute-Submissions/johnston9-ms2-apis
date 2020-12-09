@@ -84,6 +84,10 @@ moveCard();
 1) If player loses calls alert and plays sound.
 2) If player wins sets win time to localstorage along
 with a ramdom winner number, displays these on screen and plays win sound.
+
+This can be more easily tested if "(winners.length === 12)" on line 119 
+is changed to (winners.length === 2)
+
 The random number does not need to be unique as users will be sending 
 it in with their email---*/
 
@@ -112,7 +116,7 @@ function countDown() {
 		}, 1000);
 		currentTime = 60;
 		clearInterval(timerId2);
-	} else if (winners.length === 2) {
+	} else if (winners.length === 12) {
 		playertime = currentTime;
 		winnernumber = (Math.random() * 10000).toFixed();
 		localStorage.setItem('wintime', playertime);

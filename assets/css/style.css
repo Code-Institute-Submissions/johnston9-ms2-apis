@@ -1125,33 +1125,67 @@ button[type="submit"] {
 
 /*------------exchanges--------------*/
 
+@media screen and (max-width: 1000px) {
+    .exchanges {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+    .imput-text, #imput-text4 {
+        font-size: 16px;
+    }
+    .coinbutton {
+        font-size: 22px;
+    }
+    .extitle {
+        font-size: 22px;
+    }
+    .coin-list {
+        font-size: 22px;
+        }
+}
+
 @media screen and (max-width: 584px) {
 	.exchanges #coin-data,
 	.exchanges #coin-data2,
-	#coin-data4,
+	.exchanges .coin-data4 {
+        width: 90px;
+    }
 	.exchanges input[type=text],
 	.exchanges #coinfetch,
 	.exchanges #coinfetch2,
 	.exchanges #clear,
 	.exchanges #clear2 {
-		width: 90px;
-	}
+        width: 90px;
+    }
+     
 	.exchanges input[type=text] {
 		padding: 2px 4px 2px 10px;
 	}
     .exbox {
-    padding-left: 0px; 
-    padding-right: 0px; 
-    margin-right: 0px;
-    margin-left: 0px;
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .exchanges {
-    width: 80%;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 0px; 
-    padding-right: 0px; 
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+    #bitcoin { 
+        margin-left: 8px;
+        }
+    #ethereum {
+        margin-left: 20px;
+    }
 }
+
+@media screen and (max-width: 350px) {
+    .coinbutton {
+        font-size: 18px;
+    }
 }
 
 
@@ -1202,7 +1236,7 @@ button[type="submit"] {
     .explore {
 	    padding-left: 20px;
         font-size: 20px;
-}
+    }
 }
 
 @media screen and (max-width: 800px) {

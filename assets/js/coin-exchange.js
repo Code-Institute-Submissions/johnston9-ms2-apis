@@ -28,10 +28,10 @@ $(document).ready(function () {
 			$.getJSON(`https://api.coingecko.com/api/v3/exchanges/bitfinex/tickers?coin_ids=${coin}`)
 		).then(
 			function (firstResponse, secondResponse, thirdResponse, fourthResponse) {
-				$("#binancebox").html(firstResponse[0].tickers[0].last);
-				$("#krakenbox").html(secondResponse[0].tickers[0].last);
-				$("#geminibox").html(thirdResponse[0].tickers[0].last);
-				$("#bitfinexbox").html(fourthResponse[0].tickers[0].last);
+				$("#binancebox").html((firstResponse[0].tickers[0].last).toFixed(2));
+				$("#krakenbox").html((secondResponse[0].tickers[0].last).toFixed(2));
+				$("#geminibox").html((thirdResponse[0].tickers[0].last).toFixed(2));
+				$("#bitfinexbox").html((fourthResponse[0].tickers[0].last).toFixed(2));
 			},
 
 			function (errorResponse) {
